@@ -70,9 +70,9 @@ python tools/build_data.py --raw path/to/download-cache
 | 144 个地名及其历代名称 | 由 AI 根据通识编写 | 未逐条核对；坐标与改名年份均为近似 |
 | 四个时段聚焦的割据疆域 | 由 AI 根据通识手绘的区域与基础快照轮廓合成 | **最不精确的部分**，只表示大势，不代表实际边界 |
 
-若需更可靠的依据，建议参考谭其骧主编《中国历史地图集》，以及哈佛大学与复旦大学的[中国历史地理信息系统（CHGIS）](https://chgis.fas.harvard.edu/)。发现错误欢迎提交 issue。
+若需更可靠的依据，可参考谭其骧主编《中国历史地图集》，以及哈佛大学与复旦大学的[中国历史地理信息系统（CHGIS）](https://chgis.fas.harvard.edu/)。但本项目无法直接使用这两者：CHGIS 的[许可](https://chgis.fas.harvard.edu/data/chgis/v6/)仅允许学术研究，禁止商业使用与再分发，且其政区多边形只覆盖1350—1911年；《中国历史地图集》是受版权保护的印刷出版物。因此时段聚焦的疆域仍为近似绘制。发现错误欢迎提交 issue。
 
-Event dates, places and summaries were written by an AI model (Claude) from general knowledge, then checked one by one against the lead of each linked English Wikipedia article; about twenty corrections were made. Place names and the focus-band territories were not checked against a source and are approximate. For authoritative boundaries, see Tan Qixiang's *Historical Atlas of China* and [CHGIS](https://chgis.fas.harvard.edu/).
+Event dates, places and summaries were written by an AI model (Claude) from general knowledge, then checked one by one against the lead of each linked English Wikipedia article; about twenty corrections were made. Place names and the focus-band territories were not checked against a source and are approximate. For authoritative boundaries, see Tan Qixiang's *Historical Atlas of China* and [CHGIS](https://chgis.fas.harvard.edu/). Neither can be used here: CHGIS's [licence](https://chgis.fas.harvard.edu/data/chgis/v6/) allows academic research only and forbids commercial use and redistribution, and its boundary polygons only cover 1350–1911; Tan Qixiang's atlas is a copyrighted print work. The focus-band territories therefore remain approximate.
 
 ## 许可 · Licence
 
