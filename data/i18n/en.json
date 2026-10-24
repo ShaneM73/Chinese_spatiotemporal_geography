@@ -110,7 +110,7 @@
   "Xia_dynasty": {
    "title": "Xia dynasty",
    "place": "Mount Song area (Dengfeng, Henan)",
-   "text": "The first dynasty in traditional histories, said to have been founded by Qi, son of Yu, around 2070 BCE; its existence is still debated by scholars."
+   "text": "The first dynasty in traditional histories, said to have been founded by Yu the Great around 2070 BCE; its existence is still debated by scholars."
   },
   "Erlitou_culture": {
    "title": "Erlitou culture",
@@ -145,7 +145,7 @@
   "Gonghe_Regency": {
    "title": "Revolt of the capital's people and the Gonghe Regency",
    "place": "Haojing (Xi'an, Shaanxi)",
-   "text": "King Li of Zhou was driven out by the people of the capital and ministers ruled jointly. The year 841 BCE marks the beginning of precisely dated Chinese history."
+   "text": "King Li of Zhou was driven out by the people of the capital and Gong He (or, by another account, the Dukes of Zhou and Shao) ruled in his place. The year 841 BCE marks the beginning of precisely dated Chinese history."
   },
   "Spring_and_Autumn_period": {
    "title": "King Ping moves east; the Spring and Autumn period begins",
@@ -205,7 +205,7 @@
   "Battle_of_Gaixia": {
    "title": "Battle of Gaixia; the Han dynasty is founded",
    "place": "Gaixia (Lingbi, Anhui)",
-   "text": "Liu Bang defeated Xiang Yu, ending the Chu–Han contention and founding the Western Han with its capital at Chang'an. The idiom \"surrounded by Chu songs\" comes from this battle."
+   "text": "Liu Bang defeated Xiang Yu, ending the Chu–Han contention and founding the Western Han, later with its capital at Chang'an. The idiom \"surrounded by Chu songs\" comes from this battle."
   },
   "Battle_of_Baideng": {
    "title": "Siege of Baideng",
@@ -235,7 +235,7 @@
   "Records_of_the_Grand_Historian": {
    "title": "Records of the Grand Historian completed",
    "place": "Chang'an",
-   "text": "Sima Qian completed the Shiji, a biographical-style general history covering some 3,000 years from the Yellow Emperor to Emperor Wu, the model for later official histories."
+   "text": "Sima Qian completed the Shiji, a biographical-style general history covering some 2,500 years from the Yellow Emperor to Emperor Wu, the model for later official histories."
   },
   "Xin_dynasty": {
    "title": "Wang Mang usurps the Han",
@@ -275,7 +275,7 @@
   "Three_Kingdoms": {
    "title": "Cao Pi replaces the Han; the Three Kingdoms",
    "place": "Luoyang",
-   "text": "Cao Pi forced Emperor Xian of Han to abdicate and founded Wei. Liu Bei then proclaimed himself emperor in Chengdu and Sun Quan in Jianye."
+   "text": "Cao Pi forced Emperor Xian of Han to abdicate and founded Wei. Liu Bei then proclaimed himself emperor in Chengdu and Sun Quan in Wuchang."
   },
   "Conquest_of_Wu_by_Jin": {
    "title": "Western Jin conquers Wu and reunifies China",
@@ -355,7 +355,7 @@
   "Battle_of_Baekgang": {
    "title": "Battle of Baekgang",
    "place": "Mouth of the Baek River (Geum River, South Korea)",
-   "text": "A Tang–Silla fleet crushed the navies of Wa and the Baekje restoration forces; Baekje was finished and Wa withdrew from the Korean Peninsula."
+   "text": "A Tang–Silla fleet crushed the navies of Wa and the Baekje restoration forces; the Baekje restoration failed and Wa withdrew from the Korean Peninsula."
   },
   "Unified_Silla": {
    "title": "Silla unifies the Korean Peninsula",
@@ -443,9 +443,9 @@
    "text": "According to Shen Kuo's Dream Pool Essays, the commoner Bi Sheng printed with movable type made of baked clay, some 400 years before Europe."
   },
   "Pagan_Kingdom": {
-   "title": "Pagan unifies Burma",
+   "title": "Anawrahta takes the throne; Pagan rises",
    "place": "Bagan (Myanmar)",
-   "text": "King Anawrahta unified the Irrawaddy valley, promoted Theravada Buddhism and built thousands of pagodas."
+   "text": "After taking the throne, Anawrahta unified the Irrawaddy valley, promoted Theravada Buddhism and built thousands of pagodas."
   },
   "Wang_Anshi": {
    "title": "Reforms of Wang Anshi",
@@ -485,7 +485,7 @@
   "Battle_of_Zhongdu": {
    "title": "Mongols take the Jin capital Zhongdu",
    "place": "Zhongdu (Beijing)",
-   "text": "Genghis Khan besieged and captured the Jin capital Zhongdu, and Emperor Xuanzong of Jin moved south to Kaifeng."
+   "text": "After Emperor Xuanzong of Jin moved south to Kaifeng, the Mongols besieged and captured the Jin capital Zhongdu."
   },
   "Siege_of_Caizhou": {
    "title": "Siege of Caizhou; fall of the Jin",
@@ -495,7 +495,7 @@
   "Sukhothai_Kingdom": {
    "title": "Founding of the Sukhothai Kingdom",
    "place": "Sukhothai (Thailand)",
-   "text": "The Tai threw off Khmer rule and founded Sukhothai; the Thai script was created under King Ram Khamhaeng."
+   "text": "The Tai threw off Khmer rule and founded Sukhothai; tradition holds that the Thai script was created under King Ram Khamhaeng."
   },
   "Yuan_dynasty": {
    "title": "Kublai Khan founds the Yuan dynasty",
@@ -505,7 +505,7 @@
   "Mongol_invasions_of_Japan": {
    "title": "Mongol invasions of Japan",
    "place": "Hakata Bay (Fukuoka, Japan)",
-   "text": "Yuan and Goryeo forces twice crossed the sea to attack Japan (1274, 1281), failing both times because of storms and Japanese defenses. The Japanese called the storms \"kamikaze\"."
+   "text": "Yuan and Goryeo forces twice crossed the sea to attack Japan (1274, 1281), failing because of Japanese defenses and storms. The Japanese called the storms \"kamikaze\"."
   },
   "Marco_Polo": {
    "title": "Marco Polo reaches Shangdu",
@@ -545,7 +545,7 @@
   "Joseon": {
    "title": "Founding of Joseon",
    "place": "Gaegyeong; capital moved to Hanyang (Seoul) in 1394",
-   "text": "Yi Seong-gye overthrew Goryeo and founded the Joseon dynasty, which championed Confucianism and lasted over 500 years until 1910."
+   "text": "Yi Seong-gye overthrew Goryeo and founded the Joseon dynasty, which championed Confucianism, lasted over 500 years and was renamed the Korean Empire in 1897."
   },
   "Ming_treasure_voyages": {
    "title": "Zheng He's treasure voyages",
@@ -650,7 +650,7 @@
   "Dzungar–Qing_Wars": {
    "title": "Qing destroys the Dzungars",
    "place": "Ili",
-   "text": "Qing armies crushed Amursana's revolt; war and smallpox nearly wiped out the Dzungars, and the lands north and south of the Tian Shan came under Qing rule."
+   "text": "Qing armies crushed Amursana's revolt; war and smallpox nearly wiped out the Dzungars, and two years later all the lands north and south of the Tian Shan came under Qing rule."
   },
   "Canton_System": {
    "title": "Canton System",
@@ -765,7 +765,7 @@
   "Republic_of_China_(1912–1949)": {
    "title": "Founding of the Republic of China",
    "place": "Nanjing",
-   "text": "Sun Yat-sen took office as provisional president in Nanjing, establishing Asia's first republic."
+   "text": "Sun Yat-sen took office as provisional president in Nanjing and the Provisional Government of the Republic of China was established, ending more than two thousand years of imperial rule."
   },
   "March_1st_Movement": {
    "title": "March 1st Movement",
@@ -805,7 +805,7 @@
   "Mukden_Incident": {
    "title": "Mukden Incident",
    "place": "Shenyang",
-   "text": "Japan's Kwantung Army blew up a section of the South Manchuria Railway at Liutiaohu, blamed Chinese troops, then occupied the Northeast and set up Manchukuo the next year."
+   "text": "Japan's Kwantung Army set off an explosion on the South Manchuria Railway near Liutiaohu, blamed Chinese troops, then occupied the Northeast and set up Manchukuo the next year."
   },
   "Long_March": {
    "title": "Long March",
@@ -830,7 +830,7 @@
   "Atomic_bombings_of_Hiroshima_and_Nagasaki": {
    "title": "Atomic bombings of Hiroshima and Nagasaki",
    "place": "Hiroshima and Nagasaki",
-   "text": "The United States dropped atomic bombs on Hiroshima and Nagasaki; well over 100,000 people in the two cities died that year."
+   "text": "The United States dropped atomic bombs on Hiroshima and Nagasaki; between 150,000 and over 200,000 people in the two cities died that year."
   },
   "Surrender_of_Japan": {
    "title": "Surrender of Japan",
@@ -1033,7 +1033,7 @@
    "text": "Sima Yan forced the last Wei emperor to abdicate and founded the Jin dynasty, known as the Western Jin."
   },
   "War_of_the_Eight_Princes": {
-   "title": "War of the Eight Princes",
+   "title": "War of the Eight Princes: Sima Lun deposes and kills Empress Jia",
    "place": "Luoyang",
    "text": "Sima Lun, Prince of Zhao, deposed and killed Empress Jia, and the princes rose one after another to fight for the court. The civil war lasted until 306, crippling the Western Jin and letting leaders of various peoples rise."
   },
@@ -1064,7 +1064,7 @@
   },
   "Former_Yan": {
    "title": "Murong Huang founds Former Yan",
-   "place": "Longcheng (Chaoyang, Liaoning)",
+   "place": "Jicheng (near Yixian, Liaoning)",
    "text": "Murong Huang, chief of the Murong Xianbei, styled himself King of Yan; Former Yan later moved south into the Central Plains and stood alongside Eastern Jin and Former Qin."
   },
   "Huan_Wen": {
@@ -1145,7 +1145,7 @@
   "Battle_of_Shanghai": {
    "title": "Battle of Shanghai",
    "place": "Shanghai",
-   "text": "Nearly a million troops on both sides fought for three months, shattering Japan's boast that it would conquer China in three months; Shanghai fell in November."
+   "text": "Nearly a million troops on both sides fought for three months, thwarting Japan's hopes of a quick, decisive victory; Shanghai fell in November."
   },
   "Battle_of_Pingxingguan": {
    "title": "Battle of Pingxingguan",
@@ -1165,7 +1165,7 @@
   "Bombing_of_Chongqing": {
    "title": "Bombing of Chongqing",
    "place": "Chongqing",
-   "text": "Japan bombed the wartime capital Chongqing indiscriminately for more than five years, causing heavy civilian casualties."
+   "text": "From 1938 to 1943 Japan repeatedly bombed the wartime capital Chongqing indiscriminately, causing heavy civilian casualties."
   },
   "Hundred_Regiments_Offensive": {
    "title": "Hundred Regiments Offensive",

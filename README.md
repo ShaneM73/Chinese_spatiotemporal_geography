@@ -57,6 +57,23 @@ Historical borders are approximate, especially before the Common Era, and each s
 python tools/build_data.py --raw path/to/download-cache
 ```
 
+## 资料来源与准确性 · Sources and accuracy
+
+本图集的内容分为两类，可信程度不同：
+
+| 内容 | 来源 | 说明 |
+|---|---|---|
+| 历代疆域快照 | historical-basemaps 数据集 | 东亚部分较粗略；构建时修正了明显的名称错误（见上文） |
+| 地形 | AWS Terrain Tiles | — |
+| 事件条目的维基百科链接 | 经维基百科 API 核实每个条目存在；各语言链接取自维基百科的跨语言链接 | — |
+| 227 个事件的年代、地点与简介 | 由 AI（Claude）根据通识撰写，并逐条与对应英文维基百科条目的导言核对 | 2026年10月核对后修正了约二十处（如孙权称帝地点、白江口之战结果、原子弹死亡人数、柳条湖事件经过）；按中国史学惯例保留的年代（如鸦片战争1840年、澶渊之盟1004年）未改 |
+| 144 个地名及其历代名称 | 由 AI 根据通识编写 | 未逐条核对；坐标与改名年份均为近似 |
+| 四个时段聚焦的割据疆域 | 由 AI 根据通识手绘的区域与基础快照轮廓合成 | **最不精确的部分**，只表示大势，不代表实际边界 |
+
+若需更可靠的依据，建议参考谭其骧主编《中国历史地图集》，以及哈佛大学与复旦大学的[中国历史地理信息系统（CHGIS）](https://chgis.fas.harvard.edu/)。发现错误欢迎提交 issue。
+
+Event dates, places and summaries were written by an AI model (Claude) from general knowledge, then checked one by one against the lead of each linked English Wikipedia article; about twenty corrections were made. Place names and the focus-band territories were not checked against a source and are approximate. For authoritative boundaries, see Tan Qixiang's *Historical Atlas of China* and [CHGIS](https://chgis.fas.harvard.edu/).
+
 ## 许可 · Licence
 
 [GPL-3.0](LICENSE)，与其所依据的 historical-basemaps 疆域数据一致。

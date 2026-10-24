@@ -10,7 +10,7 @@ const SEA_Y = -0.02;
 const SLAB_H = 0.6;
 const PLAY_MS = 1400;
 // bump with each release (and the ?v= in index.html) so browsers don't mix cached old files with new ones
-const DATA_VERSION = 1;
+const DATA_VERSION = 2;
 
 const THEMES = {
   light: {
