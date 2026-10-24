@@ -1,0 +1,1743 @@
+{
+ "lang": "zh-TW",
+ "name": "繁體中文",
+ "dir": "ltr",
+ "ui": {
+  "eyebrow": "時空地圖集 · 前2000年 – 2010年",
+  "title": "中國時空地理",
+  "language": "語言",
+  "view": "檢視",
+  "viewCube": "立方體",
+  "viewMap": "地圖",
+  "viewProfile": "側視",
+  "timeAxis": "時間軸",
+  "proportional": "按比例",
+  "even": "等間距",
+  "relief": "地形起伏",
+  "timeStack": "時間疊層",
+  "labels": "標註",
+  "places": "地名",
+  "events": "歷史事件",
+  "theme": "主題",
+  "light": "淺色",
+  "dark": "深色",
+  "hint": "拖曳旋轉 · 滾輪縮放 · 點選政權可追蹤其歷代疆域 · 點選 ◆ 檢視事件 · ← → 切換 · 空白鍵播放",
+  "footer": "疆域：{basemaps}（A. Ourednik，GPL-3.0）。地形：{terrain}（SRTM、GMTED、ETOPO1 等）。事件簡介連結至維基百科。歷史疆界均為近似。",
+  "polityNote": "政權名稱按原始資料（英文）顯示。",
+  "loading": "正在載入地圖集…",
+  "errorFile": "請透過網頁伺服器開啟本頁（例如 GitHub Pages 或 `python -m http.server`）。",
+  "errorLoad": "無法載入地圖集：{msg}",
+  "snapshotUntil": "共 {n} 個政權 · 顯示至{year}",
+  "snapshotLatest": "共 {n} 個政權 · 最新",
+  "presentIn": "出現於以下年份",
+  "under": "隸屬於{name}",
+  "partOf": "屬於{name}",
+  "inView": "{area}（檢視內）",
+  "notPresent": "{year}不存在",
+  "bordersPrecision": "疆界{precision}",
+  "precision1": "大致",
+  "precision2": "較準確",
+  "precision3": "準確",
+  "bordersOf": "{year}年的疆域",
+  "wikipedia": "維基百科 ↗",
+  "yearCE": "{y}年",
+  "yearBCE": "前{y}年",
+  "shortCE": "{y}",
+  "shortBCE": "前{y}",
+  "km2": "{n} 平方公里",
+  "play": "播放",
+  "pause": "暫停",
+  "prevEvent": "上一個事件",
+  "nextEvent": "下一個事件",
+  "close": "關閉",
+  "clearSelection": "取消選擇",
+  "toggleControls": "顯示/隱藏控制面板",
+  "snapshotYear": "快照年份",
+  "focus": "時段聚焦",
+  "threeKingdoms": "三國",
+  "wuhu": "五胡亂華",
+  "antiJapanese": "抗日戰爭",
+  "civilWar": "國共內戰",
+  "threeKingdomsName": "三國時代（184—280年）",
+  "wuhuName": "五胡亂華與十六國（300—439年）",
+  "antiJapaneseName": "抗日戰爭（1931—1945年）",
+  "civilWarName": "國共內戰（1945—1950年）",
+  "sideCaoWei": "曹操／曹魏",
+  "sideShuHan": "劉備／蜀漢",
+  "sideSunWu": "孫權／東吳",
+  "sideYuanShao": "袁紹",
+  "sideJinDynasty": "西晉",
+  "sideJinSouth": "晉與南朝（東晉、劉宋）",
+  "sideZhao": "漢趙、後趙",
+  "sideYan": "慕容鮮卑與諸燕",
+  "sideQin": "前秦、後秦",
+  "sideLiang": "河西諸涼",
+  "sideChengHan": "成漢",
+  "sideNorthernWei": "北魏",
+  "sideJapan": "日軍佔領區及偽政權",
+  "sideCcp": "中國共產黨控制區",
+  "sideKmt": "國民政府控制區",
+  "sidesHint": "點選顏色可顯示或隱藏",
+  "phasesNote": "各時期疆域均為近似。"
+ },
+ "periods": {
+  "xia": "夏（早期國家）",
+  "shang": "商",
+  "westernZhou": "西周",
+  "springAutumn": "春秋",
+  "warringStates": "戰國",
+  "qin": "秦",
+  "han": "兩漢",
+  "threeKingdoms": "三國",
+  "jinNorthSouth": "兩晉南北朝",
+  "sui": "隋",
+  "tang": "唐",
+  "fiveDynasties": "五代十國",
+  "song": "宋遼金夏",
+  "yuan": "元",
+  "ming": "明",
+  "qing": "清",
+  "republic": "中華民國",
+  "contemporary": "當代"
+ },
+ "categories": {
+  "conflict": "戰爭與戰役",
+  "politics": "國家與條約",
+  "culture": "宗教與文化",
+  "society": "社會、經濟與災害"
+ },
+ "events": {
+  "Xia_dynasty": {
+   "title": "夏朝",
+   "place": "嵩山一帶（今河南登封）",
+   "text": "傳統史書記載的第一個王朝，相傳由禹之子啟建立，始於約西元前2070年；其存在仍有學術爭議。"
+  },
+  "Erlitou_culture": {
+   "title": "二里頭文化",
+   "place": "偃師二里頭（今河南洛陽）",
+   "text": "黃河中游出現宮殿基址、青銅禮器和大型都邑，被許多學者視為早期國家與夏文化的代表。"
+  },
+  "Shang_dynasty": {
+   "title": "商湯滅夏，商朝建立",
+   "place": "亳（今河南鄭州一帶）",
+   "text": "商部族首領湯在鳴條擊敗夏桀，建立商朝。鄭州商城是這一時期的大型城址。"
+  },
+  "Yinxu": {
+   "title": "盤庚遷殷",
+   "place": "殷（今河南安陽）",
+   "text": "商王盤庚將都城遷至殷，此後兩百餘年不再遷都；殷墟遺址出土大量宮殿、王陵與青銅器。"
+  },
+  "Oracle_bone_script": {
+   "title": "甲骨文",
+   "place": "殷墟（今河南安陽）",
+   "text": "商王在龜甲和獸骨上刻寫占卜記錄，這是已知最早的成體系漢字，也是商代歷史的一手史料。"
+  },
+  "Sanxingdui": {
+   "title": "三星堆文明",
+   "place": "廣漢三星堆（今四川）",
+   "text": "古蜀國留下了青銅縱目面具、神樹和金杖，風格與中原迥異，顯示了中華文明起源的多元性。"
+  },
+  "Battle_of_Muye": {
+   "title": "牧野之戰",
+   "place": "牧野（今河南新鄉）",
+   "text": "周武王率諸侯聯軍擊敗商紂王的軍隊，商朝滅亡，周朝建立，定都鎬京。"
+  },
+  "Gonghe_Regency": {
+   "title": "國人暴動與共和行政",
+   "place": "鎬京（今陝西西安）",
+   "text": "周厲王被國人驅逐，由大臣共同執政。西元前841年是中國歷史上有確切紀年的開端。"
+  },
+  "Spring_and_Autumn_period": {
+   "title": "平王東遷，春秋時代開始",
+   "place": "洛邑（今河南洛陽）",
+   "text": "犬戎攻破鎬京後，周平王遷都洛邑。王室衰微，諸侯爭霸，進入春秋時代。"
+  },
+  "Confucius": {
+   "title": "孔子誕生",
+   "place": "魯國陬邑（今山東曲阜）",
+   "text": "孔子創立儒家學派，主張仁與禮，興辦私學。其思想經後世發展，成為東亞兩千年的主流思想。"
+  },
+  "Partition_of_Jin": {
+   "title": "三家分晉",
+   "place": "晉國（今山西侯馬一帶）",
+   "text": "韓、趙、魏三家瓜分晉國並獲周王承認為諸侯，常被視為戰國時代的開端。"
+  },
+  "Shang_Yang": {
+   "title": "商鞅變法",
+   "place": "秦國櫟陽（今陝西西安臨潼）",
+   "text": "商鞅在秦國推行獎勵耕戰、廢除世襲特權、實行縣制等改革，使秦國成為戰國最強的國家。"
+  },
+  "Yayoi_period": {
+   "title": "彌生時代",
+   "place": "九州北部（吉野里）",
+   "text": "水稻種植與金屬器從大陸經朝鮮半島傳入日本，聚落和階層分化隨之出現，取代了繩文文化。"
+  },
+  "Battle_of_Changping": {
+   "title": "長平之戰",
+   "place": "長平（今山西高平）",
+   "text": "秦將白起大敗趙軍，據載坑殺降卒數十萬，六國再無力單獨抗秦。"
+  },
+  "Qin's_wars_of_unification": {
+   "title": "秦統一六國",
+   "place": "咸陽",
+   "text": "秦王嬴政滅齊，完成統一，自稱始皇帝，推行郡縣制，統一文字、度量衡與車軌。"
+  },
+  "Great_Wall_of_China": {
+   "title": "修築長城",
+   "place": "河套及北部邊境",
+   "text": "蒙恬北擊匈奴後，秦朝連接並擴建戰國時期各國的長城，形成萬里長城的雛形。"
+  },
+  "Terracotta_Army": {
+   "title": "秦始皇陵兵馬俑",
+   "place": "驪山（今陝西西安臨潼）",
+   "text": "秦始皇去世並葬於驪山陵。陵旁隨葬八千餘件真人大小的陶俑，1974年才被發現。"
+  },
+  "Dazexiang_uprising": {
+   "title": "大澤鄉起義",
+   "place": "大澤鄉（今安徽宿州）",
+   "text": "戍卒陳勝、吳廣揭竿而起，喊出「王侯將相寧有種乎」，各地群起反秦，秦朝隨之瓦解。"
+  },
+  "Modu_Chanyu": {
+   "title": "冒頓單于統一匈奴",
+   "place": "蒙古高原",
+   "text": "冒頓殺父自立為單于，東破東胡、西逐月氏，建立了草原上第一個強大的游牧帝國。"
+  },
+  "Battle_of_Gaixia": {
+   "title": "垓下之戰，漢朝建立",
+   "place": "垓下（今安徽靈璧）",
+   "text": "劉邦擊敗項羽，結束楚漢之爭，建立西漢，定都長安。「四面楚歌」的典故即出於此。"
+  },
+  "Battle_of_Baideng": {
+   "title": "白登之圍",
+   "place": "白登山（今山西大同）",
+   "text": "漢高祖被冒頓單于圍困七日，脫險後漢朝轉而以和親和歲貢對待匈奴。"
+  },
+  "Zhang_Qian": {
+   "title": "張騫出使西域",
+   "place": "長安",
+   "text": "漢武帝派張騫聯絡大月氏共擊匈奴。他帶回了西域各國的情報，絲綢之路由此開通。"
+  },
+  "Battle_of_Mobei": {
+   "title": "漠北之戰",
+   "place": "漠北（今蒙古國）",
+   "text": "衛青、霍去病深入漠北重創匈奴主力，霍去病「封狼居胥」，匈奴遠遁。"
+  },
+  "Han_conquest_of_Nanyue": {
+   "title": "漢滅南越",
+   "place": "番禺（今廣東廣州）",
+   "text": "漢軍攻滅趙佗建立的南越國，嶺南與越南北部納入漢朝郡縣。"
+  },
+  "Han_conquest_of_Gojoseon": {
+   "title": "漢滅衛滿朝鮮",
+   "place": "王險城（今北韓平壤）",
+   "text": "漢武帝滅衛滿朝鮮，在朝鮮半島北部設樂浪等四郡。"
+  },
+  "Records_of_the_Grand_Historian": {
+   "title": "《史記》成書",
+   "place": "長安",
+   "text": "司馬遷完成紀傳體通史《史記》，記述從黃帝到漢武帝約三千年的歷史，為後世正史的典範。"
+  },
+  "Xin_dynasty": {
+   "title": "王莽篡漢",
+   "place": "長安",
+   "text": "外戚王莽代漢稱帝，建立新朝並推行復古改制。改革失敗引發綠林、赤眉起義。"
+  },
+  "Emperor_Guangwu_of_Han": {
+   "title": "光武中興，東漢建立",
+   "place": "洛陽",
+   "text": "劉秀重建漢朝，定都洛陽，史稱東漢。"
+  },
+  "King_of_Na_gold_seal": {
+   "title": "漢委奴國王金印",
+   "place": "倭奴國（今日本福岡）",
+   "text": "東漢光武帝賜倭奴國使者金印。1784年在福岡志賀島出土，是中日交往的早期實物證據。"
+  },
+  "White_Horse_Temple": {
+   "title": "白馬寺建立",
+   "place": "洛陽",
+   "text": "相傳漢明帝遣使求法，迎回僧人與佛經，在洛陽建白馬寺，被視為中國第一座佛寺。"
+  },
+  "Cai_Lun": {
+   "title": "蔡倫改進造紙術",
+   "place": "洛陽",
+   "text": "宦官蔡倫用樹皮、麻頭、破布等製成輕便廉價的紙，此後紙張逐漸取代竹簡和縑帛。"
+  },
+  "Yellow_Turban_Rebellion": {
+   "title": "黃巾起義",
+   "place": "冀州鉅鹿（今河北）",
+   "text": "張角以太平道組織數十萬農民起義。起義雖被鎮壓，但地方豪強與軍閥從此坐大。"
+  },
+  "Battle_of_Red_Cliffs": {
+   "title": "赤壁之戰",
+   "place": "赤壁（今湖北）",
+   "text": "孫權與劉備聯軍以火攻大敗南下的曹操，奠定了三國鼎立的格局。"
+  },
+  "Three_Kingdoms": {
+   "title": "曹丕代漢，三國時代",
+   "place": "洛陽",
+   "text": "曹丕迫使漢獻帝禪讓，建立魏國。隨後劉備稱帝於成都，孫權稱帝於建業。"
+  },
+  "Conquest_of_Wu_by_Jin": {
+   "title": "西晉滅吳，統一全國",
+   "place": "建業（今江蘇南京）",
+   "text": "晉軍順江而下，吳主孫皓投降，三國時代結束。"
+  },
+  "Disaster_of_Yongjia": {
+   "title": "永嘉之亂",
+   "place": "洛陽",
+   "text": "匈奴人建立的漢趙攻陷洛陽，俘虜晉懷帝。北方陷入十六國混戰，大批士民南渡。"
+  },
+  "Mogao_Caves": {
+   "title": "莫高窟開鑿",
+   "place": "敦煌",
+   "text": "僧人樂僔在鳴沙山開鑿第一個石窟。此後千年間共鑿洞窟七百餘個，保存了大量壁畫和文書。"
+  },
+  "Battle_of_Fei_River": {
+   "title": "淝水之戰",
+   "place": "淝水（今安徽壽縣）",
+   "text": "東晉以少勝多擊敗前秦大軍，「風聲鶴唳、草木皆兵」。前秦隨後瓦解，南北分立的格局延續。"
+  },
+  "Gwanggaeto_Stele": {
+   "title": "好太王碑",
+   "place": "國內城（今吉林集安）",
+   "text": "高句麗長壽王為其父廣開土王立碑記功，是研究高句麗及古代東北亞史的重要史料。"
+  },
+  "Emperor_Xiaowen_of_Northern_Wei": {
+   "title": "北魏孝文帝遷都洛陽",
+   "place": "洛陽",
+   "text": "孝文帝從平城遷都洛陽，推行漢化改革，改鮮卑姓為漢姓，並開鑿龍門石窟。"
+  },
+  "Buddhism_in_Japan": {
+   "title": "佛教傳入日本",
+   "place": "飛鳥（今日本奈良）",
+   "text": "百濟聖王向倭國贈送佛像和經論。蘇我氏與物部氏為此爭論，最終崇佛派獲勝。"
+  },
+  "Sui_conquest_of_Chen": {
+   "title": "隋滅陳，南北統一",
+   "place": "建康（今江蘇南京）",
+   "text": "隋軍渡江攻陷建康，結束了西晉末年以來近三百年的分裂。"
+  },
+  "Grand_Canal_(China)": {
+   "title": "開鑿大運河",
+   "place": "通濟渠（洛陽至淮河）",
+   "text": "隋煬帝動員百萬民工開鑿運河，連通黃河、淮河與長江，此後成為南糧北運的命脈。"
+  },
+  "Imperial_examination": {
+   "title": "科舉制度創立",
+   "place": "長安",
+   "text": "隋朝設進士科，以考試選拔官員。科舉延續至1905年，並為朝鮮和越南所仿效。"
+  },
+  "Battle_of_Salsu": {
+   "title": "薩水之戰",
+   "place": "薩水（今北韓清川江）",
+   "text": "隋煬帝遠征高句麗，乙支文德在薩水大敗隋軍。連年征伐耗盡國力，隋朝不久滅亡。"
+  },
+  "Tang_dynasty": {
+   "title": "唐朝建立",
+   "place": "長安",
+   "text": "李淵在長安稱帝建立唐朝。唐代長安是當時世界上最大的城市之一。"
+  },
+  "Princess_Wencheng": {
+   "title": "文成公主入藏",
+   "place": "邏些（今西藏拉薩）",
+   "text": "唐太宗以文成公主嫁吐蕃贊普松贊干布，隨行工匠和佛像促進了漢藏文化交流。"
+  },
+  "Taika_Reform": {
+   "title": "大化改新",
+   "place": "飛鳥（今日本奈良）",
+   "text": "中大兄皇子與中臣鎌足誅滅蘇我氏，仿照唐制推行公地公民與律令制改革。"
+  },
+  "Xuanzang": {
+   "title": "玄奘取經歸來",
+   "place": "長安",
+   "text": "玄奘歷時十七年西行天竺求法，帶回經卷六百餘部，並口述《大唐西域記》。"
+  },
+  "Battle_of_Baekgang": {
+   "title": "白江口之戰",
+   "place": "白江口（今韓國錦江口）",
+   "text": "唐與新羅聯軍大敗倭國與百濟復國軍的水師，百濟滅亡，倭國退出朝鮮半島。"
+  },
+  "Unified_Silla": {
+   "title": "新羅統一朝鮮半島",
+   "place": "金城（今韓國慶州）",
+   "text": "新羅聯合唐朝滅百濟、高句麗後，又將唐軍逐出大同江以南，統一了半島大部。"
+  },
+  "Balhae": {
+   "title": "渤海國建立",
+   "place": "東牟山（今吉林敦化）",
+   "text": "大祚榮率粟末靺鞨與高句麗遺民建國，後受唐冊封，號稱「海東盛國」。"
+  },
+  "Heijō-kyō": {
+   "title": "遷都平城京",
+   "place": "平城京（今日本奈良）",
+   "text": "日本仿照唐長安城修建平城京，奈良時代開始。"
+  },
+  "An_Lushan_Rebellion": {
+   "title": "安史之亂",
+   "place": "范陽（今北京）",
+   "text": "節度使安祿山起兵叛唐，攻陷洛陽和長安。八年戰亂後唐朝由盛轉衰，藩鎮割據。"
+  },
+  "Heian-kyō": {
+   "title": "遷都平安京",
+   "place": "平安京（今日本京都）",
+   "text": "桓武天皇遷都平安京，此後千餘年京都一直是日本的皇都，平安時代開始。"
+  },
+  "Khmer_Empire": {
+   "title": "吳哥王朝建立",
+   "place": "吳哥（今柬埔寨）",
+   "text": "闍耶跋摩二世宣布獨立並自稱「轉輪王」，高棉帝國此後稱雄中南半島數百年。"
+  },
+  "Uyghur_Khaganate": {
+   "title": "回鶻汗國崩潰",
+   "place": "斡耳朵八里（今蒙古國）",
+   "text": "黠戛斯攻破回鶻都城，回鶻人西遷至高昌和河西，後來成為今維吾爾族的先民之一。"
+  },
+  "Diamond_Sutra": {
+   "title": "《金剛經》雕版印刷",
+   "place": "敦煌藏經洞",
+   "text": "咸通九年印製的《金剛經》是現存最早有明確日期的雕版印刷品，1900年在莫高窟發現。"
+  },
+  "Huang_Chao": {
+   "title": "黃巢起義",
+   "place": "山東、河南一帶",
+   "text": "私鹽販黃巢起兵，轉戰南北並攻入長安稱帝。唐朝雖鎮壓了起義，但已名存實亡。"
+  },
+  "Five_Dynasties_and_Ten_Kingdoms_period": {
+   "title": "唐亡，五代十國",
+   "place": "汴州（今河南開封）",
+   "text": "朱溫篡唐建立後梁。此後半個世紀，北方五個朝代更替，南方十餘國並立。"
+  },
+  "Goryeo": {
+   "title": "高麗建立",
+   "place": "開京（今北韓開城）",
+   "text": "王建建立高麗，後統一後三國。英文「Korea」一名即源於「高麗」。"
+  },
+  "Battle_of_Bạch_Đằng_(938)": {
+   "title": "白藤江之戰（938年）",
+   "place": "白藤江（今越南海防）",
+   "text": "吳權以木樁陣大敗南漢水軍，結束了中國對越南北部約千年的統治，越南走向獨立。"
+  },
+  "Song_dynasty": {
+   "title": "陳橋兵變，北宋建立",
+   "place": "開封",
+   "text": "趙匡胤黃袍加身建立宋朝，以文治國，並透過「杯酒釋兵權」削奪武將兵權。"
+  },
+  "Chanyuan_Treaty": {
+   "title": "澶淵之盟",
+   "place": "澶州（今河南濮陽）",
+   "text": "宋遼議和，宋每年向遼輸送歲幣。此後兩國維持了一百多年的和平。"
+  },
+  "Lý_dynasty": {
+   "title": "李朝遷都升龍",
+   "place": "升龍（今越南河內）",
+   "text": "李太祖李公蘊遷都大羅城並改名升龍，河內從此成為越南的政治中心。"
+  },
+  "Western_Xia": {
+   "title": "西夏建立",
+   "place": "興慶府（今寧夏銀川）",
+   "text": "党項首領李元昊稱帝，國號大夏，並創制西夏文字。"
+  },
+  "Movable_type": {
+   "title": "畢昇發明活字印刷",
+   "place": "蘄州英山（今湖北）",
+   "text": "據沈括《夢溪筆談》記載，平民畢昇用膠泥製成活字排版印刷，比歐洲早約四百年。"
+  },
+  "Pagan_Kingdom": {
+   "title": "蒲甘王朝統一緬甸",
+   "place": "蒲甘（今緬甸）",
+   "text": "阿奴律陀王統一伊洛瓦底江流域，推崇上座部佛教，建造了數以千計的佛塔。"
+  },
+  "Wang_Anshi": {
+   "title": "王安石變法",
+   "place": "開封",
+   "text": "宋神宗任用王安石推行青苗法、募役法等新法以富國強兵，新舊黨爭由此激烈。"
+  },
+  "Zizhi_Tongjian": {
+   "title": "《資治通鑑》成書",
+   "place": "洛陽",
+   "text": "司馬光歷時十九年編成編年體通史，記述了戰國至五代共1362年的歷史。"
+  },
+  "Jin_dynasty_(1115–1234)": {
+   "title": "金朝建立",
+   "place": "會寧（今黑龍江阿城）",
+   "text": "女真首領完顏阿骨打稱帝建金。十年後金滅遼，又於1127年攻滅北宋。"
+  },
+  "Jingkang_incident": {
+   "title": "靖康之變",
+   "place": "開封",
+   "text": "金軍攻破開封，俘虜徽、欽二帝及宗室北去，北宋滅亡。宋高宗在南方重建宋朝，史稱南宋。"
+  },
+  "Yue_Fei": {
+   "title": "岳飛遇害，紹興和議",
+   "place": "臨安（今浙江杭州）",
+   "text": "抗金名將岳飛以「莫須有」罪名被殺。宋金議和，以淮河—大散關為界。"
+  },
+  "Battle_of_Dan-no-ura": {
+   "title": "壇之浦之戰",
+   "place": "壇之浦（今日本下關）",
+   "text": "源氏在海戰中消滅平氏，源賴朝隨後在鎌倉建立幕府，日本進入武士執政時代。"
+  },
+  "Genghis_Khan": {
+   "title": "成吉思汗統一蒙古",
+   "place": "斡難河源（今蒙古國肯特省）",
+   "text": "鐵木真在忽里台大會上被尊為成吉思汗，建立大蒙古國。蒙古此後征服了歐亞大陸大部分地區。"
+  },
+  "Battle_of_Zhongdu": {
+   "title": "蒙古攻陷金中都",
+   "place": "中都（今北京）",
+   "text": "成吉思汗圍攻並攻陷金朝中都，金宣宗南遷開封。"
+  },
+  "Siege_of_Caizhou": {
+   "title": "蔡州之戰，金朝滅亡",
+   "place": "蔡州（今河南汝南）",
+   "text": "蒙古與南宋聯軍攻破蔡州，金哀宗自盡，金朝滅亡。宋蒙隨即開戰。"
+  },
+  "Sukhothai_Kingdom": {
+   "title": "素可泰王國建立",
+   "place": "素可泰（今泰國）",
+   "text": "泰人擺脫高棉統治建立素可泰王國，蘭甘亨王時期創制了泰文。"
+  },
+  "Yuan_dynasty": {
+   "title": "忽必烈建立元朝",
+   "place": "大都（今北京）",
+   "text": "忽必烈取《易經》「大哉乾元」之義定國號為元，次年定都大都。"
+  },
+  "Mongol_invasions_of_Japan": {
+   "title": "元日戰爭",
+   "place": "博多灣（今日本福岡）",
+   "text": "元朝與高麗聯軍兩次（1274、1281）渡海進攻日本，均因風暴和日軍防守而失敗。日本人稱之為「神風」。"
+  },
+  "Marco_Polo": {
+   "title": "馬可·波羅抵達上都",
+   "place": "上都（今內蒙古正藍旗）",
+   "text": "威尼斯商人馬可·波羅覲見忽必烈。他的遊記使歐洲人對中國充滿想像。"
+  },
+  "Battle_of_Yamen": {
+   "title": "崖山海戰，南宋滅亡",
+   "place": "崖山（今廣東江門）",
+   "text": "元軍在海戰中擊潰南宋最後的艦隊，陸秀夫背負幼帝趙昺投海，南宋滅亡。"
+  },
+  "Battle_of_Bạch_Đằng_(1288)": {
+   "title": "白藤江之戰（1288年）",
+   "place": "白藤江（今越南海防）",
+   "text": "陳興道仿效吳權的木樁戰術，第三次擊退元軍的入侵，大越保住了獨立。"
+  },
+  "Red_Turban_Rebellions": {
+   "title": "紅巾軍起義",
+   "place": "潁州（今安徽阜陽）",
+   "text": "劉福通等以白蓮教組織起義，頭裹紅巾，反元起義迅速蔓延至全國。"
+  },
+  "Ayutthaya_Kingdom": {
+   "title": "阿瑜陀耶王國建立",
+   "place": "阿瑜陀耶（今泰國大城）",
+   "text": "烏通王建立阿瑜陀耶王國，後吞併素可泰，成為暹羅四百餘年的強國。"
+  },
+  "Battle_of_Lake_Poyang": {
+   "title": "鄱陽湖之戰",
+   "place": "鄱陽湖",
+   "text": "朱元璋以火攻擊敗陳友諒的巨艦水軍，這是中世紀規模最大的水戰之一。"
+  },
+  "Ming_dynasty": {
+   "title": "明朝建立",
+   "place": "應天（今江蘇南京）",
+   "text": "朱元璋稱帝，國號大明。同年明軍攻入大都，元順帝北走漠北。"
+  },
+  "Joseon": {
+   "title": "朝鮮王朝建立",
+   "place": "開京，1394年遷都漢陽（今首爾）",
+   "text": "李成桂推翻高麗建立朝鮮王朝，尊崇儒學，延續五百餘年，直至1910年。"
+  },
+  "Ming_treasure_voyages": {
+   "title": "鄭和下西洋",
+   "place": "劉家港（今江蘇太倉）",
+   "text": "鄭和率領兩百餘艘船隻七下西洋，最遠到達東非沿岸。宣德年後遠航停止。"
+  },
+  "Forbidden_City": {
+   "title": "明成祖遷都北京",
+   "place": "北京",
+   "text": "紫禁城落成，明朝正式遷都北京。此後近五百年，北京一直是明清兩代的都城。"
+  },
+  "Later_Lê_dynasty": {
+   "title": "黎利建立後黎朝",
+   "place": "東京（今越南河內）",
+   "text": "黎利領導藍山起義驅逐明軍，建立後黎朝，越南恢復獨立。"
+  },
+  "Ryukyu_Kingdom": {
+   "title": "琉球王國統一",
+   "place": "首里（今日本沖繩）",
+   "text": "尚巴志統一北山、中山、南山三國，琉球憑藉與明朝的朝貢貿易成為東亞海上的中轉站。"
+  },
+  "Hunminjeongeum": {
+   "title": "頒布訓民正音",
+   "place": "漢陽（今首爾）",
+   "text": "朝鮮世宗大王頒布表音文字訓民正音，即今天的韓文（諺文）。"
+  },
+  "Tumu_Crisis": {
+   "title": "土木堡之變",
+   "place": "土木堡（今河北懷來）",
+   "text": "明英宗親征瓦剌兵敗被俘，于謙擁立景帝並組織北京保衛戰。"
+  },
+  "Ōnin_War": {
+   "title": "應仁之亂",
+   "place": "京都",
+   "text": "將軍繼承之爭演變為十一年的內戰，京都化為焦土，日本進入戰國時代。"
+  },
+  "Portuguese_Macau": {
+   "title": "葡萄牙人入居澳門",
+   "place": "澳門",
+   "text": "葡萄牙人獲准在澳門居住貿易，澳門成為歐洲與東亞貿易和傳教的重要據點。"
+  },
+  "Matteo_Ricci": {
+   "title": "利瑪竇來華",
+   "place": "肇慶",
+   "text": "耶穌會士利瑪竇在肇慶定居，後入北京。他與徐光啟合譯《幾何原本》，促進了中西學術交流。"
+  },
+  "Japanese_invasions_of_Korea_(1592–1598)": {
+   "title": "壬辰戰爭（萬曆朝鮮之役）",
+   "place": "釜山",
+   "text": "豐臣秀吉出兵侵略朝鮮，明朝出兵援朝，李舜臣的水師屢敗日軍。1598年日軍撤退。"
+  },
+  "Battle_of_Sekigahara": {
+   "title": "關原之戰",
+   "place": "關原（今日本岐阜）",
+   "text": "德川家康擊敗西軍，三年後在江戶開設幕府，日本進入兩百餘年的江戶時代。"
+  },
+  "Later_Jin_(1616–1636)": {
+   "title": "努爾哈赤建立後金",
+   "place": "赫圖阿拉（今遼寧新賓）",
+   "text": "努爾哈赤統一女真各部，建立後金；1636年皇太極改國號為清。"
+  },
+  "Battle_of_Sarhū": {
+   "title": "薩爾滸之戰",
+   "place": "薩爾滸（今遼寧撫順）",
+   "text": "後金集中兵力各個擊破明軍四路大軍，明清在遼東的攻守形勢從此逆轉。"
+  },
+  "Dutch_Formosa": {
+   "title": "荷蘭人佔據臺灣",
+   "place": "大員（今臺灣臺南）",
+   "text": "荷蘭東印度公司在臺灣南部修築熱蘭遮城，建立殖民統治。"
+  },
+  "Battle_of_Shanhai_Pass": {
+   "title": "山海關之戰，清軍入關",
+   "place": "山海關",
+   "text": "李自成攻陷北京，崇禎帝自縊。吳三桂引清軍入關，擊敗李自成，清朝定都北京。"
+  },
+  "Potala_Palace": {
+   "title": "重建布達拉宮",
+   "place": "拉薩",
+   "text": "五世達賴喇嘛建立甘丹頗章政權後，在紅山上重建布達拉宮，作為宗教和政治中心。"
+  },
+  "Siege_of_Fort_Zeelandia": {
+   "title": "鄭成功收復臺灣",
+   "place": "熱蘭遮城（今臺灣臺南）",
+   "text": "鄭成功圍困熱蘭遮城九個月，荷蘭人投降撤離臺灣。"
+  },
+  "Battle_of_Penghu": {
+   "title": "澎湖海戰，清朝統一臺灣",
+   "place": "澎湖",
+   "text": "施琅率清軍水師擊敗鄭氏艦隊，鄭克塽投降，次年清朝在臺灣設府。"
+  },
+  "Treaty_of_Nerchinsk": {
+   "title": "中俄《尼布楚條約》",
+   "place": "尼布楚（今俄羅斯涅爾琴斯克）",
+   "text": "雅克薩之戰後清俄議定以額爾古納河和外興安嶺為界，這是中國與歐洲國家簽訂的第一個邊界條約。"
+  },
+  "Treaty_of_Kyakhta_(1727)": {
+   "title": "《恰克圖條約》",
+   "place": "恰克圖",
+   "text": "清俄劃定喀爾喀蒙古段邊界，並規定恰克圖為兩國通商口岸。"
+  },
+  "Dzungar–Qing_Wars": {
+   "title": "清滅準噶爾",
+   "place": "伊犁",
+   "text": "清軍平定阿睦爾撒納之亂，準噶爾部族因戰爭與天花幾近滅絕，天山南北納入清朝版圖。"
+  },
+  "Canton_System": {
+   "title": "一口通商",
+   "place": "廣州",
+   "text": "乾隆帝下令西洋商船只能在廣州貿易，由十三行壟斷對外貿易，直至鴉片戰爭。"
+  },
+  "Siku_Quanshu": {
+   "title": "編纂《四庫全書》",
+   "place": "北京",
+   "text": "乾隆帝下令編纂中國最大的叢書，收書三千餘種；同時也有大量書籍遭到禁毀。"
+  },
+  "Macartney_Embassy": {
+   "title": "馬戛爾尼使團訪華",
+   "place": "熱河避暑山莊（今河北承德）",
+   "text": "英國使團請求擴大通商被乾隆帝拒絕，雙方在禮儀上也有爭執。"
+  },
+  "Nguyễn_dynasty": {
+   "title": "阮朝建立",
+   "place": "富春（今越南順化）",
+   "text": "阮福映統一越南，定都順化，建立越南最後一個王朝。"
+  },
+  "First_Opium_War": {
+   "title": "第一次鴉片戰爭",
+   "place": "虎門（今廣東東莞）",
+   "text": "林則徐虎門銷煙後，英國派遣遠征軍。清朝戰敗，中國近代史由此開端。"
+  },
+  "Treaty_of_Nanking": {
+   "title": "《南京條約》",
+   "place": "南京",
+   "text": "清朝割讓香港島，開放廣州、廈門、福州、寧波、上海五口通商，並賠款兩千一百萬銀元。"
+  },
+  "Taiping_Rebellion": {
+   "title": "太平天國起義",
+   "place": "金田村（今廣西桂平）",
+   "text": "洪秀全發動起義，後定都天京（南京）。十餘年內戰造成數千萬人死亡。"
+  },
+  "Perry_Expedition": {
+   "title": "黑船來航",
+   "place": "浦賀（今日本橫須賀）",
+   "text": "美國海軍准將培里率艦隊叩關，次年日本簽訂條約，結束了兩百多年的鎖國政策。"
+  },
+  "Treaty_of_Aigun": {
+   "title": "中俄《璦琿條約》",
+   "place": "璦琿（今黑龍江黑河）",
+   "text": "俄國迫使清朝割讓黑龍江以北六十餘萬平方公里的土地。"
+  },
+  "Convention_of_Peking": {
+   "title": "火燒圓明園與《北京條約》",
+   "place": "北京",
+   "text": "英法聯軍攻入北京，焚毀圓明園。清朝被迫割讓九龍，又在隨後的中俄條約中割讓烏蘇里江以東。"
+  },
+  "Self-Strengthening_Movement": {
+   "title": "洋務運動",
+   "place": "安慶",
+   "text": "曾國藩創辦安慶內軍械所，李鴻章等繼而興辦江南製造局、福州船政局和北洋水師。"
+  },
+  "Meiji_Restoration": {
+   "title": "明治維新",
+   "place": "江戶（改名東京）",
+   "text": "王政復古，幕府統治結束。日本推行全面西化改革，迅速走上工業化與對外擴張的道路。"
+  },
+  "Japan–Korea_Treaty_of_1876": {
+   "title": "《江華條約》",
+   "place": "江華島",
+   "text": "日本以炮艦外交迫使朝鮮開港，並否認清朝對朝鮮的宗主權。"
+  },
+  "Ryukyu_Disposition": {
+   "title": "琉球處分",
+   "place": "首里（今日本沖繩）",
+   "text": "日本廢除琉球王國，改設沖繩縣。清朝表示抗議，但未能改變結果。"
+  },
+  "Sino-French_War": {
+   "title": "中法戰爭",
+   "place": "諒山（今越南）",
+   "text": "中法兩國為爭奪越南爆發戰爭。清軍取得鎮南關大捷，但清朝最終仍承認法國對越南的保護權。"
+  },
+  "First_Sino-Japanese_War": {
+   "title": "甲午戰爭",
+   "place": "黃海",
+   "text": "日本與清朝為爭奪朝鮮開戰，北洋水師在黃海海戰和威海衛之戰中覆沒。"
+  },
+  "Treaty_of_Shimonoseki": {
+   "title": "《馬關條約》",
+   "place": "馬關（今日本下關）",
+   "text": "清朝承認朝鮮「獨立」，割讓臺灣、澎湖，並賠款兩億兩白銀。"
+  },
+  "Hundred_Days'_Reform": {
+   "title": "戊戌變法",
+   "place": "北京",
+   "text": "光緒帝任用康有為、梁啟超推行變法，僅一百零三天即被慈禧太后發動政變推翻。"
+  },
+  "Boxer_Rebellion": {
+   "title": "義和團運動與八國聯軍",
+   "place": "天津、北京",
+   "text": "義和團圍攻使館區，八國聯軍攻佔北京。次年清朝簽訂《辛丑條約》，賠款四億五千萬兩。"
+  },
+  "Russo-Japanese_War": {
+   "title": "日俄戰爭",
+   "place": "旅順口",
+   "text": "日俄兩國在中國東北交戰。日本獲勝後接管南滿利益，成為第一個戰勝歐洲強國的亞洲國家。"
+  },
+  "Japan–Korea_Treaty_of_1910": {
+   "title": "日本吞併朝鮮",
+   "place": "漢城（今首爾）",
+   "text": "《日韓合併條約》生效，大韓帝國滅亡，朝鮮半島淪為日本殖民地，直至1945年。"
+  },
+  "Wuchang_uprising": {
+   "title": "武昌起義，辛亥革命",
+   "place": "武昌（今湖北武漢）",
+   "text": "新軍起義並佔領武昌，各省紛紛響應獨立。次年清帝退位，兩千多年的帝制結束。"
+  },
+  "Republic_of_China_(1912–1949)": {
+   "title": "中華民國成立",
+   "place": "南京",
+   "text": "孫中山在南京就任臨時大總統，建立亞洲第一個共和國。"
+  },
+  "March_1st_Movement": {
+   "title": "三一運動",
+   "place": "京城（今首爾）",
+   "text": "朝鮮民眾發表獨立宣言，舉行大規模和平示威，遭日本殖民當局鎮壓。"
+  },
+  "May_Fourth_Movement": {
+   "title": "五四運動",
+   "place": "北京",
+   "text": "學生抗議巴黎和會將德國在山東的權益轉交日本。運動推動了新文化運動和白話文的普及。"
+  },
+  "Mongolian_Revolution_of_1921": {
+   "title": "蒙古人民革命",
+   "place": "庫倫（今烏蘭巴托）",
+   "text": "蒙古人民黨在蘇俄紅軍支援下建立政權，1924年成立蒙古人民共和國。"
+  },
+  "1st_National_Congress_of_the_Chinese_Communist_Party": {
+   "title": "中國共產黨成立",
+   "place": "上海",
+   "text": "中國共產黨第一次全國代表大會在上海召開，後轉至嘉興南湖的遊船上閉幕。"
+  },
+  "1923_Great_Kantō_earthquake": {
+   "title": "關東大地震",
+   "place": "東京、橫濱",
+   "text": "芮氏7.9級地震及其引發的大火造成約十萬人死亡，震後還發生了屠殺朝鮮人的事件。"
+  },
+  "Northern_Expedition": {
+   "title": "北伐",
+   "place": "廣州",
+   "text": "國民革命軍從廣州誓師北伐，打敗北洋軍閥，1928年名義上統一全國，定都南京。"
+  },
+  "1931_China_floods": {
+   "title": "1931年江淮大水",
+   "place": "長江、淮河流域",
+   "text": "長江、淮河、運河同時氾濫，武漢被淹數月，是二十世紀傷亡最慘重的自然災害之一。"
+  },
+  "Mukden_Incident": {
+   "title": "九一八事變",
+   "place": "瀋陽",
+   "text": "日本關東軍炸毀南滿鐵路柳條湖段並嫁禍中國軍隊，隨即佔領東北，次年扶植偽滿洲國。"
+  },
+  "Long_March": {
+   "title": "長征",
+   "place": "瑞金（江西）",
+   "text": "中央紅軍撤離中央蘇區，轉戰兩萬五千里，1935年10月到達陝北。"
+  },
+  "Marco_Polo_Bridge_incident": {
+   "title": "七七事變",
+   "place": "盧溝橋（北京）",
+   "text": "日軍在盧溝橋挑起事變，中國開始全面抗戰。"
+  },
+  "Nanjing_Massacre": {
+   "title": "南京大屠殺",
+   "place": "南京",
+   "text": "日軍攻佔南京後，在六週內大規模屠殺平民和戰俘，並犯下大量強姦、搶劫和縱火罪行。"
+  },
+  "Battle_of_Taierzhuang": {
+   "title": "臺兒莊戰役",
+   "place": "臺兒莊（今山東棗莊）",
+   "text": "李宗仁指揮中國軍隊重創日軍，這是全面抗戰以來正面戰場的第一次重大勝利。"
+  },
+  "Atomic_bombings_of_Hiroshima_and_Nagasaki": {
+   "title": "廣島與長崎原子彈爆炸",
+   "place": "廣島、長崎",
+   "text": "美國在廣島和長崎投下原子彈，兩城有十餘萬人在當年死亡。"
+  },
+  "Surrender_of_Japan": {
+   "title": "日本投降",
+   "place": "東京",
+   "text": "裕仁天皇廣播接受《波茨坦公告》。9月2日日本簽署投降書，第二次世界大戰結束，臺灣與朝鮮脫離日本統治。"
+  },
+  "Huaihai_campaign": {
+   "title": "淮海戰役",
+   "place": "徐州",
+   "text": "國共內戰中規模最大的戰役之一。解放軍殲滅國民黨軍主力五十餘萬，長江以北大局已定。"
+  },
+  "Proclamation_of_the_People's_Republic_of_China": {
+   "title": "中華人民共和國成立",
+   "place": "北京天安門",
+   "text": "毛澤東在天安門城樓宣告中華人民共和國中央人民政府成立。"
+  },
+  "Retreat_of_the_government_of_the_Republic_of_China_to_Taiwan": {
+   "title": "國民政府遷臺",
+   "place": "臺北",
+   "text": "國共內戰失利後，中華民國政府遷往臺北，兩岸分治的格局由此形成。"
+  },
+  "Korean_War": {
+   "title": "韓戰",
+   "place": "三八線",
+   "text": "北韓軍隊越過三八線南下。以美國為首的聯合國軍和中國人民志願軍先後參戰，1953年簽訂停戰協定。"
+  },
+  "Korean_Armistice_Agreement": {
+   "title": "《韓戰停戰協定》",
+   "place": "板門店",
+   "text": "交戰各方在板門店簽署停戰協定，劃定軍事分界線和非軍事區，至今未簽和約。"
+  },
+  "Battle_of_Dien_Bien_Phu": {
+   "title": "奠邊府戰役",
+   "place": "奠邊府（今越南）",
+   "text": "越盟軍隊圍攻法軍據點五十餘天後獲勝。隨後的日內瓦會議以北緯17度線暫時分割越南。"
+  },
+  "Great_Chinese_Famine": {
+   "title": "三年大饑荒",
+   "place": "全國（河南信陽等地尤為嚴重）",
+   "text": "「大躍進」中的浮誇和高徵購加上自然災害，造成1959—1961年的大饑荒，死亡人數估計達數千萬。"
+  },
+  "Shinkansen": {
+   "title": "東海道新幹線通車",
+   "place": "東京至大阪",
+   "text": "世界上第一條高速鐵路在東京奧運前通車，標誌著日本戰後經濟的高速增長。"
+  },
+  "596_(nuclear_test)": {
+   "title": "中國第一顆原子彈爆炸",
+   "place": "羅布泊（新疆）",
+   "text": "中國在羅布泊成功進行首次核試驗，成為第五個擁有核武器的國家。"
+  },
+  "Cultural_Revolution": {
+   "title": "文化大革命",
+   "place": "北京",
+   "text": "毛澤東發動的政治運動持續十年，造成大規模政治迫害、社會動盪和文化破壞，1976年結束。"
+  },
+  "1972_visit_by_Richard_Nixon_to_China": {
+   "title": "尼克森訪華",
+   "place": "北京",
+   "text": "美國總統尼克森訪問中國並發表《上海公報》，中美關係開始正常化。"
+  },
+  "1976_Tangshan_earthquake": {
+   "title": "唐山大地震",
+   "place": "唐山（河北）",
+   "text": "芮氏7.8級地震幾乎摧毀整座城市，官方統計死亡逾二十四萬人。"
+  },
+  "Chinese_economic_reform": {
+   "title": "改革開放",
+   "place": "北京",
+   "text": "中共十一屆三中全會決定把工作重點轉向經濟建設，此後推行家庭聯產承包責任制和對外開放。"
+  },
+  "Sino-Vietnamese_War": {
+   "title": "中越戰爭",
+   "place": "中越邊境（諒山）",
+   "text": "中國軍隊進攻越南北部邊境地區，一個月後撤軍，邊境衝突延續至1980年代末。"
+  },
+  "Shenzhen": {
+   "title": "設立深圳經濟特區",
+   "place": "深圳",
+   "text": "深圳從邊境小鎮起步，成為中國改革開放的「試驗田」，數十年後發展為千萬人口的大都市。"
+  },
+  "June_Democratic_Struggle": {
+   "title": "韓國六月民主運動",
+   "place": "首爾",
+   "text": "全國性的抗議迫使軍政府接受總統直選，韓國開始民主化。"
+  },
+  "1989_Tiananmen_Square_protests_and_massacre": {
+   "title": "六四事件",
+   "place": "北京天安門廣場",
+   "text": "以學生為主的民眾在天安門廣場集會，要求政治改革。6月3日夜至4日，軍隊清場，造成大量平民死傷。"
+  },
+  "1990_Mongolian_democratic_revolution": {
+   "title": "蒙古民主革命",
+   "place": "烏蘭巴托",
+   "text": "和平示威促使蒙古人民革命黨放棄一黨執政，蒙古舉行多黨選舉並轉向市場經濟。"
+  },
+  "1996_Taiwanese_presidential_election": {
+   "title": "臺灣首次總統直選",
+   "place": "臺北",
+   "text": "臺灣舉行首次領導人直接選舉。選舉前夕臺灣海峽局勢緊張。"
+  },
+  "Transfer_of_sovereignty_over_Hong_Kong": {
+   "title": "香港回歸",
+   "place": "香港",
+   "text": "英國將香港主權移交中華人民共和國，按「一國兩制」設立香港特別行政區。"
+  },
+  "Transfer_of_sovereignty_over_Macau": {
+   "title": "澳門回歸",
+   "place": "澳門",
+   "text": "葡萄牙將澳門主權移交中國，結束了四百餘年的葡萄牙管治。"
+  },
+  "Three_Gorges_Dam": {
+   "title": "三峽大壩蓄水",
+   "place": "宜昌三斗坪（湖北）",
+   "text": "世界最大的水電站開始蓄水，百餘萬居民為此遷移。"
+  },
+  "2008_Sichuan_earthquake": {
+   "title": "汶川地震",
+   "place": "汶川（四川）",
+   "text": "芮氏8.0級地震造成近七萬人遇難，約一萬八千人失蹤。"
+  },
+  "2008_Summer_Olympics": {
+   "title": "北京奧運",
+   "place": "北京",
+   "text": "第29屆夏季奧運在北京開幕，這是中國首次舉辦奧運。"
+  },
+  "Dong_Zhuo": {
+   "title": "董卓進京",
+   "place": "洛陽",
+   "text": "宦官與外戚火併後，涼州軍閥董卓率兵入洛陽，廢少帝、立獻帝，獨攬朝政，天下大亂由此開始。"
+  },
+  "Campaign_against_Dong_Zhuo": {
+   "title": "關東聯軍討伐董卓",
+   "place": "酸棗（今河南延津）",
+   "text": "袁紹、曹操等關東諸侯起兵討董。董卓焚毀洛陽、挾獻帝西遷長安，聯軍隨後瓦解，群雄割據。"
+  },
+  "Battle_of_Guandu": {
+   "title": "官渡之戰",
+   "place": "官渡（今河南中牟）",
+   "text": "曹操奇襲烏巢、燒毀袁紹軍糧，以少勝多擊敗袁紹，此後逐步統一北方。"
+  },
+  "Longzhong_Plan": {
+   "title": "隆中對",
+   "place": "隆中（今湖北襄陽）",
+   "text": "劉備三顧茅廬，諸葛亮提出聯吳抗曹、跨有荊益的戰略，後來大體成為三分天下的格局。"
+  },
+  "Battle_of_Mount_Dingjun": {
+   "title": "定軍山之戰",
+   "place": "定軍山（今陝西勉縣）",
+   "text": "黃忠斬殺曹軍大將夏侯淵，劉備奪取漢中並自稱漢中王。"
+  },
+  "Battle_of_Fancheng": {
+   "title": "樊城之戰與呂蒙襲荊州",
+   "place": "樊城（今湖北襄陽）",
+   "text": "關羽北攻樊城、水淹七軍，威震華夏；孫權派呂蒙偷襲荊州，關羽兵敗被殺。"
+  },
+  "Shu_Han": {
+   "title": "劉備稱帝，蜀漢建立",
+   "place": "成都",
+   "text": "曹丕代漢次年，劉備以漢室宗親身分在成都稱帝，國號漢，史稱蜀漢。"
+  },
+  "Battle_of_Xiaoting": {
+   "title": "夷陵之戰",
+   "place": "夷陵（今湖北宜昌）",
+   "text": "劉備為奪回荊州伐吳，被陸遜火燒連營大敗，次年病逝於白帝城。"
+  },
+  "Zhuge_Liang's_Southern_Campaign": {
+   "title": "諸葛亮南征",
+   "place": "南中（今雲南、貴州）",
+   "text": "諸葛亮平定南中豪強叛亂，相傳「七擒孟獲」，以攻心為上，穩定了蜀漢後方。"
+  },
+  "Zhuge_Liang's_Northern_Expeditions": {
+   "title": "諸葛亮北伐，失街亭",
+   "place": "街亭（今甘肅秦安）",
+   "text": "諸葛亮第一次北伐，馬謖違令在街亭被魏將張郃擊敗，北伐功虧一簣，「揮淚斬馬謖」。"
+  },
+  "Eastern_Wu": {
+   "title": "孫權稱帝",
+   "place": "武昌（今湖北鄂州）",
+   "text": "孫權在武昌稱帝，國號吳，同年遷都建業，三國皆稱帝。"
+  },
+  "Battle_of_Wuzhang_Plains": {
+   "title": "五丈原之戰",
+   "place": "五丈原（今陝西岐山）",
+   "text": "諸葛亮第五次北伐，與司馬懿相持百餘日，病逝於軍中，蜀軍撤退。"
+  },
+  "Incident_at_the_Gaoping_Tombs": {
+   "title": "高平陵之變",
+   "place": "洛陽",
+   "text": "司馬懿趁曹爽陪魏帝出城謁陵時發動政變，誅滅曹爽，曹魏大權從此落入司馬氏手中。"
+  },
+  "Conquest_of_Shu_by_Wei": {
+   "title": "魏滅蜀漢",
+   "place": "成都",
+   "text": "鄧艾偷渡陰平直抵成都，後主劉禪出降，蜀漢滅亡。"
+  },
+  "Jin_dynasty_(266–420)": {
+   "title": "司馬炎建立晉朝",
+   "place": "洛陽",
+   "text": "司馬炎逼魏元帝禪讓，建立晉朝，史稱西晉。"
+  },
+  "War_of_the_Eight_Princes": {
+   "title": "八王之亂",
+   "place": "洛陽",
+   "text": "趙王司馬倫廢殺賈后，諸王相繼起兵爭奪朝政，內戰持續至306年，西晉元氣大傷，各族首領乘機而起。"
+  },
+  "Cheng_Han": {
+   "title": "李雄建立成漢",
+   "place": "成都",
+   "text": "賨人首領李雄在成都稱王，兩年後稱帝，國號成，後改漢，史稱成漢。"
+  },
+  "Han_Zhao": {
+   "title": "劉淵建立漢趙",
+   "place": "左國城（今山西離石）",
+   "text": "匈奴貴族劉淵自稱漢王，以繼承漢朝為號召起兵，揭開了十六國時代的序幕。"
+  },
+  "Emperor_Min_of_Jin": {
+   "title": "長安陷落，西晉滅亡",
+   "place": "長安",
+   "text": "漢趙將領劉曜攻破長安，晉愍帝出降，西晉滅亡。"
+  },
+  "Emperor_Yuan_of_Jin": {
+   "title": "司馬睿稱帝，東晉建立",
+   "place": "建康（今江蘇南京）",
+   "text": "琅琊王司馬睿在王導等南北士族支持下稱帝，「王與馬，共天下」，東晉偏安江南百餘年。"
+  },
+  "Later_Zhao": {
+   "title": "石勒建立後趙",
+   "place": "襄國（今河北邢臺）",
+   "text": "羯人石勒脫離漢趙自立，329年滅前趙，統一北方大部。"
+  },
+  "Former_Yan": {
+   "title": "慕容皝建立前燕",
+   "place": "龍城（今遼寧朝陽）",
+   "text": "鮮卑慕容部首領慕容皝稱燕王，後南下中原，與東晉、前秦鼎立。"
+  },
+  "Huan_Wen": {
+   "title": "桓溫滅成漢",
+   "place": "成都",
+   "text": "東晉將領桓溫溯江西征攻克成都，成漢滅亡，巴蜀重歸東晉。"
+  },
+  "Former_Qin": {
+   "title": "苻健建立前秦",
+   "place": "長安",
+   "text": "氐人苻健入關中稱王，次年稱帝。前秦在苻堅、王猛治下成為北方最強的國家。"
+  },
+  "Wang_Meng_(Former_Qin)": {
+   "title": "王猛滅前燕",
+   "place": "鄴城（今河北臨漳）",
+   "text": "前秦丞相王猛率軍攻克鄴城，前燕滅亡，關東盡歸前秦。"
+  },
+  "Former_Liang": {
+   "title": "前秦滅前涼",
+   "place": "姑臧（今甘肅武威）",
+   "text": "前秦攻滅河西的前涼，同年又滅代國，統一北方。"
+  },
+  "Northern_Wei": {
+   "title": "拓跋珪建立北魏",
+   "place": "盛樂（今內蒙古和林格爾）",
+   "text": "前秦崩潰後，鮮卑拓跋珪復國稱代王，不久改國號魏，史稱北魏。"
+  },
+  "Battle_of_Canhe_Slope": {
+   "title": "參合陂之戰",
+   "place": "參合陂（今內蒙古涼城）",
+   "text": "北魏大敗後燕軍隊並坑殺降卒，北方霸權開始轉向北魏。"
+  },
+  "Later_Qin": {
+   "title": "劉裕北伐滅後秦",
+   "place": "長安",
+   "text": "東晉權臣劉裕北伐攻克長安，後秦滅亡；但關中不久即被赫連勃勃奪走。"
+  },
+  "Liu_Song_dynasty": {
+   "title": "劉裕代晉建宋",
+   "place": "建康（今江蘇南京）",
+   "text": "劉裕廢晉恭帝稱帝，國號宋，史稱劉宋，南朝開始。"
+  },
+  "Northern_Liang": {
+   "title": "北魏滅北涼，統一北方",
+   "place": "姑臧（今甘肅武威）",
+   "text": "北魏太武帝攻滅北涼，結束了一百三十餘年的十六國時代，與南方的劉宋形成南北朝對峙。"
+  },
+  "January_28_incident": {
+   "title": "一·二八事變",
+   "place": "上海",
+   "text": "日軍進攻上海閘北，第十九路軍奮起抵抗。5月簽訂《淞滬停戰協定》。"
+  },
+  "Manchukuo": {
+   "title": "偽滿洲國成立",
+   "place": "新京（今吉林長春）",
+   "text": "日本扶植清朝末代皇帝溥儀建立傀儡政權「滿洲國」，國際聯盟拒絕承認。"
+  },
+  "Defense_of_the_Great_Wall": {
+   "title": "長城抗戰",
+   "place": "長城各口（喜峰口、古北口）",
+   "text": "日軍攻佔熱河省會承德，中國軍隊在長城各關口抗擊日軍兩月餘。"
+  },
+  "Tanggu_Truce": {
+   "title": "《塘沽協定》",
+   "place": "塘沽（今天津）",
+   "text": "中日停戰協定劃冀東為非武裝區，事實上承認了日本對東北和熱河的佔領。"
+  },
+  "December_9th_Movement": {
+   "title": "一二·九運動",
+   "place": "北平",
+   "text": "北平學生示威反對「華北自治」，呼籲停止內戰、一致抗日。"
+  },
+  "Xi'an_Incident": {
+   "title": "西安事變",
+   "place": "西安（華清池）",
+   "text": "張學良、楊虎城扣押蔣介石，要求停止內戰、聯共抗日。事變和平解決，促成第二次國共合作。"
+  },
+  "Battle_of_Shanghai": {
+   "title": "淞滬會戰",
+   "place": "上海",
+   "text": "中日雙方投入近百萬兵力激戰三個月，打破了日本「三個月滅亡中國」的狂言，11月上海失守。"
+  },
+  "Battle_of_Pingxingguan": {
+   "title": "平型關戰役",
+   "place": "平型關（今山西繁峙）",
+   "text": "八路軍第115師伏擊日軍輜重部隊，取得全面抗戰以來的首次勝利。"
+  },
+  "1938_Yellow_River_flood": {
+   "title": "花園口決堤",
+   "place": "花園口（今河南鄭州）",
+   "text": "國民政府扒開黃河大堤以阻滯日軍西進，豫皖蘇三省被淹，數十萬人死亡，數百萬人流離失所。"
+  },
+  "Battle_of_Wuhan": {
+   "title": "武漢會戰",
+   "place": "武漢",
+   "text": "抗戰初期規模最大的會戰，歷時四個半月。武漢失守後，戰爭進入相持階段。"
+  },
+  "Bombing_of_Chongqing": {
+   "title": "重慶大轟炸",
+   "place": "重慶",
+   "text": "日軍對戰時首都重慶進行長達五年多的無差別轟炸，造成大量平民傷亡。"
+  },
+  "Hundred_Regiments_Offensive": {
+   "title": "百團大戰",
+   "place": "正太鐵路沿線（山西、河北）",
+   "text": "八路軍在華北發動大規模破襲戰，重創日軍交通線。"
+  },
+  "New_Fourth_Army_incident": {
+   "title": "皖南事變",
+   "place": "皖南涇縣",
+   "text": "國民黨軍圍殲北移的新四軍軍部，國共關係急劇惡化。"
+  },
+  "Battle_of_Hong_Kong": {
+   "title": "香港保衛戰",
+   "place": "香港",
+   "text": "日軍在偷襲珍珠港數小時後進攻香港，英軍於12月25日投降。中國隨即對日正式宣戰。"
+  },
+  "Operation_Ichi-Go": {
+   "title": "豫湘桂戰役（一號作戰）",
+   "place": "河南、湖南、廣西",
+   "text": "日軍發動打通大陸交通線的戰役，中國軍隊潰退，河南、湖南、廣西大片國土淪陷。"
+  },
+  "Defense_of_Hengyang": {
+   "title": "衡陽保衛戰",
+   "place": "衡陽",
+   "text": "中國守軍孤城血戰四十七天，是抗戰中時間最長的城市保衛戰。"
+  },
+  "Soviet_invasion_of_Manchuria": {
+   "title": "蘇聯出兵東北",
+   "place": "中國東北",
+   "text": "蘇聯對日宣戰，百萬蘇軍攻入東北，關東軍迅速崩潰。"
+  },
+  "Chongqing_Negotiations": {
+   "title": "重慶談判",
+   "place": "重慶",
+   "text": "毛澤東赴重慶與蔣介石談判，10月10日簽訂《雙十協定》，但和平未能維持。"
+  },
+  "Chinese_Civil_War": {
+   "title": "全面內戰爆發",
+   "place": "中原解放區（今湖北、河南交界）",
+   "text": "國民黨軍圍攻中原解放區，第二次國共內戰全面爆發。"
+  },
+  "Battle_of_Yan'an": {
+   "title": "胡宗南攻佔延安",
+   "place": "延安",
+   "text": "中共中央主動撤離延安，轉戰陝北；一年後解放軍收復延安。"
+  },
+  "Battle_of_Menglianggu": {
+   "title": "孟良崮戰役",
+   "place": "孟良崮（今山東蒙陰）",
+   "text": "華東野戰軍全殲國民黨整編第74師，粉碎了對山東的重點進攻。"
+  },
+  "Liaoshen_campaign": {
+   "title": "遼瀋戰役",
+   "place": "錦州、瀋陽",
+   "text": "東北野戰軍攻克錦州、圍困長春，至11月2日佔領瀋陽，東北全境易手。"
+  },
+  "Pingjin_campaign": {
+   "title": "平津戰役",
+   "place": "北平、天津",
+   "text": "解放軍攻克天津，北平守將傅作義接受和平改編，1949年1月31日解放軍進入北平。"
+  },
+  "Yangtze_River_Crossing_Campaign": {
+   "title": "渡江戰役",
+   "place": "長江中下游",
+   "text": "解放軍百萬大軍橫渡長江，4月23日佔領國民政府首都南京。"
+  },
+  "Battle_of_Guningtou": {
+   "title": "古寧頭戰役",
+   "place": "金門",
+   "text": "解放軍登陸金門失利，國民政府守住金門，臺灣海峽兩岸對峙的格局逐漸形成。"
+  },
+  "Landing_Operation_on_Hainan_Island": {
+   "title": "海南島戰役",
+   "place": "海南島",
+   "text": "解放軍以木帆船渡過瓊州海峽，5月1日佔領海南島全境。"
+  }
+ },
+ "places": {
+  "pacific": "太平洋",
+  "south_china_sea": "南海",
+  "east_china_sea": "東海",
+  "yellow_sea": "黃海",
+  "sea_of_japan": "日本海",
+  "bohai": "渤海",
+  "sea_of_okhotsk": "鄂霍次克海",
+  "bay_of_bengal": "孟加拉灣",
+  "gulf_of_tonkin": "北部灣",
+  "taiwan_strait": "臺灣海峽",
+  "lake_baikal": "貝加爾湖",
+  "qinghai_lake": "青海湖",
+  "dongting_lake": "洞庭湖",
+  "poyang_lake": "鄱陽湖",
+  "taihu": "太湖",
+  "lop_nur": "羅布泊",
+  "yellow_river": "黃河",
+  "yangtze": "長江",
+  "pearl_river": "珠江",
+  "huai_river": "淮河",
+  "wei_river": "渭河",
+  "amur": "黑龍江",
+  "liao_river": "遼河",
+  "yalu": "鴨綠江",
+  "mekong": "湄公河",
+  "red_river": "紅河",
+  "yarlung_tsangpo": "雅魯藏布江",
+  "tarim_river": "塔里木河",
+  "irrawaddy": "伊洛瓦底江",
+  "grand_canal": "大運河",
+  "himalayas": "喜馬拉雅山脈",
+  "tibetan_plateau": "青藏高原",
+  "kunlun": "崑崙山",
+  "tian_shan": "天山",
+  "altai": "阿爾泰山",
+  "qinling": "秦嶺",
+  "taihang": "太行山",
+  "greater_khingan": "大興安嶺",
+  "changbai": "長白山",
+  "nanling": "南嶺",
+  "hengduan": "橫斷山脈",
+  "pamirs": "帕米爾高原",
+  "mount_fuji": "富士山",
+  "loess_plateau": "黃土高原",
+  "mongolian_plateau": "蒙古高原",
+  "north_china_plain": "華北平原",
+  "sichuan_basin": "四川盆地",
+  "hexi_corridor": "河西走廊",
+  "taklamakan": "塔克拉瑪干沙漠",
+  "gobi": "戈壁",
+  "korean_peninsula": "朝鮮半島",
+  "xian": "西安",
+  "haojing": "鎬京",
+  "changan": "長安",
+  "luoyang": "洛陽",
+  "luoyi": "洛邑",
+  "anyang": "安陽",
+  "yinxu": "殷",
+  "erlitou": "二里頭",
+  "zhengzhou": "鄭州",
+  "linzi": "臨淄",
+  "xianyang": "咸陽",
+  "beijing": "北京",
+  "ji": "薊",
+  "youzhou": "幽州",
+  "yanjing": "燕京",
+  "zhongdu": "中都",
+  "dadu": "大都",
+  "beiping": "北平",
+  "nanjing": "南京",
+  "jinling": "金陵",
+  "jianye": "建業",
+  "jiankang": "建康",
+  "yingtian": "應天",
+  "kaifeng": "開封",
+  "daliang": "大梁",
+  "dongjing": "東京（汴京）",
+  "hangzhou": "杭州",
+  "qiantang": "錢唐",
+  "linan": "臨安",
+  "guangzhou": "廣州",
+  "panyu": "番禺",
+  "chengdu": "成都",
+  "wuhan": "武漢",
+  "wuchang": "武昌",
+  "yangzhou": "揚州",
+  "suzhou": "蘇州",
+  "wu_city": "吳",
+  "shanghai": "上海",
+  "quanzhou": "泉州",
+  "shenyang": "瀋陽",
+  "shengjing": "盛京",
+  "fengtian": "奉天",
+  "harbin": "哈爾濱",
+  "chongqing": "重慶",
+  "yuzhou": "渝州",
+  "kunming": "昆明",
+  "dali": "大理",
+  "dunhuang": "敦煌",
+  "lanzhou": "蘭州",
+  "kashgar": "喀什",
+  "shule": "疏勒",
+  "turpan": "吐魯番",
+  "gaochang": "高昌",
+  "urumqi": "烏魯木齊",
+  "dihua": "迪化",
+  "lhasa": "拉薩",
+  "karakorum": "哈拉和林",
+  "shangdu": "上都",
+  "ulaanbaatar": "烏蘭巴托",
+  "urga": "庫倫",
+  "hohhot": "呼和浩特",
+  "pyongyang": "平壤",
+  "geumseong": "金城（慶州）",
+  "seoul": "首爾",
+  "hanseong": "漢城",
+  "keijo": "京城",
+  "kaesong": "開城",
+  "gaegyeong": "開京",
+  "busan": "釜山",
+  "nara": "奈良",
+  "heijokyo": "平城京",
+  "kyoto": "京都",
+  "heiankyo": "平安京",
+  "kamakura": "鎌倉",
+  "osaka": "大阪",
+  "tokyo": "東京",
+  "edo": "江戶",
+  "nagasaki": "長崎",
+  "naha": "那霸",
+  "shuri": "首里",
+  "taipei": "臺北",
+  "tainan": "臺南",
+  "zeelandia": "大員",
+  "hong_kong": "香港",
+  "macau": "澳門",
+  "hanoi": "河內",
+  "thang_long": "升龍",
+  "hue": "順化",
+  "vladivostok": "符拉迪沃斯托克（海參崴）",
+  "irkutsk": "伊爾庫茨克",
+  "mandalay": "曼德勒",
+  "bagan": "蒲甘",
+  "kathmandu": "加德滿都"
+ },
+ "polities": {
+  "3": "3",
+  "Abbasid Caliphate": "阿拔斯王朝",
+  "Achaemenid Empire": "阿契美尼德王朝",
+  "Afanasevo": "阿凡納謝沃文化",
+  "Afghanistan": "阿富汗",
+  "Ahmadnagar": "艾哈邁德訥格爾蘇丹國",
+  "Ainu": "阿伊努人",
+  "Ainus": "阿伊努人",
+  "Andronovo": "安德羅諾沃文化",
+  "Annam": "安南",
+  "Arakan": "阿拉干",
+  "Arakan (Indian princely state)": "阿拉干",
+  "Assam": "阿薩姆",
+  "Austro-Asiatic rice cultures": "南亞語系稻作文化",
+  "Austronesians": "南島語族",
+  "Ava": "阿瓦王國",
+  "Avanti": "阿槃提",
+  "Ayutthaya": "阿瑜陀耶王國",
+  "Bactria": "大夏（巴克特里亞）",
+  "Bagan": "蒲甘王國",
+  "Balhae": "渤海國",
+  "Banas": "巴納王國",
+  "Bangladesh": "孟加拉",
+  "Bashkirs": "巴什基爾人",
+  "Bengal": "孟加拉",
+  "Berar": "貝拉爾蘇丹國",
+  "Bhutan": "不丹",
+  "British East India Company": "英國東印度公司",
+  "British Empire": "大英帝國",
+  "British Raj": "英屬印度",
+  "Bukara Khanate": "布哈拉汗國",
+  "Bundelkhand": "本德爾坎德",
+  "Burma": "緬甸",
+  "Burmese": "緬人",
+  "Burmese kingdoms": "緬甸諸王國",
+  "Buyid dynasty": "白益王朝",
+  "Cambodia": "柬埔寨",
+  "Carnatic": "卡納蒂克",
+  "Ceylon": "錫蘭",
+  "Ceylon (Dutch)": "荷屬錫蘭",
+  "Chagatai Khanate": "察合台汗國",
+  "Chalukya Empire": "遮婁其王朝",
+  "Chalukyas": "遮婁其王朝",
+  "Champa": "占城",
+  "Champa City States": "占婆諸城邦",
+  "Chandellas": "昌德拉王朝",
+  "Chauhans": "喬漢王朝",
+  "Chen-La": "真臘",
+  "China": "中國",
+  "Chinese Warlords": "軍閥割據時期的中華民國",
+  "Chinese warlords": "軍閥割據時期的中華民國",
+  "Chola": "朱羅王朝",
+  "Chola Empire": "朱羅王朝",
+  "Chola state": "朱羅王朝",
+  "Cholas": "朱羅王朝",
+  "Chūzan": "中山國",
+  "Circars": "北瑟加爾",
+  "Cuman Khanates": "庫曼諸汗國",
+  "Cuman-Kipchak confederation": "庫曼—欽察聯盟",
+  "Dakapeng culture": "大坌坑文化",
+  "Deccan Sultanates": "德干諸蘇丹國",
+  "Donghu tribes": "東胡諸部",
+  "Dravidians": "達羅毗荼人",
+  "Dutch Formosa": "荷屬臺灣",
+  "Dvaravati": "墮羅缽底",
+  "Empire of Alexander": "亞歷山大帝國",
+  "Empire of Japan": "大日本帝國",
+  "Far Eastern SSR": "遠東共和國",
+  "France": "法國",
+  "French Indo-China": "法屬印度支那",
+  "French Indochina": "法屬印度支那",
+  "Funan": "扶南",
+  "Gandhara grave culture": "犍陀羅墓葬文化",
+  "Gandhāra": "犍陀羅",
+  "Gaya": "伽倻",
+  "Gojoseon": "古朝鮮",
+  "Golconda": "戈爾康達蘇丹國",
+  "Golkonda": "戈爾康達蘇丹國",
+  "Gondwana": "岡德瓦納",
+  "Goryeo": "高麗",
+  "Great Khanate": "元朝（大汗之國）",
+  "Gupta Empire": "笈多王朝",
+  "Gurjara Pratihara": "瞿折羅—普臘蒂哈臘王朝",
+  "Göktürks": "突厥汗國",
+  "Hainan": "海南",
+  "Han": "漢朝",
+  "Han Empire": "漢朝",
+  "Han Zhao": "漢趙",
+  "Harapunchai": "哈里奔猜",
+  "Haripunjaya": "哈里奔猜",
+  "Hindu Kingdoms": "印度教諸王國",
+  "Hindu Shahis": "印度沙希王朝",
+  "Hindu kingdoms": "印度教諸王國",
+  "Hindu kingdoms and republics": "印度教諸王國與共和國",
+  "Hindu states": "印度教諸國",
+  "Hokuzan": "北山國",
+  "Hong Kong": "香港",
+  "Hövsgöl Nuur": "庫蘇古爾",
+  "Imperial Japan": "大日本帝國",
+  "Imperial Japan (Fujiwara)": "日本（藤原氏攝關時期）",
+  "India": "印度",
+  "Indian princely states": "印度土邦",
+  "Indus valley civilization": "印度河流域文明",
+  "Iranian pastoralists": "伊朗語游牧民",
+  "Iron Age chieftainships": "鐵器時代酋邦",
+  "Iron Age megalith cultures": "鐵器時代巨石文化",
+  "Islamic and Hindu states": "伊斯蘭教與印度教諸國",
+  "Islamic states": "伊斯蘭諸國",
+  "Japan": "日本",
+  "Japan (USA)": "日本（美國佔領）",
+  "Japan (Warring States)": "日本（戰國時代）",
+  "Jin": "晉朝",
+  "Jin (Jurchen)": "金朝",
+  "Jōmon": "繩文文化",
+  "Kalinga": "羯陵伽",
+  "Kamarupa": "迦摩縷波",
+  "Kanauj": "曲女城王國",
+  "Kara Khitai Khaganate": "西遼",
+  "Karasuk culture": "卡拉蘇克文化",
+  "Karkhanids": "喀喇汗王朝",
+  "Karluks": "葛邏祿",
+  "Kashmir and Ladakh": "克什米爾與拉達克",
+  "Kasi": "迦屍",
+  "Kazakhstan": "哈薩克",
+  "Kazan Khanate": "喀山汗國",
+  "Khanate of Sibir": "西伯利亞汗國",
+  "Khanate of the Golden Horde": "金帳汗國",
+  "Khitans": "契丹",
+  "Khiva Khanate": "希瓦汗國",
+  "Khmer Empire": "高棉帝國",
+  "Kimek-Kipchak khaganate": "基馬克—欽察汗國",
+  "Kingdom of Kapisa": "迦畢試國",
+  "Kingdom of Kashmir": "克什米爾王國",
+  "Kingdom of Pagan": "蒲甘王國",
+  "Kingdom of Sukhotai": "素可泰王國",
+  "Klachuris": "迦拉丘利王朝",
+  "Koguryo": "高句麗",
+  "Korea": "朝鮮",
+  "Korea (USA)": "朝鮮半島南部（美國佔領）",
+  "Korea (USSR)": "朝鮮半島北部（蘇聯佔領）",
+  "Korea, Democratic People's Republic of": "朝鮮民主主義人民共和國",
+  "Korea, Republic of": "大韓民國",
+  "Koreans": "古朝鮮諸部",
+  "Kosala": "拘薩羅",
+  "Kuru": "俱盧",
+  "Kurykans": "骨利幹",
+  "Kushan Empire": "貴霜帝國",
+  "Kushan Principalities": "貴霜諸公國",
+  "Kyrgyzstan": "吉爾吉斯",
+  "Lahore": "拉合爾",
+  "Lambakannas": "蘭巴坎納王朝",
+  "Lan Na": "蘭納王國",
+  "Laos": "寮國",
+  "Laotian states": "寮國諸國",
+  "Late Jomon culture": "繩文時代晚期文化",
+  "Lavo": "羅斛國",
+  "Liao": "遼朝",
+  "Lopburi Kingdom": "羅斛國",
+  "Luva": "盧瓦",
+  "Madras": "馬德拉斯",
+  "Magadha": "摩揭陀",
+  "Mahratta states": "馬拉塔諸邦",
+  "Maitraka Kingdom": "邁特拉卡王朝",
+  "Malay": "馬來",
+  "Malays": "馬來人",
+  "Malla": "末羅",
+  "Manchuria": "滿洲",
+  "Maratha Confederacy": "馬拉塔聯盟",
+  "Mauryan Empire": "孔雀王朝",
+  "Middag Kingdom": "中部王國",
+  "Min-Yue": "閩越",
+  "Ming Chinese Empire": "明朝",
+  "Ming Empire": "明朝",
+  "Mon States": "孟人諸國",
+  "Mon state": "孟人國家",
+  "Mon-Khmer": "孟—高棉人",
+  "Mongol Empire": "大蒙古國",
+  "Mongolia": "蒙古",
+  "Mongols": "蒙古諸部",
+  "Mughal Empire": "莫臥兒帝國",
+  "Nan-Yue": "南越",
+  "Nan-Zhao": "南詔",
+  "Nanzan": "南山國",
+  "Nepal": "尼泊爾",
+  "Netherlands": "荷蘭",
+  "Nizam's Dominions": "海得拉巴土邦",
+  "Northern Liang": "北涼",
+  "Northern Yuan": "北元",
+  "Oghuz Turks": "烏古斯突厥",
+  "Oirat Confederation": "瓦剌（衛拉特聯盟）",
+  "Orissa": "奧里薩",
+  "Oudh": "奧德",
+  "Oxus": "阿姆河文明",
+  "Paekche": "百濟",
+  "Pagan": "蒲甘王國",
+  "Pakistan": "巴基斯坦",
+  "Palas": "波羅王朝",
+  "Paleo-Koreans": "古朝鮮先民",
+  "Paleo-Siberian hunter-gatherers": "古西伯利亞狩獵採集者",
+  "Pallava": "帕拉瓦王朝",
+  "Pallava state": "帕拉瓦王朝",
+  "Pallavas": "帕拉瓦王朝",
+  "Pancala": "般遮羅",
+  "Paramas": "帕拉馬拉王朝",
+  "Parhae": "渤海國",
+  "Pegu": "勃固王國",
+  "Philippines": "菲律賓",
+  "Post-Ming Warlords": "南明及反清勢力",
+  "Pratiharas": "普臘蒂哈臘王朝",
+  "Prot-Altaic Proto-Altaic pastoralists": "原始阿爾泰游牧民",
+  "Proto-Altaic pastoralists": "原始阿爾泰游牧民",
+  "Proto-Thai cultures": "原始泰人文化",
+  "Proto-Tibetan cultures": "原始藏人文化",
+  "Punjab": "旁遮普",
+  "Pyu state": "驃國",
+  "Qin": "秦國",
+  "Qing Empire": "清朝",
+  "Quazaq Khanate": "哈薩克汗國",
+  "Rajastan": "拉賈斯坦",
+  "Rajput Clans and Small States": "拉傑普特諸部與小邦",
+  "Rajput kingdoms": "拉傑普特諸王國",
+  "Rajputana": "拉傑普塔納",
+  "Rajputs": "拉傑普特人",
+  "Rashtrakuta": "羅濕陀羅拘陀王朝",
+  "Rashtrakuta state": "羅濕陀羅拘陀王朝",
+  "Rattanakosin Kingdom": "拉達那哥欣王朝（暹羅）",
+  "Republic of China": "中華民國",
+  "Ruanruan": "柔然",
+  "Russia": "俄羅斯",
+  "Russian Empire": "俄羅斯帝國",
+  "S. Xiongnu": "南匈奴",
+  "Saces": "塞種人",
+  "Saka Kingdom": "塞人王國",
+  "Sakhalin (RU)": "薩哈林（庫頁島，俄屬）",
+  "Samanid Empire": "薩曼王朝",
+  "Sasanian Empire": "薩珊王朝",
+  "Satavahanihara": "百乘王朝",
+  "Saylan": "錫蘭",
+  "Scythians": "斯基泰人",
+  "Seleucid Kingdom": "塞琉古王國",
+  "Senas": "犀那王朝",
+  "Shan states": "撣邦諸國",
+  "Shang": "商朝",
+  "Shaskanka": "設賞迦王國",
+  "Shogun Japan (Kamakura)": "日本（幕府時代）",
+  "Siam": "暹羅",
+  "Siberians": "西伯利亞諸族",
+  "Sikhs": "錫克帝國",
+  "Sikkim (Indian princely state)": "錫金",
+  "Silla": "新羅",
+  "Simhala": "僧伽羅",
+  "Sinhalese kingdom": "僧伽羅王國",
+  "Sinhalese kingdoms": "僧伽羅諸王國",
+  "Sinic": "華夏先民",
+  "Sintashta": "辛塔什塔文化",
+  "Sixteen Kingdoms": "十六國",
+  "Somvamsis": "蘇摩王朝",
+  "Song Empire": "宋朝",
+  "Southern Qi": "南齊",
+  "Southern Xiongnu": "南匈奴",
+  "Sri Lanka": "斯里蘭卡",
+  "Sui Empire": "隋朝",
+  "Sukhothai": "素可泰王國",
+  "Sultanate of Delhi": "德里蘇丹國",
+  "Surasena": "蘇羅娑",
+  "Suren Kingdom": "蘇倫王國",
+  "Taiwan": "臺灣",
+  "Taiwanese Tribes": "臺灣原住民諸部",
+  "Tajikistan": "塔吉克",
+  "Tang Empire": "唐朝",
+  "Thai": "台—卡岱語族先民",
+  "Thai Kingdoms": "泰人諸王國",
+  "Thailand": "泰國",
+  "Tibet": "西藏",
+  "Tibetan Empire": "吐蕃",
+  "Tibetans": "藏人先民",
+  "Tibeto-Burmanese": "藏緬語族先民",
+  "Tiele": "鐵勒",
+  "Timurid Empire": "帖木兒帝國",
+  "Toba Wei": "北魏",
+  "Tokugawa shogunate": "江戶幕府",
+  "Tonkin": "東京（越南北部）",
+  "Tsardom of Muscovy": "沙皇俄國",
+  "Tungus": "通古斯諸部",
+  "Tungusic Tribes": "通古斯諸部",
+  "Turan": "圖蘭",
+  "Turcik tribes": "突厥語諸部",
+  "USA": "美國",
+  "USSR": "蘇聯",
+  "United Kingdom": "英國",
+  "United States": "美國",
+  "Uyghurs": "回鶻",
+  "Uzbekistan": "烏茲別克",
+  "Vakataka": "伐迦陀迦王朝",
+  "Vatsa": "跋蹉",
+  "Vedic Aryans": "吠陀雅利安人",
+  "Vengi": "文吉",
+  "Vietnam": "越南",
+  "Vijayanagara": "毗奢耶那伽羅帝國",
+  "Vishnu-Kundins": "毗濕奴昆丁王朝",
+  "Western Chalukyas": "西遮婁其王朝",
+  "Western Gokturk Khaganate": "西突厥汗國",
+  "White Horde": "白帳汗國",
+  "White Russia": "白俄勢力",
+  "Wu": "吳越先民",
+  "Xia": "夏",
+  "Xinjiang": "新疆",
+  "Xiongnu": "匈奴",
+  "Xixia": "西夏",
+  "Yamato": "大和政權",
+  "Yayoi": "彌生文化",
+  "Yue": "越人",
+  "Yueban": "悅般",
+  "Yuezhi": "月氏",
+  "Zhangzhung Kingdom": "象雄",
+  "Zhou": "周朝",
+  "Zhou states": "東周列國",
+  "central Asian khanates": "中亞諸汗國",
+  "minor Hindu & Buddhist states": "印度教與佛教小國",
+  "minor Hindu and Buddhist states": "印度教與佛教小國",
+  "minor Hindu kingdoms": "印度教小王國",
+  "Đại Việt": "大越"
+ },
+ "phases": {
+  "tk_200": "200年：官渡之戰，曹操與袁紹爭奪北方",
+  "tk_208": "208年底：赤壁之戰，曹操據有北方",
+  "tk_215": "215年：劉備據益州，孫劉湘水劃界",
+  "tk_222": "222年：夷陵之戰後，三國鼎立",
+  "tk_263": "263年：魏滅蜀漢",
+  "tk_266": "266年：司馬炎代魏建晉",
+  "tk_280": "280年：晉滅吳，三國歸晉",
+  "wh_311": "311年：永嘉之亂，漢趙攻陷洛陽",
+  "wh_318": "318年：西晉亡，東晉立於建康",
+  "wh_330": "330年：後趙據有北方大部",
+  "wh_376": "376年：前秦統一北方",
+  "wh_395": "395年：淝水之戰後北方再度分裂",
+  "wh_439": "439年：北魏統一北方，南北朝對峙",
+  "aj_1932": "1932年3月：偽滿洲國成立",
+  "aj_1933": "1933年5月：熱河失陷，《塘沽協定》",
+  "aj_1937": "1937年底：華北與京滬杭淪陷",
+  "aj_1938": "1938年10月：武漢、廣州失守，進入相持階段",
+  "aj_1941": "1941年底：太平洋戰爭爆發，日軍進駐法屬印度支那",
+  "aj_1944": "1944年底：豫湘桂戰役後日軍佔領區最大",
+  "cw_1946": "1946年6月：全面內戰爆發",
+  "cw_1947": "1947年底：解放軍轉入戰略進攻",
+  "cw_1948": "1948年11月：遼瀋戰役結束，東北全境易手",
+  "cw_1949a": "1949年1月：淮海、平津戰役結束",
+  "cw_1949b": "1949年10月1日：中華人民共和國成立",
+  "cw_1950": "1950年5月：海南島戰役，國民政府退守臺灣"
+ }
+}

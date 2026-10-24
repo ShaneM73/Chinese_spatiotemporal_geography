@@ -1,0 +1,1142 @@
+{
+ "_doc": "Geographic labels for the base map. rank 1 = always shown, 2 = shown when zoomed in. Cities appear from 'from' to 'to'; 'names' lists [until-year, name-key] pairs for cities renamed over time (null = to the present). Display names are in data/i18n/<lang>.json under 'places'.",
+ "places": [
+  {
+   "id": "pacific",
+   "type": "ocean",
+   "lon": 146,
+   "lat": 30,
+   "rank": 1
+  },
+  {
+   "id": "south_china_sea",
+   "type": "sea",
+   "lon": 114.5,
+   "lat": 15,
+   "rank": 1
+  },
+  {
+   "id": "east_china_sea",
+   "type": "sea",
+   "lon": 125,
+   "lat": 29.5,
+   "rank": 1
+  },
+  {
+   "id": "yellow_sea",
+   "type": "sea",
+   "lon": 123.2,
+   "lat": 35.5,
+   "rank": 1
+  },
+  {
+   "id": "sea_of_japan",
+   "type": "sea",
+   "lon": 135,
+   "lat": 40.5,
+   "rank": 1
+  },
+  {
+   "id": "bohai",
+   "type": "sea",
+   "lon": 120,
+   "lat": 38.9,
+   "rank": 2
+  },
+  {
+   "id": "sea_of_okhotsk",
+   "type": "sea",
+   "lon": 146,
+   "lat": 51,
+   "rank": 1
+  },
+  {
+   "id": "bay_of_bengal",
+   "type": "sea",
+   "lon": 89,
+   "lat": 17,
+   "rank": 1
+  },
+  {
+   "id": "gulf_of_tonkin",
+   "type": "sea",
+   "lon": 107.7,
+   "lat": 20,
+   "rank": 2
+  },
+  {
+   "id": "taiwan_strait",
+   "type": "sea",
+   "lon": 119.6,
+   "lat": 24.2,
+   "rank": 2
+  },
+  {
+   "id": "lake_baikal",
+   "type": "sea",
+   "lon": 108.2,
+   "lat": 53.6,
+   "rank": 1
+  },
+  {
+   "id": "qinghai_lake",
+   "type": "sea",
+   "lon": 100.2,
+   "lat": 36.9,
+   "rank": 2
+  },
+  {
+   "id": "dongting_lake",
+   "type": "sea",
+   "lon": 112.9,
+   "lat": 29.3,
+   "rank": 2
+  },
+  {
+   "id": "poyang_lake",
+   "type": "sea",
+   "lon": 116.3,
+   "lat": 29.1,
+   "rank": 2
+  },
+  {
+   "id": "taihu",
+   "type": "sea",
+   "lon": 120.2,
+   "lat": 31.2,
+   "rank": 2
+  },
+  {
+   "id": "lop_nur",
+   "type": "sea",
+   "lon": 90.3,
+   "lat": 40.3,
+   "rank": 2
+  },
+  {
+   "id": "yellow_river",
+   "type": "river",
+   "lon": 111.5,
+   "lat": 40.45,
+   "rank": 1
+  },
+  {
+   "id": "yangtze",
+   "type": "river",
+   "lon": 114.2,
+   "lat": 30.1,
+   "rank": 1
+  },
+  {
+   "id": "pearl_river",
+   "type": "river",
+   "lon": 110.2,
+   "lat": 23.45,
+   "rank": 2
+  },
+  {
+   "id": "huai_river",
+   "type": "river",
+   "lon": 116.4,
+   "lat": 32.75,
+   "rank": 2
+  },
+  {
+   "id": "wei_river",
+   "type": "river",
+   "lon": 107.6,
+   "lat": 34.45,
+   "rank": 2
+  },
+  {
+   "id": "amur",
+   "type": "river",
+   "lon": 128.5,
+   "lat": 49.2,
+   "rank": 1
+  },
+  {
+   "id": "liao_river",
+   "type": "river",
+   "lon": 122.6,
+   "lat": 42.2,
+   "rank": 2
+  },
+  {
+   "id": "yalu",
+   "type": "river",
+   "lon": 125.9,
+   "lat": 41.1,
+   "rank": 2
+  },
+  {
+   "id": "mekong",
+   "type": "river",
+   "lon": 101.6,
+   "lat": 20.2,
+   "rank": 2
+  },
+  {
+   "id": "red_river",
+   "type": "river",
+   "lon": 104.6,
+   "lat": 21.9,
+   "rank": 2
+  },
+  {
+   "id": "yarlung_tsangpo",
+   "type": "river",
+   "lon": 88.6,
+   "lat": 29.35,
+   "rank": 2
+  },
+  {
+   "id": "tarim_river",
+   "type": "river",
+   "lon": 84.5,
+   "lat": 41.15,
+   "rank": 2
+  },
+  {
+   "id": "irrawaddy",
+   "type": "river",
+   "lon": 95.3,
+   "lat": 19.6,
+   "rank": 2
+  },
+  {
+   "id": "grand_canal",
+   "type": "river",
+   "lon": 117.2,
+   "lat": 35.6,
+   "rank": 2,
+   "from": 610
+  },
+  {
+   "id": "himalayas",
+   "type": "mountains",
+   "lon": 85.5,
+   "lat": 28.6,
+   "rank": 1
+  },
+  {
+   "id": "tibetan_plateau",
+   "type": "region",
+   "lon": 88,
+   "lat": 33,
+   "rank": 1
+  },
+  {
+   "id": "kunlun",
+   "type": "mountains",
+   "lon": 85,
+   "lat": 36.1,
+   "rank": 2
+  },
+  {
+   "id": "tian_shan",
+   "type": "mountains",
+   "lon": 82,
+   "lat": 42.6,
+   "rank": 1
+  },
+  {
+   "id": "altai",
+   "type": "mountains",
+   "lon": 92,
+   "lat": 47.5,
+   "rank": 2
+  },
+  {
+   "id": "qinling",
+   "type": "mountains",
+   "lon": 108,
+   "lat": 33.8,
+   "rank": 1
+  },
+  {
+   "id": "taihang",
+   "type": "mountains",
+   "lon": 113.6,
+   "lat": 37.3,
+   "rank": 2
+  },
+  {
+   "id": "greater_khingan",
+   "type": "mountains",
+   "lon": 120.5,
+   "lat": 47.5,
+   "rank": 2
+  },
+  {
+   "id": "changbai",
+   "type": "mountains",
+   "lon": 128.1,
+   "lat": 42,
+   "rank": 2
+  },
+  {
+   "id": "nanling",
+   "type": "mountains",
+   "lon": 112.5,
+   "lat": 25.3,
+   "rank": 2
+  },
+  {
+   "id": "hengduan",
+   "type": "mountains",
+   "lon": 99.3,
+   "lat": 28.2,
+   "rank": 2
+  },
+  {
+   "id": "pamirs",
+   "type": "mountains",
+   "lon": 74.2,
+   "lat": 38.3,
+   "rank": 2
+  },
+  {
+   "id": "mount_fuji",
+   "type": "mountains",
+   "lon": 138.73,
+   "lat": 35.36,
+   "rank": 2
+  },
+  {
+   "id": "loess_plateau",
+   "type": "region",
+   "lon": 108.8,
+   "lat": 36.9,
+   "rank": 2
+  },
+  {
+   "id": "mongolian_plateau",
+   "type": "region",
+   "lon": 104,
+   "lat": 46.5,
+   "rank": 1
+  },
+  {
+   "id": "north_china_plain",
+   "type": "region",
+   "lon": 116,
+   "lat": 36.5,
+   "rank": 2
+  },
+  {
+   "id": "sichuan_basin",
+   "type": "region",
+   "lon": 105.5,
+   "lat": 30.2,
+   "rank": 2
+  },
+  {
+   "id": "hexi_corridor",
+   "type": "region",
+   "lon": 99.5,
+   "lat": 39.3,
+   "rank": 2
+  },
+  {
+   "id": "taklamakan",
+   "type": "desert",
+   "lon": 83,
+   "lat": 38.9,
+   "rank": 1
+  },
+  {
+   "id": "gobi",
+   "type": "desert",
+   "lon": 106,
+   "lat": 43.2,
+   "rank": 1
+  },
+  {
+   "id": "korean_peninsula",
+   "type": "region",
+   "lon": 127.6,
+   "lat": 36.6,
+   "rank": 2
+  },
+  {
+   "id": "xian",
+   "type": "city",
+   "lon": 108.94,
+   "lat": 34.27,
+   "rank": 1,
+   "from": -1046,
+   "names": [
+    [
+     -206,
+     "haojing"
+    ],
+    [
+     1369,
+     "changan"
+    ],
+    [
+     null,
+     "xian"
+    ]
+   ]
+  },
+  {
+   "id": "luoyang",
+   "type": "city",
+   "lon": 112.45,
+   "lat": 34.62,
+   "rank": 1,
+   "from": -1038,
+   "names": [
+    [
+     -221,
+     "luoyi"
+    ],
+    [
+     null,
+     "luoyang"
+    ]
+   ]
+  },
+  {
+   "id": "anyang",
+   "type": "city",
+   "lon": 114.39,
+   "lat": 36.1,
+   "rank": 2,
+   "from": -1300,
+   "names": [
+    [
+     -1046,
+     "yinxu"
+    ],
+    [
+     null,
+     "anyang"
+    ]
+   ]
+  },
+  {
+   "id": "erlitou",
+   "type": "city",
+   "lon": 112.69,
+   "lat": 34.7,
+   "rank": 2,
+   "from": -1900,
+   "to": -1500
+  },
+  {
+   "id": "zhengzhou",
+   "type": "city",
+   "lon": 113.65,
+   "lat": 34.76,
+   "rank": 2,
+   "from": -1600
+  },
+  {
+   "id": "linzi",
+   "type": "city",
+   "lon": 118.35,
+   "lat": 36.86,
+   "rank": 2,
+   "from": -859,
+   "to": 600
+  },
+  {
+   "id": "xianyang",
+   "type": "city",
+   "lon": 108.71,
+   "lat": 34.33,
+   "rank": 2,
+   "from": -350,
+   "to": -206
+  },
+  {
+   "id": "beijing",
+   "type": "city",
+   "lon": 116.4,
+   "lat": 39.9,
+   "rank": 1,
+   "from": -1045,
+   "names": [
+    [
+     607,
+     "ji"
+    ],
+    [
+     938,
+     "youzhou"
+    ],
+    [
+     1153,
+     "yanjing"
+    ],
+    [
+     1271,
+     "zhongdu"
+    ],
+    [
+     1368,
+     "dadu"
+    ],
+    [
+     1403,
+     "beiping"
+    ],
+    [
+     1928,
+     "beijing"
+    ],
+    [
+     1949,
+     "beiping"
+    ],
+    [
+     null,
+     "beijing"
+    ]
+   ]
+  },
+  {
+   "id": "nanjing",
+   "type": "city",
+   "lon": 118.8,
+   "lat": 32.06,
+   "rank": 1,
+   "from": -333,
+   "names": [
+    [
+     229,
+     "jinling"
+    ],
+    [
+     313,
+     "jianye"
+    ],
+    [
+     589,
+     "jiankang"
+    ],
+    [
+     1368,
+     "jinling"
+    ],
+    [
+     1421,
+     "yingtian"
+    ],
+    [
+     null,
+     "nanjing"
+    ]
+   ]
+  },
+  {
+   "id": "kaifeng",
+   "type": "city",
+   "lon": 114.31,
+   "lat": 34.8,
+   "rank": 1,
+   "from": -364,
+   "names": [
+    [
+     -225,
+     "daliang"
+    ],
+    [
+     960,
+     "kaifeng"
+    ],
+    [
+     1127,
+     "dongjing"
+    ],
+    [
+     null,
+     "kaifeng"
+    ]
+   ]
+  },
+  {
+   "id": "hangzhou",
+   "type": "city",
+   "lon": 120.16,
+   "lat": 30.27,
+   "rank": 1,
+   "from": -222,
+   "names": [
+    [
+     589,
+     "qiantang"
+    ],
+    [
+     1138,
+     "hangzhou"
+    ],
+    [
+     1276,
+     "linan"
+    ],
+    [
+     null,
+     "hangzhou"
+    ]
+   ]
+  },
+  {
+   "id": "guangzhou",
+   "type": "city",
+   "lon": 113.26,
+   "lat": 23.13,
+   "rank": 1,
+   "from": -214,
+   "names": [
+    [
+     226,
+     "panyu"
+    ],
+    [
+     null,
+     "guangzhou"
+    ]
+   ]
+  },
+  {
+   "id": "chengdu",
+   "type": "city",
+   "lon": 104.07,
+   "lat": 30.66,
+   "rank": 1,
+   "from": -316
+  },
+  {
+   "id": "wuhan",
+   "type": "city",
+   "lon": 114.3,
+   "lat": 30.59,
+   "rank": 2,
+   "from": 223,
+   "names": [
+    [
+     1927,
+     "wuchang"
+    ],
+    [
+     null,
+     "wuhan"
+    ]
+   ]
+  },
+  {
+   "id": "yangzhou",
+   "type": "city",
+   "lon": 119.41,
+   "lat": 32.39,
+   "rank": 2,
+   "from": -486,
+   "to": 1900
+  },
+  {
+   "id": "suzhou",
+   "type": "city",
+   "lon": 120.62,
+   "lat": 31.3,
+   "rank": 2,
+   "from": -514,
+   "names": [
+    [
+     589,
+     "wu_city"
+    ],
+    [
+     null,
+     "suzhou"
+    ]
+   ]
+  },
+  {
+   "id": "shanghai",
+   "type": "city",
+   "lon": 121.47,
+   "lat": 31.23,
+   "rank": 1,
+   "from": 1292
+  },
+  {
+   "id": "quanzhou",
+   "type": "city",
+   "lon": 118.59,
+   "lat": 24.91,
+   "rank": 2,
+   "from": 718
+  },
+  {
+   "id": "shenyang",
+   "type": "city",
+   "lon": 123.43,
+   "lat": 41.8,
+   "rank": 2,
+   "from": 1296,
+   "names": [
+    [
+     1625,
+     "shenyang"
+    ],
+    [
+     1657,
+     "shengjing"
+    ],
+    [
+     1929,
+     "fengtian"
+    ],
+    [
+     null,
+     "shenyang"
+    ]
+   ]
+  },
+  {
+   "id": "harbin",
+   "type": "city",
+   "lon": 126.63,
+   "lat": 45.75,
+   "rank": 2,
+   "from": 1898
+  },
+  {
+   "id": "chongqing",
+   "type": "city",
+   "lon": 106.55,
+   "lat": 29.56,
+   "rank": 2,
+   "from": -316,
+   "names": [
+    [
+     1189,
+     "yuzhou"
+    ],
+    [
+     null,
+     "chongqing"
+    ]
+   ]
+  },
+  {
+   "id": "kunming",
+   "type": "city",
+   "lon": 102.71,
+   "lat": 25.04,
+   "rank": 2,
+   "from": 765
+  },
+  {
+   "id": "dali",
+   "type": "city",
+   "lon": 100.16,
+   "lat": 25.69,
+   "rank": 2,
+   "from": 738
+  },
+  {
+   "id": "dunhuang",
+   "type": "city",
+   "lon": 94.66,
+   "lat": 40.14,
+   "rank": 1,
+   "from": -111
+  },
+  {
+   "id": "lanzhou",
+   "type": "city",
+   "lon": 103.83,
+   "lat": 36.06,
+   "rank": 2,
+   "from": -86
+  },
+  {
+   "id": "kashgar",
+   "type": "city",
+   "lon": 75.99,
+   "lat": 39.47,
+   "rank": 1,
+   "from": -100,
+   "names": [
+    [
+     1000,
+     "shule"
+    ],
+    [
+     null,
+     "kashgar"
+    ]
+   ]
+  },
+  {
+   "id": "turpan",
+   "type": "city",
+   "lon": 89.18,
+   "lat": 42.95,
+   "rank": 2,
+   "from": -100,
+   "names": [
+    [
+     1400,
+     "gaochang"
+    ],
+    [
+     null,
+     "turpan"
+    ]
+   ]
+  },
+  {
+   "id": "urumqi",
+   "type": "city",
+   "lon": 87.62,
+   "lat": 43.83,
+   "rank": 2,
+   "from": 1763,
+   "names": [
+    [
+     1954,
+     "dihua"
+    ],
+    [
+     null,
+     "urumqi"
+    ]
+   ]
+  },
+  {
+   "id": "lhasa",
+   "type": "city",
+   "lon": 91.13,
+   "lat": 29.65,
+   "rank": 1,
+   "from": 633
+  },
+  {
+   "id": "karakorum",
+   "type": "city",
+   "lon": 102.83,
+   "lat": 47.2,
+   "rank": 1,
+   "from": 1220,
+   "to": 1388
+  },
+  {
+   "id": "shangdu",
+   "type": "city",
+   "lon": 116.18,
+   "lat": 42.36,
+   "rank": 2,
+   "from": 1256,
+   "to": 1369
+  },
+  {
+   "id": "ulaanbaatar",
+   "type": "city",
+   "lon": 106.92,
+   "lat": 47.92,
+   "rank": 1,
+   "from": 1639,
+   "names": [
+    [
+     1924,
+     "urga"
+    ],
+    [
+     null,
+     "ulaanbaatar"
+    ]
+   ]
+  },
+  {
+   "id": "hohhot",
+   "type": "city",
+   "lon": 111.75,
+   "lat": 40.84,
+   "rank": 2,
+   "from": 1581
+  },
+  {
+   "id": "pyongyang",
+   "type": "city",
+   "lon": 125.75,
+   "lat": 39.03,
+   "rank": 1,
+   "from": -194
+  },
+  {
+   "id": "gyeongju",
+   "type": "city",
+   "lon": 129.22,
+   "lat": 35.86,
+   "rank": 2,
+   "from": -57,
+   "to": 936,
+   "names": [
+    [
+     null,
+     "geumseong"
+    ]
+   ]
+  },
+  {
+   "id": "seoul",
+   "type": "city",
+   "lon": 126.98,
+   "lat": 37.57,
+   "rank": 1,
+   "from": 1394,
+   "names": [
+    [
+     1910,
+     "hanseong"
+    ],
+    [
+     1945,
+     "keijo"
+    ],
+    [
+     null,
+     "seoul"
+    ]
+   ]
+  },
+  {
+   "id": "kaesong",
+   "type": "city",
+   "lon": 126.55,
+   "lat": 37.97,
+   "rank": 2,
+   "from": 919,
+   "names": [
+    [
+     1394,
+     "gaegyeong"
+    ],
+    [
+     null,
+     "kaesong"
+    ]
+   ]
+  },
+  {
+   "id": "busan",
+   "type": "city",
+   "lon": 129.04,
+   "lat": 35.18,
+   "rank": 2,
+   "from": 1400
+  },
+  {
+   "id": "nara",
+   "type": "city",
+   "lon": 135.8,
+   "lat": 34.69,
+   "rank": 2,
+   "from": 710,
+   "names": [
+    [
+     784,
+     "heijokyo"
+    ],
+    [
+     null,
+     "nara"
+    ]
+   ]
+  },
+  {
+   "id": "kyoto",
+   "type": "city",
+   "lon": 135.77,
+   "lat": 35.01,
+   "rank": 1,
+   "from": 794,
+   "names": [
+    [
+     1185,
+     "heiankyo"
+    ],
+    [
+     null,
+     "kyoto"
+    ]
+   ]
+  },
+  {
+   "id": "kamakura",
+   "type": "city",
+   "lon": 139.55,
+   "lat": 35.32,
+   "rank": 2,
+   "from": 1180,
+   "to": 1340
+  },
+  {
+   "id": "osaka",
+   "type": "city",
+   "lon": 135.5,
+   "lat": 34.69,
+   "rank": 2,
+   "from": 1583
+  },
+  {
+   "id": "tokyo",
+   "type": "city",
+   "lon": 139.69,
+   "lat": 35.69,
+   "rank": 1,
+   "from": 1457,
+   "names": [
+    [
+     1868,
+     "edo"
+    ],
+    [
+     null,
+     "tokyo"
+    ]
+   ]
+  },
+  {
+   "id": "nagasaki",
+   "type": "city",
+   "lon": 129.87,
+   "lat": 32.75,
+   "rank": 2,
+   "from": 1571
+  },
+  {
+   "id": "naha",
+   "type": "city",
+   "lon": 127.68,
+   "lat": 26.21,
+   "rank": 2,
+   "from": 1429,
+   "names": [
+    [
+     1879,
+     "shuri"
+    ],
+    [
+     null,
+     "naha"
+    ]
+   ]
+  },
+  {
+   "id": "taipei",
+   "type": "city",
+   "lon": 121.56,
+   "lat": 25.04,
+   "rank": 1,
+   "from": 1709
+  },
+  {
+   "id": "tainan",
+   "type": "city",
+   "lon": 120.2,
+   "lat": 23,
+   "rank": 2,
+   "from": 1624,
+   "names": [
+    [
+     1662,
+     "zeelandia"
+    ],
+    [
+     null,
+     "tainan"
+    ]
+   ]
+  },
+  {
+   "id": "hong_kong",
+   "type": "city",
+   "lon": 114.17,
+   "lat": 22.3,
+   "rank": 2,
+   "from": 1842
+  },
+  {
+   "id": "macau",
+   "type": "city",
+   "lon": 113.54,
+   "lat": 22.19,
+   "rank": 2,
+   "from": 1557
+  },
+  {
+   "id": "hanoi",
+   "type": "city",
+   "lon": 105.85,
+   "lat": 21.03,
+   "rank": 1,
+   "from": 1010,
+   "names": [
+    [
+     1831,
+     "thang_long"
+    ],
+    [
+     null,
+     "hanoi"
+    ]
+   ]
+  },
+  {
+   "id": "hue",
+   "type": "city",
+   "lon": 107.59,
+   "lat": 16.46,
+   "rank": 2,
+   "from": 1687
+  },
+  {
+   "id": "vladivostok",
+   "type": "city",
+   "lon": 131.89,
+   "lat": 43.12,
+   "rank": 2,
+   "from": 1860
+  },
+  {
+   "id": "irkutsk",
+   "type": "city",
+   "lon": 104.3,
+   "lat": 52.29,
+   "rank": 2,
+   "from": 1661
+  },
+  {
+   "id": "mandalay",
+   "type": "city",
+   "lon": 96.08,
+   "lat": 21.97,
+   "rank": 2,
+   "from": 1857
+  },
+  {
+   "id": "bagan",
+   "type": "city",
+   "lon": 94.86,
+   "lat": 21.17,
+   "rank": 2,
+   "from": 849,
+   "to": 1300
+  },
+  {
+   "id": "kathmandu",
+   "type": "city",
+   "lon": 85.32,
+   "lat": 27.71,
+   "rank": 2,
+   "from": 1000
+  }
+ ]
+}

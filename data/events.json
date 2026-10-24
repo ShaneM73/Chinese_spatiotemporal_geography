@@ -1,0 +1,3377 @@
+{
+ "categories": {
+  "conflict": "战争与战役",
+  "politics": "国家与条约",
+  "culture": "宗教与文化",
+  "society": "社会、经济与灾害"
+ },
+ "wars": {
+  "threeKingdoms": [
+   184.0,
+   280.4
+  ],
+  "wuhu": [
+   300.0,
+   440.0
+  ],
+  "antiJapanese": [
+   1931.7,
+   1945.64
+  ],
+  "civilWar": [
+   1945.64,
+   1950.45
+  ]
+ },
+ "events": [
+  {
+   "year": -2000,
+   "title": "夏朝",
+   "place": "嵩山一带（今河南登封）",
+   "lon": 113.03,
+   "lat": 34.45,
+   "cat": "politics",
+   "text": "传统史书记载的第一个王朝，相传由禹之子启建立，始于约公元前2070年；其存在仍有学术争议。",
+   "wiki": "Xia_dynasty",
+   "wikiLang": {
+    "ja": "夏_(三代)",
+    "zh": "夏朝"
+   }
+  },
+  {
+   "year": -1900,
+   "title": "二里头文化",
+   "place": "偃师二里头（今河南洛阳）",
+   "lon": 112.69,
+   "lat": 34.7,
+   "cat": "society",
+   "text": "黄河中游出现宫殿基址、青铜礼器和大型都邑，被许多学者视为早期国家与夏文化的代表。",
+   "wiki": "Erlitou_culture",
+   "wikiLang": {
+    "ja": "二里頭文化",
+    "zh": "二里頭文化"
+   }
+  },
+  {
+   "year": -1600,
+   "title": "商汤灭夏，商朝建立",
+   "place": "亳（今河南郑州一带）",
+   "lon": 113.65,
+   "lat": 34.76,
+   "cat": "politics",
+   "text": "商部族首领汤在鸣条击败夏桀，建立商朝。郑州商城是这一时期的大型城址。",
+   "wiki": "Shang_dynasty",
+   "wikiLang": {
+    "ja": "殷",
+    "zh": "商朝"
+   }
+  },
+  {
+   "year": -1300,
+   "title": "盘庚迁殷",
+   "place": "殷（今河南安阳）",
+   "lon": 114.31,
+   "lat": 36.13,
+   "cat": "politics",
+   "text": "商王盘庚将都城迁至殷，此后两百余年不再迁都；殷墟遗址出土大量宫殿、王陵与青铜器。",
+   "wiki": "Yinxu",
+   "wikiLang": {
+    "ja": "殷墟",
+    "zh": "殷墟"
+   }
+  },
+  {
+   "year": -1250,
+   "title": "甲骨文",
+   "place": "殷墟（今河南安阳）",
+   "lon": 114.4,
+   "lat": 36.05,
+   "cat": "culture",
+   "text": "商王在龟甲和兽骨上刻写占卜记录，这是已知最早的成体系汉字，也是商代历史的一手史料。",
+   "wiki": "Oracle_bone_script",
+   "wikiLang": {
+    "ja": "甲骨文字",
+    "zh": "甲骨文"
+   }
+  },
+  {
+   "year": -1200,
+   "title": "三星堆文明",
+   "place": "广汉三星堆（今四川）",
+   "lon": 104.2,
+   "lat": 30.99,
+   "cat": "culture",
+   "text": "古蜀国留下了青铜纵目面具、神树和金杖，风格与中原迥异，显示了中华文明起源的多元性。",
+   "wiki": "Sanxingdui",
+   "wikiLang": {
+    "ja": "三星堆遺跡",
+    "zh": "三星堆遗址"
+   }
+  },
+  {
+   "year": -1046,
+   "title": "牧野之战",
+   "place": "牧野（今河南新乡）",
+   "lon": 114.0,
+   "lat": 35.2,
+   "cat": "conflict",
+   "text": "周武王率诸侯联军击败商纣王的军队，商朝灭亡，周朝建立，定都镐京。",
+   "wiki": "Battle_of_Muye",
+   "wikiLang": {
+    "ja": "牧野の戦い",
+    "zh": "牧野之战"
+   }
+  },
+  {
+   "year": -841,
+   "title": "国人暴动与共和行政",
+   "place": "镐京（今陕西西安）",
+   "lon": 108.8,
+   "lat": 34.2,
+   "cat": "politics",
+   "text": "周厉王被国人驱逐，由大臣共同执政。公元前841年是中国历史上有确切纪年的开端。",
+   "wiki": "Gonghe_Regency",
+   "wikiLang": {
+    "ja": "共和_(周)",
+    "zh": "共和_(西周)"
+   }
+  },
+  {
+   "year": -770,
+   "title": "平王东迁，春秋时代开始",
+   "place": "洛邑（今河南洛阳）",
+   "lon": 112.45,
+   "lat": 34.62,
+   "cat": "politics",
+   "text": "犬戎攻破镐京后，周平王迁都洛邑。王室衰微，诸侯争霸，进入春秋时代。",
+   "wiki": "Spring_and_Autumn_period",
+   "wikiLang": {
+    "ja": "春秋時代",
+    "zh": "春秋时期"
+   }
+  },
+  {
+   "year": -551,
+   "title": "孔子诞生",
+   "place": "鲁国陬邑（今山东曲阜）",
+   "lon": 116.99,
+   "lat": 35.58,
+   "cat": "culture",
+   "text": "孔子创立儒家学派，主张仁与礼，兴办私学。其思想经后世发展，成为东亚两千年的主流思想。",
+   "wiki": "Confucius",
+   "wikiLang": {
+    "ja": "孔子",
+    "zh": "孔子"
+   }
+  },
+  {
+   "year": -403,
+   "title": "三家分晋",
+   "place": "晋国（今山西侯马一带）",
+   "lon": 111.35,
+   "lat": 35.62,
+   "cat": "politics",
+   "text": "韩、赵、魏三家瓜分晋国并获周王承认为诸侯，常被视为战国时代的开端。",
+   "wiki": "Partition_of_Jin",
+   "wikiLang": {
+    "ja": "三家分晋",
+    "zh": "三家分晋"
+   }
+  },
+  {
+   "year": -356,
+   "title": "商鞅变法",
+   "place": "秦国栎阳（今陕西西安临潼）",
+   "lon": 109.2,
+   "lat": 34.62,
+   "cat": "politics",
+   "text": "商鞅在秦国推行奖励耕战、废除世袭特权、实行县制等改革，使秦国成为战国最强的国家。",
+   "wiki": "Shang_Yang",
+   "wikiLang": {
+    "ja": "商鞅",
+    "zh": "商鞅"
+   }
+  },
+  {
+   "year": -300,
+   "title": "弥生时代",
+   "place": "九州北部（吉野里）",
+   "lon": 130.38,
+   "lat": 33.33,
+   "cat": "society",
+   "text": "水稻种植与金属器从大陆经朝鲜半岛传入日本，聚落和阶层分化随之出现，取代了绳文文化。",
+   "wiki": "Yayoi_period",
+   "wikiLang": {
+    "ja": "弥生時代",
+    "zh": "彌生時代"
+   }
+  },
+  {
+   "year": -260,
+   "title": "长平之战",
+   "place": "长平（今山西高平）",
+   "lon": 112.85,
+   "lat": 35.8,
+   "cat": "conflict",
+   "text": "秦将白起大败赵军，据载坑杀降卒数十万，六国再无力单独抗秦。",
+   "wiki": "Battle_of_Changping",
+   "wikiLang": {
+    "ja": "長平の戦い",
+    "zh": "长平之战"
+   }
+  },
+  {
+   "year": -221,
+   "title": "秦统一六国",
+   "place": "咸阳",
+   "lon": 108.71,
+   "lat": 34.33,
+   "cat": "politics",
+   "text": "秦王嬴政灭齐，完成统一，自称始皇帝，推行郡县制，统一文字、度量衡与车轨。",
+   "wiki": "Qin's_wars_of_unification",
+   "wikiLang": {
+    "ja": "秦の統一戦争",
+    "zh": "秦灭六国之战"
+   }
+  },
+  {
+   "year": -214,
+   "title": "修筑长城",
+   "place": "河套及北部边境",
+   "lon": 110.0,
+   "lat": 40.6,
+   "cat": "society",
+   "text": "蒙恬北击匈奴后，秦朝连接并扩建战国时期各国的长城，形成万里长城的雏形。",
+   "wiki": "Great_Wall_of_China",
+   "wikiLang": {
+    "ja": "万里の長城",
+    "zh": "长城"
+   }
+  },
+  {
+   "year": -210,
+   "title": "秦始皇陵兵马俑",
+   "place": "骊山（今陕西西安临潼）",
+   "lon": 109.27,
+   "lat": 34.38,
+   "cat": "culture",
+   "text": "秦始皇去世并葬于骊山陵。陵旁随葬八千余件真人大小的陶俑，1974年才被发现。",
+   "wiki": "Terracotta_Army",
+   "wikiLang": {
+    "ja": "兵馬俑",
+    "zh": "秦始皇兵马俑"
+   }
+  },
+  {
+   "year": -209,
+   "title": "大泽乡起义",
+   "place": "大泽乡（今安徽宿州）",
+   "lon": 117.0,
+   "lat": 33.6,
+   "cat": "conflict",
+   "text": "戍卒陈胜、吴广揭竿而起，喊出“王侯将相宁有种乎”，各地群起反秦，秦朝随之瓦解。",
+   "wiki": "Dazexiang_uprising",
+   "wikiLang": {
+    "ja": "陳勝・呉広の乱",
+    "zh": "大泽乡起义"
+   }
+  },
+  {
+   "year": -209,
+   "title": "冒顿单于统一匈奴",
+   "place": "蒙古高原",
+   "lon": 107.0,
+   "lat": 46.5,
+   "cat": "politics",
+   "text": "冒顿杀父自立为单于，东破东胡、西逐月氏，建立了草原上第一个强大的游牧帝国。",
+   "wiki": "Modu_Chanyu",
+   "wikiLang": {
+    "ja": "冒頓単于",
+    "zh": "冒顿"
+   }
+  },
+  {
+   "year": -202,
+   "title": "垓下之战，汉朝建立",
+   "place": "垓下（今安徽灵璧）",
+   "lon": 117.6,
+   "lat": 33.3,
+   "cat": "conflict",
+   "text": "刘邦击败项羽，结束楚汉之争，建立西汉，定都长安。“四面楚歌”的典故即出于此。",
+   "wiki": "Battle_of_Gaixia",
+   "wikiLang": {
+    "ja": "垓下の戦い",
+    "zh": "垓下之战"
+   }
+  },
+  {
+   "year": -200,
+   "title": "白登之围",
+   "place": "白登山（今山西大同）",
+   "lon": 113.3,
+   "lat": 40.1,
+   "cat": "conflict",
+   "text": "汉高祖被冒顿单于围困七日，脱险后汉朝转而以和亲和岁贡对待匈奴。",
+   "wiki": "Battle_of_Baideng",
+   "wikiLang": {
+    "ja": "白登山の戦い",
+    "zh": "白登之围"
+   }
+  },
+  {
+   "year": -138,
+   "title": "张骞出使西域",
+   "place": "长安",
+   "lon": 108.94,
+   "lat": 34.27,
+   "cat": "society",
+   "text": "汉武帝派张骞联络大月氏共击匈奴。他带回了西域各国的情报，丝绸之路由此开通。",
+   "wiki": "Zhang_Qian",
+   "wikiLang": {
+    "ja": "張騫",
+    "zh": "張騫"
+   }
+  },
+  {
+   "year": -119,
+   "title": "漠北之战",
+   "place": "漠北（今蒙古国）",
+   "lon": 105.0,
+   "lat": 47.0,
+   "cat": "conflict",
+   "text": "卫青、霍去病深入漠北重创匈奴主力，霍去病“封狼居胥”，匈奴远遁。",
+   "wiki": "Battle_of_Mobei",
+   "wikiLang": {
+    "zh": "漠北之战"
+   }
+  },
+  {
+   "year": -111,
+   "title": "汉灭南越",
+   "place": "番禺（今广东广州）",
+   "lon": 113.26,
+   "lat": 23.13,
+   "cat": "conflict",
+   "text": "汉军攻灭赵佗建立的南越国，岭南与越南北部纳入汉朝郡县。",
+   "wiki": "Han_conquest_of_Nanyue",
+   "wikiLang": {
+    "ja": "漢の南越国征服",
+    "zh": "汉平南越之战"
+   }
+  },
+  {
+   "year": -108,
+   "title": "汉灭卫满朝鲜",
+   "place": "王险城（今朝鲜平壤）",
+   "lon": 125.75,
+   "lat": 39.03,
+   "cat": "conflict",
+   "text": "汉武帝灭卫满朝鲜，在朝鲜半岛北部设乐浪等四郡。",
+   "wiki": "Han_conquest_of_Gojoseon",
+   "wikiLang": {
+    "ja": "漢の衛氏朝鮮遠征",
+    "zh": "汉灭卫氏朝鲜之战"
+   }
+  },
+  {
+   "year": -91,
+   "title": "《史记》成书",
+   "place": "长安",
+   "lon": 108.9,
+   "lat": 34.3,
+   "cat": "culture",
+   "text": "司马迁完成纪传体通史《史记》，记述从黄帝到汉武帝约三千年的历史，为后世正史的典范。",
+   "wiki": "Records_of_the_Grand_Historian",
+   "wikiLang": {
+    "ja": "史記",
+    "zh": "史记"
+   }
+  },
+  {
+   "year": 9,
+   "title": "王莽篡汉",
+   "place": "长安",
+   "lon": 108.95,
+   "lat": 34.25,
+   "cat": "politics",
+   "text": "外戚王莽代汉称帝，建立新朝并推行复古改制。改革失败引发绿林、赤眉起义。",
+   "wiki": "Xin_dynasty",
+   "wikiLang": {
+    "ja": "新",
+    "zh": "新朝"
+   }
+  },
+  {
+   "year": 25,
+   "title": "光武中兴，东汉建立",
+   "place": "洛阳",
+   "lon": 112.5,
+   "lat": 34.65,
+   "cat": "politics",
+   "text": "刘秀重建汉朝，定都洛阳，史称东汉。",
+   "wiki": "Emperor_Guangwu_of_Han",
+   "wikiLang": {
+    "ja": "光武帝",
+    "zh": "汉光武帝"
+   }
+  },
+  {
+   "year": 57,
+   "title": "汉委奴国王金印",
+   "place": "倭奴国（今日本福冈）",
+   "lon": 130.35,
+   "lat": 33.67,
+   "cat": "culture",
+   "text": "东汉光武帝赐倭奴国使者金印。1784年在福冈志贺岛出土，是中日交往的早期实物证据。",
+   "wiki": "King_of_Na_gold_seal",
+   "wikiLang": {
+    "ja": "漢委奴国王印",
+    "zh": "汉委奴国王印"
+   }
+  },
+  {
+   "year": 68,
+   "title": "白马寺建立",
+   "place": "洛阳",
+   "lon": 112.6,
+   "lat": 34.72,
+   "cat": "culture",
+   "text": "相传汉明帝遣使求法，迎回僧人与佛经，在洛阳建白马寺，被视为中国第一座佛寺。",
+   "wiki": "White_Horse_Temple",
+   "wikiLang": {
+    "ja": "白馬寺_(洛陽)",
+    "zh": "白马寺"
+   }
+  },
+  {
+   "year": 105,
+   "title": "蔡伦改进造纸术",
+   "place": "洛阳",
+   "lon": 112.4,
+   "lat": 34.6,
+   "cat": "society",
+   "text": "宦官蔡伦用树皮、麻头、破布等制成轻便廉价的纸，此后纸张逐渐取代竹简和缣帛。",
+   "wiki": "Cai_Lun",
+   "wikiLang": {
+    "ja": "蔡倫",
+    "zh": "蔡伦"
+   }
+  },
+  {
+   "year": 184,
+   "month": 3,
+   "title": "黄巾起义",
+   "place": "冀州巨鹿（今河北）",
+   "lon": 115.0,
+   "lat": 37.2,
+   "cat": "conflict",
+   "text": "张角以太平道组织数十万农民起义。起义虽被镇压，但地方豪强与军阀从此坐大。",
+   "wiki": "Yellow_Turban_Rebellion",
+   "war": "threeKingdoms",
+   "wikiLang": {
+    "ja": "黄巾の乱",
+    "zh": "黃巾之亂"
+   }
+  },
+  {
+   "year": 189,
+   "month": 9,
+   "title": "董卓进京",
+   "place": "洛阳",
+   "lon": 112.55,
+   "lat": 34.68,
+   "cat": "politics",
+   "text": "宦官与外戚火并后，凉州军阀董卓率兵入洛阳，废少帝、立献帝，独揽朝政，天下大乱由此开始。",
+   "wiki": "Dong_Zhuo",
+   "war": "threeKingdoms",
+   "wikiLang": {
+    "ja": "董卓",
+    "zh": "董卓"
+   }
+  },
+  {
+   "year": 190,
+   "month": 1,
+   "title": "关东联军讨伐董卓",
+   "place": "酸枣（今河南延津）",
+   "lon": 114.45,
+   "lat": 35.15,
+   "cat": "conflict",
+   "text": "袁绍、曹操等关东诸侯起兵讨董。董卓焚毁洛阳、挟献帝西迁长安，联军随后瓦解，群雄割据。",
+   "wiki": "Campaign_against_Dong_Zhuo",
+   "war": "threeKingdoms",
+   "wikiLang": {
+    "zh": "討伐董卓之戰"
+   }
+  },
+  {
+   "year": 200,
+   "month": 10,
+   "title": "官渡之战",
+   "place": "官渡（今河南中牟）",
+   "lon": 114.0,
+   "lat": 34.75,
+   "cat": "conflict",
+   "text": "曹操奇袭乌巢、烧毁袁绍军粮，以少胜多击败袁绍，此后逐步统一北方。",
+   "wiki": "Battle_of_Guandu",
+   "war": "threeKingdoms",
+   "wikiLang": {
+    "ja": "官渡の戦い",
+    "zh": "官渡之战"
+   }
+  },
+  {
+   "year": 207,
+   "month": 12,
+   "title": "隆中对",
+   "place": "隆中（今湖北襄阳）",
+   "lon": 112.07,
+   "lat": 32.0,
+   "cat": "politics",
+   "text": "刘备三顾茅庐，诸葛亮提出联吴抗曹、跨有荆益的战略，后来大体成为三分天下的格局。",
+   "wiki": "Longzhong_Plan",
+   "war": "threeKingdoms",
+   "wikiLang": {
+    "ja": "隆中策",
+    "zh": "隆中對"
+   }
+  },
+  {
+   "year": 208,
+   "month": 12,
+   "title": "赤壁之战",
+   "place": "赤壁（今湖北）",
+   "lon": 113.9,
+   "lat": 29.9,
+   "cat": "conflict",
+   "text": "孙权与刘备联军以火攻大败南下的曹操，奠定了三国鼎立的格局。",
+   "wiki": "Battle_of_Red_Cliffs",
+   "war": "threeKingdoms",
+   "wikiLang": {
+    "ja": "赤壁の戦い",
+    "zh": "赤壁之戰"
+   }
+  },
+  {
+   "year": 219,
+   "month": 3,
+   "title": "定军山之战",
+   "place": "定军山（今陕西勉县）",
+   "lon": 106.6,
+   "lat": 33.1,
+   "cat": "conflict",
+   "text": "黄忠斩杀曹军大将夏侯渊，刘备夺取汉中并自称汉中王。",
+   "wiki": "Battle_of_Mount_Dingjun",
+   "war": "threeKingdoms",
+   "wikiLang": {
+    "ja": "定軍山の戦い",
+    "zh": "定军山之战"
+   }
+  },
+  {
+   "year": 219,
+   "month": 10,
+   "title": "樊城之战与吕蒙袭荆州",
+   "place": "樊城（今湖北襄阳）",
+   "lon": 112.15,
+   "lat": 32.05,
+   "cat": "conflict",
+   "text": "关羽北攻樊城、水淹七军，威震华夏；孙权派吕蒙偷袭荆州，关羽兵败被杀。",
+   "wiki": "Battle_of_Fancheng",
+   "war": "threeKingdoms",
+   "wikiLang": {
+    "ja": "樊城の戦い",
+    "zh": "樊城之戰"
+   }
+  },
+  {
+   "year": 220,
+   "month": 12,
+   "title": "曹丕代汉，三国时代",
+   "place": "洛阳",
+   "lon": 112.62,
+   "lat": 34.6,
+   "cat": "politics",
+   "text": "曹丕迫使汉献帝禅让，建立魏国。随后刘备称帝于成都，孙权称帝于建业。",
+   "wiki": "Three_Kingdoms",
+   "war": "threeKingdoms",
+   "wikiLang": {
+    "ja": "三国時代_(中国)",
+    "zh": "三国"
+   }
+  },
+  {
+   "year": 221,
+   "month": 5,
+   "title": "刘备称帝，蜀汉建立",
+   "place": "成都",
+   "lon": 104.07,
+   "lat": 30.66,
+   "cat": "politics",
+   "text": "曹丕代汉次年，刘备以汉室宗亲身份在成都称帝，国号汉，史称蜀汉。",
+   "wiki": "Shu_Han",
+   "war": "threeKingdoms",
+   "wikiLang": {
+    "ja": "蜀漢",
+    "zh": "蜀汉"
+   }
+  },
+  {
+   "year": 222,
+   "month": 8,
+   "title": "夷陵之战",
+   "place": "夷陵（今湖北宜昌）",
+   "lon": 111.3,
+   "lat": 30.7,
+   "cat": "conflict",
+   "text": "刘备为夺回荆州伐吴，被陆逊火烧连营大败，次年病逝于白帝城。",
+   "wiki": "Battle_of_Xiaoting",
+   "war": "threeKingdoms",
+   "wikiLang": {
+    "ja": "夷陵の戦い",
+    "zh": "夷陵之战"
+   }
+  },
+  {
+   "year": 225,
+   "month": 6,
+   "title": "诸葛亮南征",
+   "place": "南中（今云南、贵州）",
+   "lon": 103.0,
+   "lat": 25.5,
+   "cat": "conflict",
+   "text": "诸葛亮平定南中豪强叛乱，相传“七擒孟获”，以攻心为上，稳定了蜀汉后方。",
+   "wiki": "Zhuge_Liang's_Southern_Campaign",
+   "war": "threeKingdoms",
+   "wikiLang": {
+    "ja": "諸葛亮南征",
+    "zh": "諸葛亮南征"
+   }
+  },
+  {
+   "year": 228,
+   "month": 3,
+   "title": "诸葛亮北伐，失街亭",
+   "place": "街亭（今甘肃秦安）",
+   "lon": 105.9,
+   "lat": 34.9,
+   "cat": "conflict",
+   "text": "诸葛亮第一次北伐，马谡违令在街亭被魏将张郃击败，北伐功亏一篑，“挥泪斩马谡”。",
+   "wiki": "Zhuge_Liang's_Northern_Expeditions",
+   "war": "threeKingdoms",
+   "wikiLang": {
+    "ja": "北伐_(諸葛亮)",
+    "zh": "诸葛亮北伐"
+   }
+  },
+  {
+   "year": 229,
+   "month": 5,
+   "title": "孙权称帝",
+   "place": "武昌（今湖北鄂州）",
+   "lon": 114.85,
+   "lat": 30.4,
+   "cat": "politics",
+   "text": "孙权在武昌称帝，国号吴，同年迁都建业，三国皆称帝。",
+   "wiki": "Eastern_Wu",
+   "war": "threeKingdoms",
+   "wikiLang": {
+    "ja": "呉_(三国)",
+    "zh": "孫吳"
+   }
+  },
+  {
+   "year": 234,
+   "month": 8,
+   "title": "五丈原之战",
+   "place": "五丈原（今陕西岐山）",
+   "lon": 107.65,
+   "lat": 34.3,
+   "cat": "conflict",
+   "text": "诸葛亮第五次北伐，与司马懿相持百余日，病逝于军中，蜀军撤退。",
+   "wiki": "Battle_of_Wuzhang_Plains",
+   "war": "threeKingdoms",
+   "wikiLang": {
+    "ja": "五丈原の戦い",
+    "zh": "五丈原之戰"
+   }
+  },
+  {
+   "year": 249,
+   "month": 2,
+   "title": "高平陵之变",
+   "place": "洛阳",
+   "lon": 112.6,
+   "lat": 34.62,
+   "cat": "politics",
+   "text": "司马懿趁曹爽陪魏帝出城谒陵时发动政变，诛灭曹爽，曹魏大权从此落入司马氏手中。",
+   "wiki": "Incident_at_the_Gaoping_Tombs",
+   "war": "threeKingdoms",
+   "wikiLang": {
+    "ja": "高平陵の変",
+    "zh": "高平陵之变"
+   }
+  },
+  {
+   "year": 263,
+   "month": 11,
+   "title": "魏灭蜀汉",
+   "place": "成都",
+   "lon": 104.2,
+   "lat": 30.75,
+   "cat": "conflict",
+   "text": "邓艾偷渡阴平直抵成都，后主刘禅出降，蜀汉灭亡。",
+   "wiki": "Conquest_of_Shu_by_Wei",
+   "war": "threeKingdoms",
+   "wikiLang": {
+    "ja": "蜀漢の滅亡",
+    "zh": "魏滅蜀漢之戰"
+   }
+  },
+  {
+   "year": 266,
+   "month": 2,
+   "title": "司马炎建立晋朝",
+   "place": "洛阳",
+   "lon": 112.4,
+   "lat": 34.66,
+   "cat": "politics",
+   "text": "司马炎逼魏元帝禅让，建立晋朝，史称西晋。",
+   "wiki": "Jin_dynasty_(266–420)",
+   "war": "threeKingdoms",
+   "wikiLang": {
+    "ja": "晋_(王朝)",
+    "zh": "晋朝"
+   }
+  },
+  {
+   "year": 280,
+   "month": 4,
+   "title": "西晋灭吴，统一全国",
+   "place": "建业（今江苏南京）",
+   "lon": 118.8,
+   "lat": 32.06,
+   "cat": "conflict",
+   "text": "晋军顺江而下，吴主孙皓投降，三国时代结束。",
+   "wiki": "Conquest_of_Wu_by_Jin",
+   "war": "threeKingdoms",
+   "wikiLang": {
+    "ja": "呉の滅亡_(三国)",
+    "zh": "晉滅吳之戰"
+   }
+  },
+  {
+   "year": 300,
+   "month": 4,
+   "title": "八王之乱",
+   "place": "洛阳",
+   "lon": 112.5,
+   "lat": 34.7,
+   "cat": "conflict",
+   "text": "赵王司马伦废杀贾后，诸王相继起兵争夺朝政，内战持续至306年，西晋元气大伤，各族首领乘机而起。",
+   "wiki": "War_of_the_Eight_Princes",
+   "war": "wuhu",
+   "wikiLang": {
+    "ja": "八王の乱",
+    "zh": "八王之乱"
+   }
+  },
+  {
+   "year": 304,
+   "month": 10,
+   "title": "李雄建立成汉",
+   "place": "成都",
+   "lon": 103.9,
+   "lat": 30.6,
+   "cat": "politics",
+   "text": "賨人首领李雄在成都称王，两年后称帝，国号成，后改汉，史称成汉。",
+   "wiki": "Cheng_Han",
+   "war": "wuhu",
+   "wikiLang": {
+    "ja": "成漢",
+    "zh": "成汉"
+   }
+  },
+  {
+   "year": 304,
+   "month": 11,
+   "title": "刘渊建立汉赵",
+   "place": "左国城（今山西离石）",
+   "lon": 111.13,
+   "lat": 37.52,
+   "cat": "politics",
+   "text": "匈奴贵族刘渊自称汉王，以继承汉朝为号召起兵，揭开了十六国时代的序幕。",
+   "wiki": "Han_Zhao",
+   "war": "wuhu",
+   "wikiLang": {
+    "ja": "前趙",
+    "zh": "汉赵"
+   }
+  },
+  {
+   "year": 311,
+   "month": 7,
+   "title": "永嘉之乱",
+   "place": "洛阳",
+   "lon": 112.55,
+   "lat": 34.68,
+   "cat": "conflict",
+   "text": "匈奴人建立的汉赵攻陷洛阳，俘虏晋怀帝。北方陷入十六国混战，大批士民南渡。",
+   "wiki": "Disaster_of_Yongjia",
+   "war": "wuhu",
+   "wikiLang": {
+    "ja": "永嘉の乱",
+    "zh": "永嘉之乱"
+   }
+  },
+  {
+   "year": 316,
+   "month": 12,
+   "title": "长安陷落，西晋灭亡",
+   "place": "长安",
+   "lon": 108.9,
+   "lat": 34.3,
+   "cat": "conflict",
+   "text": "汉赵将领刘曜攻破长安，晋愍帝出降，西晋灭亡。",
+   "wiki": "Emperor_Min_of_Jin",
+   "war": "wuhu",
+   "wikiLang": {
+    "ja": "愍帝_(西晋)",
+    "zh": "晋愍帝"
+   }
+  },
+  {
+   "year": 318,
+   "month": 4,
+   "title": "司马睿称帝，东晋建立",
+   "place": "建康（今江苏南京）",
+   "lon": 118.78,
+   "lat": 32.04,
+   "cat": "politics",
+   "text": "琅琊王司马睿在王导等南北士族支持下称帝，“王与马，共天下”，东晋偏安江南百余年。",
+   "wiki": "Emperor_Yuan_of_Jin",
+   "war": "wuhu",
+   "wikiLang": {
+    "ja": "元帝_(東晋)",
+    "zh": "晉元帝"
+   }
+  },
+  {
+   "year": 319,
+   "month": 11,
+   "title": "石勒建立后赵",
+   "place": "襄国（今河北邢台）",
+   "lon": 114.5,
+   "lat": 37.07,
+   "cat": "politics",
+   "text": "羯人石勒脱离汉赵自立，329年灭前赵，统一北方大部。",
+   "wiki": "Later_Zhao",
+   "war": "wuhu",
+   "wikiLang": {
+    "ja": "後趙",
+    "zh": "后赵"
+   }
+  },
+  {
+   "year": 337,
+   "month": 10,
+   "title": "慕容皝建立前燕",
+   "place": "龙城（今辽宁朝阳）",
+   "lon": 120.45,
+   "lat": 41.57,
+   "cat": "politics",
+   "text": "鲜卑慕容部首领慕容皝称燕王，后南下中原，与东晋、前秦鼎立。",
+   "wiki": "Former_Yan",
+   "war": "wuhu",
+   "wikiLang": {
+    "ja": "前燕",
+    "zh": "前燕"
+   }
+  },
+  {
+   "year": 347,
+   "month": 3,
+   "title": "桓温灭成汉",
+   "place": "成都",
+   "lon": 104.0,
+   "lat": 30.7,
+   "cat": "conflict",
+   "text": "东晋将领桓温溯江西征攻克成都，成汉灭亡，巴蜀重归东晋。",
+   "wiki": "Huan_Wen",
+   "war": "wuhu",
+   "wikiLang": {
+    "ja": "桓温",
+    "zh": "桓温"
+   }
+  },
+  {
+   "year": 351,
+   "month": 2,
+   "title": "苻健建立前秦",
+   "place": "长安",
+   "lon": 108.9,
+   "lat": 34.25,
+   "cat": "politics",
+   "text": "氐人苻健入关中称王，次年称帝。前秦在苻坚、王猛治下成为北方最强的国家。",
+   "wiki": "Former_Qin",
+   "war": "wuhu",
+   "wikiLang": {
+    "ja": "前秦",
+    "zh": "前秦"
+   }
+  },
+  {
+   "year": 366,
+   "title": "莫高窟开凿",
+   "place": "敦煌",
+   "lon": 94.8,
+   "lat": 40.04,
+   "cat": "culture",
+   "text": "僧人乐僔在鸣沙山开凿第一个石窟。此后千年间共凿洞窟七百余个，保存了大量壁画和文书。",
+   "wiki": "Mogao_Caves",
+   "wikiLang": {
+    "ja": "莫高窟",
+    "zh": "莫高窟"
+   }
+  },
+  {
+   "year": 370,
+   "month": 11,
+   "title": "王猛灭前燕",
+   "place": "邺城（今河北临漳）",
+   "lon": 114.3,
+   "lat": 36.3,
+   "cat": "conflict",
+   "text": "前秦丞相王猛率军攻克邺城，前燕灭亡，关东尽归前秦。",
+   "wiki": "Wang_Meng_(Former_Qin)",
+   "war": "wuhu",
+   "wikiLang": {
+    "ja": "王猛",
+    "zh": "王猛"
+   }
+  },
+  {
+   "year": 376,
+   "month": 8,
+   "title": "前秦灭前凉",
+   "place": "姑臧（今甘肃武威）",
+   "lon": 102.64,
+   "lat": 37.93,
+   "cat": "conflict",
+   "text": "前秦攻灭河西的前凉，同年又灭代国，统一北方。",
+   "wiki": "Former_Liang",
+   "war": "wuhu",
+   "wikiLang": {
+    "ja": "前涼",
+    "zh": "前凉"
+   }
+  },
+  {
+   "year": 383,
+   "month": 11,
+   "title": "淝水之战",
+   "place": "淝水（今安徽寿县）",
+   "lon": 116.6,
+   "lat": 32.2,
+   "cat": "conflict",
+   "text": "东晋以少胜多击败前秦大军，“风声鹤唳、草木皆兵”。前秦随后瓦解，南北分立的格局延续。",
+   "wiki": "Battle_of_Fei_River",
+   "war": "wuhu",
+   "wikiLang": {
+    "ja": "淝水の戦い",
+    "zh": "淝水之戰"
+   }
+  },
+  {
+   "year": 386,
+   "month": 2,
+   "title": "拓跋珪建立北魏",
+   "place": "盛乐（今内蒙古和林格尔）",
+   "lon": 111.6,
+   "lat": 40.4,
+   "cat": "politics",
+   "text": "前秦崩溃后，鲜卑拓跋珪复国称代王，不久改国号魏，史称北魏。",
+   "wiki": "Northern_Wei",
+   "war": "wuhu",
+   "wikiLang": {
+    "ja": "北魏",
+    "zh": "北魏"
+   }
+  },
+  {
+   "year": 395,
+   "month": 12,
+   "title": "参合陂之战",
+   "place": "参合陂（今内蒙古凉城）",
+   "lon": 112.6,
+   "lat": 40.5,
+   "cat": "conflict",
+   "text": "北魏大败后燕军队并坑杀降卒，北方霸权开始转向北魏。",
+   "wiki": "Battle_of_Canhe_Slope",
+   "war": "wuhu",
+   "wikiLang": {
+    "ja": "参合陂の戦い",
+    "zh": "參合陂之戰"
+   }
+  },
+  {
+   "year": 414,
+   "title": "好太王碑",
+   "place": "国内城（今吉林集安）",
+   "lon": 126.18,
+   "lat": 41.15,
+   "cat": "culture",
+   "text": "高句丽长寿王为其父广开土王立碑记功，是研究高句丽及古代东北亚史的重要史料。",
+   "wiki": "Gwanggaeto_Stele",
+   "wikiLang": {
+    "ja": "好太王碑",
+    "zh": "好太王碑"
+   }
+  },
+  {
+   "year": 417,
+   "month": 8,
+   "title": "刘裕北伐灭后秦",
+   "place": "长安",
+   "lon": 108.95,
+   "lat": 34.3,
+   "cat": "conflict",
+   "text": "东晋权臣刘裕北伐攻克长安，后秦灭亡；但关中不久即被赫连勃勃夺走。",
+   "wiki": "Later_Qin",
+   "war": "wuhu",
+   "wikiLang": {
+    "ja": "後秦",
+    "zh": "后秦"
+   }
+  },
+  {
+   "year": 420,
+   "month": 7,
+   "title": "刘裕代晋建宋",
+   "place": "建康（今江苏南京）",
+   "lon": 118.8,
+   "lat": 32.05,
+   "cat": "politics",
+   "text": "刘裕废晋恭帝称帝，国号宋，史称刘宋，南朝开始。",
+   "wiki": "Liu_Song_dynasty",
+   "war": "wuhu",
+   "wikiLang": {
+    "ja": "宋_(南朝)",
+    "zh": "刘宋"
+   }
+  },
+  {
+   "year": 439,
+   "month": 9,
+   "title": "北魏灭北凉，统一北方",
+   "place": "姑臧（今甘肃武威）",
+   "lon": 102.6,
+   "lat": 37.9,
+   "cat": "conflict",
+   "text": "北魏太武帝攻灭北凉，结束了一百三十余年的十六国时代，与南方的刘宋形成南北朝对峙。",
+   "wiki": "Northern_Liang",
+   "war": "wuhu",
+   "wikiLang": {
+    "ja": "北涼",
+    "zh": "北凉"
+   }
+  },
+  {
+   "year": 494,
+   "title": "北魏孝文帝迁都洛阳",
+   "place": "洛阳",
+   "lon": 112.4,
+   "lat": 34.55,
+   "cat": "politics",
+   "text": "孝文帝从平城迁都洛阳，推行汉化改革，改鲜卑姓为汉姓，并开凿龙门石窟。",
+   "wiki": "Emperor_Xiaowen_of_Northern_Wei",
+   "wikiLang": {
+    "ja": "孝文帝",
+    "zh": "魏孝文帝"
+   }
+  },
+  {
+   "year": 538,
+   "title": "佛教传入日本",
+   "place": "飞鸟（今日本奈良）",
+   "lon": 135.82,
+   "lat": 34.47,
+   "cat": "culture",
+   "text": "百济圣王向倭国赠送佛像和经论。苏我氏与物部氏为此争论，最终崇佛派获胜。",
+   "wiki": "Buddhism_in_Japan",
+   "wikiLang": {
+    "ja": "日本の仏教",
+    "zh": "日本佛教"
+   }
+  },
+  {
+   "year": 589,
+   "title": "隋灭陈，南北统一",
+   "place": "建康（今江苏南京）",
+   "lon": 118.75,
+   "lat": 32.0,
+   "cat": "politics",
+   "text": "隋军渡江攻陷建康，结束了西晋末年以来近三百年的分裂。",
+   "wiki": "Sui_conquest_of_Chen",
+   "wikiLang": {
+    "ja": "陳_(南朝)",
+    "zh": "南陳"
+   }
+  },
+  {
+   "year": 605,
+   "title": "开凿大运河",
+   "place": "通济渠（洛阳至淮河）",
+   "lon": 114.3,
+   "lat": 34.4,
+   "cat": "society",
+   "text": "隋炀帝动员百万民工开凿运河，连通黄河、淮河与长江，此后成为南粮北运的命脉。",
+   "wiki": "Grand_Canal_(China)",
+   "wikiLang": {
+    "zh": "大运河"
+   }
+  },
+  {
+   "year": 605,
+   "title": "科举制度创立",
+   "place": "长安",
+   "lon": 108.9,
+   "lat": 34.2,
+   "cat": "culture",
+   "text": "隋朝设进士科，以考试选拔官员。科举延续至1905年，并为朝鲜和越南所仿效。",
+   "wiki": "Imperial_examination",
+   "wikiLang": {
+    "ja": "科挙",
+    "zh": "科举"
+   }
+  },
+  {
+   "year": 612,
+   "title": "萨水之战",
+   "place": "萨水（今朝鲜清川江）",
+   "lon": 125.6,
+   "lat": 39.6,
+   "cat": "conflict",
+   "text": "隋炀帝远征高句丽，乙支文德在萨水大败隋军。连年征伐耗尽国力，隋朝不久灭亡。",
+   "wiki": "Battle_of_Salsu",
+   "wikiLang": {
+    "zh": "薩水之戰"
+   }
+  },
+  {
+   "year": 618,
+   "title": "唐朝建立",
+   "place": "长安",
+   "lon": 108.97,
+   "lat": 34.3,
+   "cat": "politics",
+   "text": "李渊在长安称帝建立唐朝。唐代长安是当时世界上最大的城市之一。",
+   "wiki": "Tang_dynasty",
+   "wikiLang": {
+    "ja": "唐",
+    "zh": "唐朝"
+   }
+  },
+  {
+   "year": 641,
+   "title": "文成公主入藏",
+   "place": "逻些（今西藏拉萨）",
+   "lon": 91.13,
+   "lat": 29.65,
+   "cat": "culture",
+   "text": "唐太宗以文成公主嫁吐蕃赞普松赞干布，随行工匠和佛像促进了汉藏文化交流。",
+   "wiki": "Princess_Wencheng",
+   "wikiLang": {
+    "ja": "文成公主",
+    "zh": "文成公主"
+   }
+  },
+  {
+   "year": 645,
+   "title": "大化改新",
+   "place": "飞鸟（今日本奈良）",
+   "lon": 135.8,
+   "lat": 34.48,
+   "cat": "politics",
+   "text": "中大兄皇子与中臣镰足诛灭苏我氏，仿照唐制推行公地公民与律令制改革。",
+   "wiki": "Taika_Reform",
+   "wikiLang": {
+    "ja": "大化の改新",
+    "zh": "大化改新"
+   }
+  },
+  {
+   "year": 645,
+   "title": "玄奘取经归来",
+   "place": "长安",
+   "lon": 108.96,
+   "lat": 34.22,
+   "cat": "culture",
+   "text": "玄奘历时十七年西行天竺求法，带回经卷六百余部，并口述《大唐西域记》。",
+   "wiki": "Xuanzang",
+   "wikiLang": {
+    "ja": "玄奘",
+    "zh": "玄奘"
+   }
+  },
+  {
+   "year": 663,
+   "title": "白江口之战",
+   "place": "白江口（今韩国锦江口）",
+   "lon": 126.6,
+   "lat": 36.0,
+   "cat": "conflict",
+   "text": "唐与新罗联军大败倭国与百济复国军的水师，百济灭亡，倭国退出朝鲜半岛。",
+   "wiki": "Battle_of_Baekgang",
+   "wikiLang": {
+    "ja": "白村江の戦い",
+    "zh": "白江口之战"
+   }
+  },
+  {
+   "year": 676,
+   "title": "新罗统一朝鲜半岛",
+   "place": "金城（今韩国庆州）",
+   "lon": 129.22,
+   "lat": 35.86,
+   "cat": "politics",
+   "text": "新罗联合唐朝灭百济、高句丽后，又将唐军逐出大同江以南，统一了半岛大部。",
+   "wiki": "Unified_Silla",
+   "wikiLang": {
+    "ja": "統一新羅",
+    "zh": "统一新罗"
+   }
+  },
+  {
+   "year": 698,
+   "title": "渤海国建立",
+   "place": "东牟山（今吉林敦化）",
+   "lon": 128.2,
+   "lat": 43.4,
+   "cat": "politics",
+   "text": "大祚荣率粟末靺鞨与高句丽遗民建国，后受唐册封，号称“海东盛国”。",
+   "wiki": "Balhae",
+   "wikiLang": {
+    "ja": "渤海_(国)",
+    "zh": "渤海国"
+   }
+  },
+  {
+   "year": 710,
+   "title": "迁都平城京",
+   "place": "平城京（今日本奈良）",
+   "lon": 135.79,
+   "lat": 34.69,
+   "cat": "politics",
+   "text": "日本仿照唐长安城修建平城京，奈良时代开始。",
+   "wiki": "Heijō-kyō",
+   "wikiLang": {
+    "ja": "平城京",
+    "zh": "平城京"
+   }
+  },
+  {
+   "year": 755,
+   "title": "安史之乱",
+   "place": "范阳（今北京）",
+   "lon": 116.2,
+   "lat": 39.7,
+   "cat": "conflict",
+   "text": "节度使安禄山起兵叛唐，攻陷洛阳和长安。八年战乱后唐朝由盛转衰，藩镇割据。",
+   "wiki": "An_Lushan_Rebellion",
+   "wikiLang": {
+    "ja": "安史の乱",
+    "zh": "安史之亂"
+   }
+  },
+  {
+   "year": 794,
+   "title": "迁都平安京",
+   "place": "平安京（今日本京都）",
+   "lon": 135.77,
+   "lat": 35.01,
+   "cat": "politics",
+   "text": "桓武天皇迁都平安京，此后千余年京都一直是日本的皇都，平安时代开始。",
+   "wiki": "Heian-kyō",
+   "wikiLang": {
+    "ja": "平安京",
+    "zh": "平安京"
+   }
+  },
+  {
+   "year": 802,
+   "title": "吴哥王朝建立",
+   "place": "吴哥（今柬埔寨）",
+   "lon": 103.87,
+   "lat": 13.41,
+   "cat": "politics",
+   "text": "阇耶跋摩二世宣布独立并自称“转轮王”，高棉帝国此后称雄中南半岛数百年。",
+   "wiki": "Khmer_Empire",
+   "wikiLang": {
+    "ja": "クメール王朝",
+    "zh": "高棉帝国"
+   }
+  },
+  {
+   "year": 840,
+   "title": "回鹘汗国崩溃",
+   "place": "斡耳朵八里（今蒙古国）",
+   "lon": 102.66,
+   "lat": 47.43,
+   "cat": "conflict",
+   "text": "黠戛斯攻破回鹘都城，回鹘人西迁至高昌和河西，后来成为今维吾尔族的先民之一。",
+   "wiki": "Uyghur_Khaganate",
+   "wikiLang": {
+    "ja": "回鶻",
+    "zh": "回鹘汗国"
+   }
+  },
+  {
+   "year": 868,
+   "title": "《金刚经》雕版印刷",
+   "place": "敦煌藏经洞",
+   "lon": 94.7,
+   "lat": 40.1,
+   "cat": "culture",
+   "text": "咸通九年印制的《金刚经》是现存最早有明确日期的雕版印刷品，1900年在莫高窟发现。",
+   "wiki": "Diamond_Sutra",
+   "wikiLang": {
+    "ja": "金剛般若経",
+    "zh": "金剛經"
+   }
+  },
+  {
+   "year": 875,
+   "title": "黄巢起义",
+   "place": "山东、河南一带",
+   "lon": 116.0,
+   "lat": 35.3,
+   "cat": "conflict",
+   "text": "私盐贩黄巢起兵，转战南北并攻入长安称帝。唐朝虽镇压了起义，但已名存实亡。",
+   "wiki": "Huang_Chao",
+   "wikiLang": {
+    "ja": "黄巣",
+    "zh": "黄巢"
+   }
+  },
+  {
+   "year": 907,
+   "title": "唐亡，五代十国",
+   "place": "汴州（今河南开封）",
+   "lon": 114.31,
+   "lat": 34.8,
+   "cat": "politics",
+   "text": "朱温篡唐建立后梁。此后半个世纪，北方五个朝代更替，南方十余国并立。",
+   "wiki": "Five_Dynasties_and_Ten_Kingdoms_period",
+   "wikiLang": {
+    "ja": "五代十国時代",
+    "zh": "五代十国"
+   }
+  },
+  {
+   "year": 918,
+   "title": "高丽建立",
+   "place": "开京（今朝鲜开城）",
+   "lon": 126.55,
+   "lat": 37.97,
+   "cat": "politics",
+   "text": "王建建立高丽，后统一后三国。英文“Korea”一名即源于“高丽”。",
+   "wiki": "Goryeo",
+   "wikiLang": {
+    "ja": "高麗",
+    "zh": "高麗"
+   }
+  },
+  {
+   "year": 938,
+   "title": "白藤江之战（938年）",
+   "place": "白藤江（今越南海防）",
+   "lon": 106.75,
+   "lat": 20.9,
+   "cat": "conflict",
+   "text": "吴权以木桩阵大败南汉水军，结束了中国对越南北部约千年的统治，越南走向独立。",
+   "wiki": "Battle_of_Bạch_Đằng_(938)",
+   "wikiLang": {
+    "ja": "白藤江の戦い_(938年)",
+    "zh": "白藤江之战_(938年)"
+   }
+  },
+  {
+   "year": 960,
+   "title": "陈桥兵变，北宋建立",
+   "place": "开封",
+   "lon": 114.3,
+   "lat": 34.78,
+   "cat": "politics",
+   "text": "赵匡胤黄袍加身建立宋朝，以文治国，并通过“杯酒释兵权”削夺武将兵权。",
+   "wiki": "Song_dynasty",
+   "wikiLang": {
+    "ja": "宋_(王朝)",
+    "zh": "宋朝"
+   }
+  },
+  {
+   "year": 1004,
+   "title": "澶渊之盟",
+   "place": "澶州（今河南濮阳）",
+   "lon": 115.0,
+   "lat": 35.76,
+   "cat": "politics",
+   "text": "宋辽议和，宋每年向辽输送岁币。此后两国维持了一百多年的和平。",
+   "wiki": "Chanyuan_Treaty",
+   "wikiLang": {
+    "ja": "澶淵の盟",
+    "zh": "澶渊之盟"
+   }
+  },
+  {
+   "year": 1010,
+   "title": "李朝迁都升龙",
+   "place": "升龙（今越南河内）",
+   "lon": 105.85,
+   "lat": 21.03,
+   "cat": "politics",
+   "text": "李太祖李公蕴迁都大罗城并改名升龙，河内从此成为越南的政治中心。",
+   "wiki": "Lý_dynasty",
+   "wikiLang": {
+    "ja": "李朝_(ベトナム)",
+    "zh": "李朝_(越南)"
+   }
+  },
+  {
+   "year": 1038,
+   "title": "西夏建立",
+   "place": "兴庆府（今宁夏银川）",
+   "lon": 106.23,
+   "lat": 38.49,
+   "cat": "politics",
+   "text": "党项首领李元昊称帝，国号大夏，并创制西夏文字。",
+   "wiki": "Western_Xia",
+   "wikiLang": {
+    "ja": "西夏",
+    "zh": "西夏"
+   }
+  },
+  {
+   "year": 1040,
+   "title": "毕昇发明活字印刷",
+   "place": "蕲州英山（今湖北）",
+   "lon": 115.68,
+   "lat": 30.73,
+   "cat": "society",
+   "text": "据沈括《梦溪笔谈》记载，平民毕昇用胶泥制成活字排版印刷，比欧洲早约四百年。",
+   "wiki": "Movable_type",
+   "wikiLang": {
+    "ja": "活字",
+    "zh": "活字印刷术"
+   }
+  },
+  {
+   "year": 1044,
+   "title": "蒲甘王朝统一缅甸",
+   "place": "蒲甘（今缅甸）",
+   "lon": 94.86,
+   "lat": 21.17,
+   "cat": "politics",
+   "text": "阿奴律陀王统一伊洛瓦底江流域，推崇上座部佛教，建造了数以千计的佛塔。",
+   "wiki": "Pagan_Kingdom",
+   "wikiLang": {
+    "ja": "パガン王朝",
+    "zh": "蒲甘王國"
+   }
+  },
+  {
+   "year": 1069,
+   "title": "王安石变法",
+   "place": "开封",
+   "lon": 114.35,
+   "lat": 34.82,
+   "cat": "politics",
+   "text": "宋神宗任用王安石推行青苗法、募役法等新法以富国强兵，新旧党争由此激烈。",
+   "wiki": "Wang_Anshi",
+   "wikiLang": {
+    "ja": "王安石",
+    "zh": "王安石"
+   }
+  },
+  {
+   "year": 1084,
+   "title": "《资治通鉴》成书",
+   "place": "洛阳",
+   "lon": 112.47,
+   "lat": 34.64,
+   "cat": "culture",
+   "text": "司马光历时十九年编成编年体通史，记述了战国至五代共1362年的历史。",
+   "wiki": "Zizhi_Tongjian",
+   "wikiLang": {
+    "ja": "資治通鑑",
+    "zh": "資治通鑑"
+   }
+  },
+  {
+   "year": 1115,
+   "title": "金朝建立",
+   "place": "会宁（今黑龙江阿城）",
+   "lon": 126.95,
+   "lat": 45.47,
+   "cat": "politics",
+   "text": "女真首领完颜阿骨打称帝建金。十年后金灭辽，又于1127年攻灭北宋。",
+   "wiki": "Jin_dynasty_(1115–1234)",
+   "wikiLang": {
+    "ja": "金_(王朝)",
+    "zh": "金朝"
+   }
+  },
+  {
+   "year": 1127,
+   "title": "靖康之变",
+   "place": "开封",
+   "lon": 114.28,
+   "lat": 34.82,
+   "cat": "conflict",
+   "text": "金军攻破开封，俘虏徽、钦二帝及宗室北去，北宋灭亡。宋高宗在南方重建宋朝，史称南宋。",
+   "wiki": "Jingkang_incident",
+   "wikiLang": {
+    "ja": "靖康の変",
+    "zh": "靖康之变"
+   }
+  },
+  {
+   "year": 1142,
+   "title": "岳飞遇害，绍兴和议",
+   "place": "临安（今浙江杭州）",
+   "lon": 120.16,
+   "lat": 30.27,
+   "cat": "politics",
+   "text": "抗金名将岳飞以“莫须有”罪名被杀。宋金议和，以淮河—大散关为界。",
+   "wiki": "Yue_Fei",
+   "wikiLang": {
+    "ja": "岳飛",
+    "zh": "岳飞"
+   }
+  },
+  {
+   "year": 1185,
+   "title": "坛之浦之战",
+   "place": "坛之浦（今日本下关）",
+   "lon": 130.97,
+   "lat": 33.96,
+   "cat": "conflict",
+   "text": "源氏在海战中消灭平氏，源赖朝随后在镰仓建立幕府，日本进入武士执政时代。",
+   "wiki": "Battle_of_Dan-no-ura",
+   "wikiLang": {
+    "ja": "壇ノ浦の戦い",
+    "zh": "壇之浦之戰"
+   }
+  },
+  {
+   "year": 1206,
+   "title": "成吉思汗统一蒙古",
+   "place": "斡难河源（今蒙古国肯特省）",
+   "lon": 109.0,
+   "lat": 48.6,
+   "cat": "politics",
+   "text": "铁木真在忽里台大会上被尊为成吉思汗，建立大蒙古国。蒙古此后征服了欧亚大陆大部分地区。",
+   "wiki": "Genghis_Khan",
+   "wikiLang": {
+    "ja": "チンギス・カン",
+    "zh": "成吉思汗"
+   }
+  },
+  {
+   "year": 1215,
+   "title": "蒙古攻陷金中都",
+   "place": "中都（今北京）",
+   "lon": 116.35,
+   "lat": 39.85,
+   "cat": "conflict",
+   "text": "成吉思汗围攻并攻陷金朝中都，金宣宗南迁开封。",
+   "wiki": "Battle_of_Zhongdu",
+   "wikiLang": {
+    "ja": "中都の戦い",
+    "zh": "中都之战"
+   }
+  },
+  {
+   "year": 1234,
+   "title": "蔡州之战，金朝灭亡",
+   "place": "蔡州（今河南汝南）",
+   "lon": 114.04,
+   "lat": 33.0,
+   "cat": "conflict",
+   "text": "蒙古与南宋联军攻破蔡州，金哀宗自尽，金朝灭亡。宋蒙随即开战。",
+   "wiki": "Siege_of_Caizhou",
+   "wikiLang": {
+    "ja": "蔡州の戦い",
+    "zh": "蔡州之战"
+   }
+  },
+  {
+   "year": 1238,
+   "title": "素可泰王国建立",
+   "place": "素可泰（今泰国）",
+   "lon": 99.7,
+   "lat": 17.0,
+   "cat": "politics",
+   "text": "泰人摆脱高棉统治建立素可泰王国，兰甘亨王时期创制了泰文。",
+   "wiki": "Sukhothai_Kingdom",
+   "wikiLang": {
+    "ja": "スコータイ王朝",
+    "zh": "素可泰王国"
+   }
+  },
+  {
+   "year": 1271,
+   "title": "忽必烈建立元朝",
+   "place": "大都（今北京）",
+   "lon": 116.4,
+   "lat": 39.95,
+   "cat": "politics",
+   "text": "忽必烈取《易经》“大哉乾元”之义定国号为元，次年定都大都。",
+   "wiki": "Yuan_dynasty",
+   "wikiLang": {
+    "ja": "元_(王朝)",
+    "zh": "元朝"
+   }
+  },
+  {
+   "year": 1274,
+   "title": "元日战争",
+   "place": "博多湾（今日本福冈）",
+   "lon": 130.4,
+   "lat": 33.6,
+   "cat": "conflict",
+   "text": "元朝与高丽联军两次（1274、1281）渡海进攻日本，均因风暴和日军防守而失败。日本人称之为“神风”。",
+   "wiki": "Mongol_invasions_of_Japan",
+   "wikiLang": {
+    "ja": "元寇",
+    "zh": "元日战争"
+   }
+  },
+  {
+   "year": 1275,
+   "title": "马可·波罗抵达上都",
+   "place": "上都（今内蒙古正蓝旗）",
+   "lon": 116.18,
+   "lat": 42.36,
+   "cat": "culture",
+   "text": "威尼斯商人马可·波罗觐见忽必烈。他的游记使欧洲人对中国充满想象。",
+   "wiki": "Marco_Polo",
+   "wikiLang": {
+    "ja": "マルコ・ポーロ",
+    "zh": "马可·波罗"
+   }
+  },
+  {
+   "year": 1279,
+   "title": "崖山海战，南宋灭亡",
+   "place": "崖山（今广东江门）",
+   "lon": 113.07,
+   "lat": 22.25,
+   "cat": "conflict",
+   "text": "元军在海战中击溃南宋最后的舰队，陆秀夫背负幼帝赵昺投海，南宋灭亡。",
+   "wiki": "Battle_of_Yamen",
+   "wikiLang": {
+    "ja": "崖山の戦い",
+    "zh": "崖门海战"
+   }
+  },
+  {
+   "year": 1288,
+   "title": "白藤江之战（1288年）",
+   "place": "白藤江（今越南海防）",
+   "lon": 106.8,
+   "lat": 20.95,
+   "cat": "conflict",
+   "text": "陈兴道仿效吴权的木桩战术，第三次击退元军的入侵，大越保住了独立。",
+   "wiki": "Battle_of_Bạch_Đằng_(1288)",
+   "wikiLang": {
+    "ja": "白藤江の戦い_(1288年)",
+    "zh": "白藤江之战_(1288年)"
+   }
+  },
+  {
+   "year": 1351,
+   "title": "红巾军起义",
+   "place": "颍州（今安徽阜阳）",
+   "lon": 115.8,
+   "lat": 32.9,
+   "cat": "conflict",
+   "text": "刘福通等以白莲教组织起义，头裹红巾，反元起义迅速蔓延至全国。",
+   "wiki": "Red_Turban_Rebellions",
+   "wikiLang": {
+    "ja": "紅巾の乱",
+    "zh": "紅巾軍"
+   }
+  },
+  {
+   "year": 1351,
+   "title": "阿瑜陀耶王国建立",
+   "place": "阿瑜陀耶（今泰国大城）",
+   "lon": 100.57,
+   "lat": 14.36,
+   "cat": "politics",
+   "text": "乌通王建立阿瑜陀耶王国，后吞并素可泰，成为暹罗四百余年的强国。",
+   "wiki": "Ayutthaya_Kingdom",
+   "wikiLang": {
+    "ja": "アユタヤ王朝",
+    "zh": "阿瑜陀耶王国"
+   }
+  },
+  {
+   "year": 1363,
+   "title": "鄱阳湖之战",
+   "place": "鄱阳湖",
+   "lon": 116.3,
+   "lat": 29.1,
+   "cat": "conflict",
+   "text": "朱元璋以火攻击败陈友谅的巨舰水军，这是中世纪规模最大的水战之一。",
+   "wiki": "Battle_of_Lake_Poyang",
+   "wikiLang": {
+    "ja": "鄱陽湖の戦い",
+    "zh": "鄱陽湖之戰"
+   }
+  },
+  {
+   "year": 1368,
+   "title": "明朝建立",
+   "place": "应天（今江苏南京）",
+   "lon": 118.8,
+   "lat": 32.06,
+   "cat": "politics",
+   "text": "朱元璋称帝，国号大明。同年明军攻入大都，元顺帝北走漠北。",
+   "wiki": "Ming_dynasty",
+   "wikiLang": {
+    "ja": "明",
+    "zh": "明朝"
+   }
+  },
+  {
+   "year": 1392,
+   "title": "朝鲜王朝建立",
+   "place": "开京，1394年迁都汉阳（今首尔）",
+   "lon": 126.98,
+   "lat": 37.57,
+   "cat": "politics",
+   "text": "李成桂推翻高丽建立朝鲜王朝，尊崇儒学，延续五百余年，直至1910年。",
+   "wiki": "Joseon",
+   "wikiLang": {
+    "ja": "李氏朝鮮",
+    "zh": "朝鲜王朝"
+   }
+  },
+  {
+   "year": 1405,
+   "title": "郑和下西洋",
+   "place": "刘家港（今江苏太仓）",
+   "lon": 121.2,
+   "lat": 31.6,
+   "cat": "society",
+   "text": "郑和率领两百余艘船只七下西洋，最远到达东非沿岸。宣德年后远航停止。",
+   "wiki": "Ming_treasure_voyages",
+   "wikiLang": {
+    "zh": "郑和下西洋"
+   }
+  },
+  {
+   "year": 1420,
+   "title": "明成祖迁都北京",
+   "place": "北京",
+   "lon": 116.39,
+   "lat": 39.92,
+   "cat": "politics",
+   "text": "紫禁城落成，明朝正式迁都北京。此后近五百年，北京一直是明清两代的都城。",
+   "wiki": "Forbidden_City",
+   "wikiLang": {
+    "ja": "紫禁城",
+    "zh": "故宫"
+   }
+  },
+  {
+   "year": 1428,
+   "title": "黎利建立后黎朝",
+   "place": "东京（今越南河内）",
+   "lon": 105.8,
+   "lat": 21.0,
+   "cat": "politics",
+   "text": "黎利领导蓝山起义驱逐明军，建立后黎朝，越南恢复独立。",
+   "wiki": "Later_Lê_dynasty",
+   "wikiLang": {
+    "ja": "黎朝",
+    "zh": "後黎朝"
+   }
+  },
+  {
+   "year": 1429,
+   "title": "琉球王国统一",
+   "place": "首里（今日本冲绳）",
+   "lon": 127.72,
+   "lat": 26.22,
+   "cat": "politics",
+   "text": "尚巴志统一北山、中山、南山三国，琉球凭借与明朝的朝贡贸易成为东亚海上的中转站。",
+   "wiki": "Ryukyu_Kingdom",
+   "wikiLang": {
+    "ja": "琉球王国",
+    "zh": "琉球国"
+   }
+  },
+  {
+   "year": 1446,
+   "title": "颁布训民正音",
+   "place": "汉阳（今首尔）",
+   "lon": 127.0,
+   "lat": 37.6,
+   "cat": "culture",
+   "text": "朝鲜世宗大王颁布表音文字训民正音，即今天的韩文（谚文）。",
+   "wiki": "Hunminjeongeum",
+   "wikiLang": {
+    "ja": "訓民正音",
+    "zh": "訓民正音"
+   }
+  },
+  {
+   "year": 1449,
+   "title": "土木堡之变",
+   "place": "土木堡（今河北怀来）",
+   "lon": 115.5,
+   "lat": 40.4,
+   "cat": "conflict",
+   "text": "明英宗亲征瓦剌兵败被俘，于谦拥立景帝并组织北京保卫战。",
+   "wiki": "Tumu_Crisis",
+   "wikiLang": {
+    "ja": "土木の変",
+    "zh": "土木堡之变"
+   }
+  },
+  {
+   "year": 1467,
+   "title": "应仁之乱",
+   "place": "京都",
+   "lon": 135.75,
+   "lat": 35.05,
+   "cat": "conflict",
+   "text": "将军继承之争演变为十一年的内战，京都化为焦土，日本进入战国时代。",
+   "wiki": "Ōnin_War",
+   "wikiLang": {
+    "ja": "応仁の乱",
+    "zh": "应仁之乱"
+   }
+  },
+  {
+   "year": 1557,
+   "title": "葡萄牙人入居澳门",
+   "place": "澳门",
+   "lon": 113.54,
+   "lat": 22.19,
+   "cat": "politics",
+   "text": "葡萄牙人获准在澳门居住贸易，澳门成为欧洲与东亚贸易和传教的重要据点。",
+   "wiki": "Portuguese_Macau",
+   "wikiLang": {
+    "ja": "ポルトガル領マカオ",
+    "zh": "葡屬澳門"
+   }
+  },
+  {
+   "year": 1583,
+   "title": "利玛窦来华",
+   "place": "肇庆",
+   "lon": 112.47,
+   "lat": 23.05,
+   "cat": "culture",
+   "text": "耶稣会士利玛窦在肇庆定居，后入北京。他与徐光启合译《几何原本》，促进了中西学术交流。",
+   "wiki": "Matteo_Ricci",
+   "wikiLang": {
+    "ja": "マテオ・リッチ",
+    "zh": "利玛窦"
+   }
+  },
+  {
+   "year": 1592,
+   "title": "壬辰战争（万历朝鲜之役）",
+   "place": "釜山",
+   "lon": 129.04,
+   "lat": 35.18,
+   "cat": "conflict",
+   "text": "丰臣秀吉出兵侵略朝鲜，明朝出兵援朝，李舜臣的水师屡败日军。1598年日军撤退。",
+   "wiki": "Japanese_invasions_of_Korea_(1592–1598)",
+   "wikiLang": {
+    "ja": "文禄・慶長の役",
+    "zh": "萬曆朝鮮之役"
+   }
+  },
+  {
+   "year": 1600,
+   "title": "关原之战",
+   "place": "关原（今日本岐阜）",
+   "lon": 136.47,
+   "lat": 35.37,
+   "cat": "conflict",
+   "text": "德川家康击败西军，三年后在江户开设幕府，日本进入两百余年的江户时代。",
+   "wiki": "Battle_of_Sekigahara",
+   "wikiLang": {
+    "ja": "関ヶ原の戦い",
+    "zh": "關原之戰"
+   }
+  },
+  {
+   "year": 1616,
+   "title": "努尔哈赤建立后金",
+   "place": "赫图阿拉（今辽宁新宾）",
+   "lon": 124.85,
+   "lat": 41.71,
+   "cat": "politics",
+   "text": "努尔哈赤统一女真各部，建立后金；1636年皇太极改国号为清。",
+   "wiki": "Later_Jin_(1616–1636)",
+   "wikiLang": {
+    "ja": "後金",
+    "zh": "后金"
+   }
+  },
+  {
+   "year": 1619,
+   "title": "萨尔浒之战",
+   "place": "萨尔浒（今辽宁抚顺）",
+   "lon": 124.2,
+   "lat": 41.9,
+   "cat": "conflict",
+   "text": "后金集中兵力各个击破明军四路大军，明清在辽东的攻守形势从此逆转。",
+   "wiki": "Battle_of_Sarhū",
+   "wikiLang": {
+    "ja": "サルフの戦い",
+    "zh": "薩爾滸之戰"
+   }
+  },
+  {
+   "year": 1624,
+   "title": "荷兰人占据台湾",
+   "place": "大员（今台湾台南）",
+   "lon": 120.15,
+   "lat": 23.0,
+   "cat": "politics",
+   "text": "荷兰东印度公司在台湾南部修筑热兰遮城，建立殖民统治。",
+   "wiki": "Dutch_Formosa",
+   "wikiLang": {
+    "ja": "オランダ統治時代の台湾",
+    "zh": "臺灣荷蘭統治時期"
+   }
+  },
+  {
+   "year": 1644,
+   "title": "山海关之战，清军入关",
+   "place": "山海关",
+   "lon": 119.75,
+   "lat": 40.0,
+   "cat": "conflict",
+   "text": "李自成攻陷北京，崇祯帝自缢。吴三桂引清军入关，击败李自成，清朝定都北京。",
+   "wiki": "Battle_of_Shanhai_Pass",
+   "wikiLang": {
+    "zh": "一片石之战"
+   }
+  },
+  {
+   "year": 1645,
+   "title": "重建布达拉宫",
+   "place": "拉萨",
+   "lon": 91.12,
+   "lat": 29.66,
+   "cat": "culture",
+   "text": "五世达赖喇嘛建立甘丹颇章政权后，在红山上重建布达拉宫，作为宗教和政治中心。",
+   "wiki": "Potala_Palace",
+   "wikiLang": {
+    "ja": "ポタラ宮",
+    "zh": "布达拉宫"
+   }
+  },
+  {
+   "year": 1662,
+   "title": "郑成功收复台湾",
+   "place": "热兰遮城（今台湾台南）",
+   "lon": 120.17,
+   "lat": 23.0,
+   "cat": "conflict",
+   "text": "郑成功围困热兰遮城九个月，荷兰人投降撤离台湾。",
+   "wiki": "Siege_of_Fort_Zeelandia",
+   "wikiLang": {
+    "ja": "ゼーランディア城包囲戦",
+    "zh": "鄭成功攻臺之役"
+   }
+  },
+  {
+   "year": 1683,
+   "title": "澎湖海战，清朝统一台湾",
+   "place": "澎湖",
+   "lon": 119.6,
+   "lat": 23.6,
+   "cat": "conflict",
+   "text": "施琅率清军水师击败郑氏舰队，郑克塽投降，次年清朝在台湾设府。",
+   "wiki": "Battle_of_Penghu",
+   "wikiLang": {
+    "ja": "澎湖海戦",
+    "zh": "澎湖海战"
+   }
+  },
+  {
+   "year": 1689,
+   "title": "中俄《尼布楚条约》",
+   "place": "尼布楚（今俄罗斯涅尔琴斯克）",
+   "lon": 116.6,
+   "lat": 51.97,
+   "cat": "politics",
+   "text": "雅克萨之战后清俄议定以额尔古纳河和外兴安岭为界，这是中国与欧洲国家签订的第一个边界条约。",
+   "wiki": "Treaty_of_Nerchinsk",
+   "wikiLang": {
+    "ja": "ネルチンスク条約",
+    "zh": "尼布楚條約"
+   }
+  },
+  {
+   "year": 1727,
+   "title": "《恰克图条约》",
+   "place": "恰克图",
+   "lon": 106.45,
+   "lat": 50.35,
+   "cat": "politics",
+   "text": "清俄划定喀尔喀蒙古段边界，并规定恰克图为两国通商口岸。",
+   "wiki": "Treaty_of_Kyakhta_(1727)",
+   "wikiLang": {
+    "ja": "キャフタ条約_(1727年)",
+    "zh": "恰克圖界約"
+   }
+  },
+  {
+   "year": 1757,
+   "title": "清灭准噶尔",
+   "place": "伊犁",
+   "lon": 81.3,
+   "lat": 43.9,
+   "cat": "conflict",
+   "text": "清军平定阿睦尔撒纳之乱，准噶尔部族因战争与天花几近灭绝，天山南北纳入清朝版图。",
+   "wiki": "Dzungar–Qing_Wars",
+   "wikiLang": {
+    "ja": "清・ジュンガル戦争",
+    "zh": "準噶爾之役"
+   }
+  },
+  {
+   "year": 1757,
+   "title": "一口通商",
+   "place": "广州",
+   "lon": 113.2,
+   "lat": 23.1,
+   "cat": "society",
+   "text": "乾隆帝下令西洋商船只能在广州贸易，由十三行垄断对外贸易，直至鸦片战争。",
+   "wiki": "Canton_System",
+   "wikiLang": {
+    "ja": "広東システム",
+    "zh": "一口通商"
+   }
+  },
+  {
+   "year": 1773,
+   "title": "编纂《四库全书》",
+   "place": "北京",
+   "lon": 116.38,
+   "lat": 39.92,
+   "cat": "culture",
+   "text": "乾隆帝下令编纂中国最大的丛书，收书三千余种；同时也有大量书籍遭到禁毁。",
+   "wiki": "Siku_Quanshu",
+   "wikiLang": {
+    "ja": "四庫全書",
+    "zh": "四庫全書"
+   }
+  },
+  {
+   "year": 1793,
+   "title": "马戛尔尼使团访华",
+   "place": "热河避暑山庄（今河北承德）",
+   "lon": 117.93,
+   "lat": 40.99,
+   "cat": "politics",
+   "text": "英国使团请求扩大通商被乾隆帝拒绝，双方在礼仪上也有争执。",
+   "wiki": "Macartney_Embassy",
+   "wikiLang": {
+    "zh": "馬戛爾尼使團"
+   }
+  },
+  {
+   "year": 1802,
+   "title": "阮朝建立",
+   "place": "富春（今越南顺化）",
+   "lon": 107.59,
+   "lat": 16.46,
+   "cat": "politics",
+   "text": "阮福映统一越南，定都顺化，建立越南最后一个王朝。",
+   "wiki": "Nguyễn_dynasty",
+   "wikiLang": {
+    "ja": "阮朝",
+    "zh": "阮朝"
+   }
+  },
+  {
+   "year": 1840,
+   "title": "第一次鸦片战争",
+   "place": "虎门（今广东东莞）",
+   "lon": 113.67,
+   "lat": 22.81,
+   "cat": "conflict",
+   "text": "林则徐虎门销烟后，英国派遣远征军。清朝战败，中国近代史由此开端。",
+   "wiki": "First_Opium_War",
+   "wikiLang": {
+    "ja": "アヘン戦争",
+    "zh": "第一次鸦片战争"
+   }
+  },
+  {
+   "year": 1842,
+   "date": "1842-08-29",
+   "title": "《南京条约》",
+   "place": "南京",
+   "lon": 118.75,
+   "lat": 32.1,
+   "cat": "politics",
+   "text": "清朝割让香港岛，开放广州、厦门、福州、宁波、上海五口通商，并赔款两千一百万银元。",
+   "wiki": "Treaty_of_Nanking",
+   "wikiLang": {
+    "ja": "南京条約",
+    "zh": "南京条约"
+   }
+  },
+  {
+   "year": 1851,
+   "date": "1851-01-11",
+   "title": "太平天国起义",
+   "place": "金田村（今广西桂平）",
+   "lon": 110.1,
+   "lat": 23.4,
+   "cat": "conflict",
+   "text": "洪秀全发动起义，后定都天京（南京）。十余年内战造成数千万人死亡。",
+   "wiki": "Taiping_Rebellion",
+   "wikiLang": {
+    "ja": "太平天国の乱",
+    "zh": "太平天國之亂"
+   }
+  },
+  {
+   "year": 1853,
+   "date": "1853-07-08",
+   "title": "黑船来航",
+   "place": "浦贺（今日本横须贺）",
+   "lon": 139.72,
+   "lat": 35.24,
+   "cat": "politics",
+   "text": "美国海军准将佩里率舰队叩关，次年日本签订条约，结束了两百多年的锁国政策。",
+   "wiki": "Perry_Expedition",
+   "wikiLang": {
+    "ja": "黒船来航",
+    "zh": "黑船來航"
+   }
+  },
+  {
+   "year": 1858,
+   "date": "1858-05-28",
+   "title": "中俄《瑷珲条约》",
+   "place": "瑷珲（今黑龙江黑河）",
+   "lon": 127.5,
+   "lat": 49.95,
+   "cat": "politics",
+   "text": "俄国迫使清朝割让黑龙江以北六十余万平方公里的土地。",
+   "wiki": "Treaty_of_Aigun",
+   "wikiLang": {
+    "ja": "アイグン条約",
+    "zh": "璦琿條約"
+   }
+  },
+  {
+   "year": 1860,
+   "date": "1860-10-24",
+   "title": "火烧圆明园与《北京条约》",
+   "place": "北京",
+   "lon": 116.3,
+   "lat": 40.0,
+   "cat": "politics",
+   "text": "英法联军攻入北京，焚毁圆明园。清朝被迫割让九龙，又在随后的中俄条约中割让乌苏里江以东。",
+   "wiki": "Convention_of_Peking",
+   "wikiLang": {
+    "ja": "北京条約",
+    "zh": "北京条约"
+   }
+  },
+  {
+   "year": 1861,
+   "title": "洋务运动",
+   "place": "安庆",
+   "lon": 117.05,
+   "lat": 30.52,
+   "cat": "society",
+   "text": "曾国藩创办安庆内军械所，李鸿章等继而兴办江南制造局、福州船政局和北洋水师。",
+   "wiki": "Self-Strengthening_Movement",
+   "wikiLang": {
+    "ja": "洋務運動",
+    "zh": "洋务运动"
+   }
+  },
+  {
+   "year": 1868,
+   "date": "1868-01-03",
+   "title": "明治维新",
+   "place": "江户（改名东京）",
+   "lon": 139.75,
+   "lat": 35.68,
+   "cat": "politics",
+   "text": "王政复古，幕府统治结束。日本推行全面西化改革，迅速走上工业化与对外扩张的道路。",
+   "wiki": "Meiji_Restoration",
+   "wikiLang": {
+    "ja": "明治維新",
+    "zh": "明治维新"
+   }
+  },
+  {
+   "year": 1876,
+   "date": "1876-02-27",
+   "title": "《江华条约》",
+   "place": "江华岛",
+   "lon": 126.49,
+   "lat": 37.75,
+   "cat": "politics",
+   "text": "日本以炮舰外交迫使朝鲜开港，并否认清朝对朝鲜的宗主权。",
+   "wiki": "Japan–Korea_Treaty_of_1876",
+   "wikiLang": {
+    "ja": "日朝修好条規",
+    "zh": "江華島條約"
+   }
+  },
+  {
+   "year": 1879,
+   "title": "琉球处分",
+   "place": "首里（今日本冲绳）",
+   "lon": 127.68,
+   "lat": 26.21,
+   "cat": "politics",
+   "text": "日本废除琉球王国，改设冲绳县。清朝表示抗议，但未能改变结果。",
+   "wiki": "Ryukyu_Disposition",
+   "wikiLang": {
+    "ja": "琉球処分",
+    "zh": "琉球处分"
+   }
+  },
+  {
+   "year": 1884,
+   "title": "中法战争",
+   "place": "谅山（今越南）",
+   "lon": 106.76,
+   "lat": 21.85,
+   "cat": "conflict",
+   "text": "中法两国为争夺越南爆发战争。清军取得镇南关大捷，但清朝最终仍承认法国对越南的保护权。",
+   "wiki": "Sino-French_War",
+   "wikiLang": {
+    "ja": "清仏戦争",
+    "zh": "中法战争"
+   }
+  },
+  {
+   "year": 1894,
+   "date": "1894-09-17",
+   "title": "甲午战争",
+   "place": "黄海",
+   "lon": 123.4,
+   "lat": 39.0,
+   "cat": "conflict",
+   "text": "日本与清朝为争夺朝鲜开战，北洋水师在黄海海战和威海卫之战中覆没。",
+   "wiki": "First_Sino-Japanese_War",
+   "wikiLang": {
+    "ja": "日清戦争",
+    "zh": "甲午战争"
+   }
+  },
+  {
+   "year": 1895,
+   "date": "1895-04-17",
+   "title": "《马关条约》",
+   "place": "马关（今日本下关）",
+   "lon": 130.94,
+   "lat": 33.96,
+   "cat": "politics",
+   "text": "清朝承认朝鲜“独立”，割让台湾、澎湖，并赔款两亿两白银。",
+   "wiki": "Treaty_of_Shimonoseki",
+   "wikiLang": {
+    "ja": "下関条約",
+    "zh": "马关条约"
+   }
+  },
+  {
+   "year": 1898,
+   "date": "1898-06-11",
+   "title": "戊戌变法",
+   "place": "北京",
+   "lon": 116.38,
+   "lat": 39.9,
+   "cat": "politics",
+   "text": "光绪帝任用康有为、梁启超推行变法，仅一百零三天即被慈禧太后发动政变推翻。",
+   "wiki": "Hundred_Days'_Reform",
+   "wikiLang": {
+    "ja": "戊戌の変法",
+    "zh": "戊戌变法"
+   }
+  },
+  {
+   "year": 1900,
+   "title": "义和团运动与八国联军",
+   "place": "天津、北京",
+   "lon": 117.2,
+   "lat": 39.13,
+   "cat": "conflict",
+   "text": "义和团围攻使馆区，八国联军攻占北京。次年清朝签订《辛丑条约》，赔款四亿五千万两。",
+   "wiki": "Boxer_Rebellion",
+   "wikiLang": {
+    "ja": "義和団の乱",
+    "zh": "义和团运动"
+   }
+  },
+  {
+   "year": 1904,
+   "date": "1904-02-08",
+   "title": "日俄战争",
+   "place": "旅顺口",
+   "lon": 121.24,
+   "lat": 38.81,
+   "cat": "conflict",
+   "text": "日俄两国在中国东北交战。日本获胜后接管南满利益，成为第一个战胜欧洲强国的亚洲国家。",
+   "wiki": "Russo-Japanese_War",
+   "wikiLang": {
+    "ja": "日露戦争",
+    "zh": "日俄战争"
+   }
+  },
+  {
+   "year": 1910,
+   "date": "1910-08-29",
+   "title": "日本吞并朝鲜",
+   "place": "汉城（今首尔）",
+   "lon": 126.97,
+   "lat": 37.56,
+   "cat": "politics",
+   "text": "《日韩合并条约》生效，大韩帝国灭亡，朝鲜半岛沦为日本殖民地，直至1945年。",
+   "wiki": "Japan–Korea_Treaty_of_1910",
+   "wikiLang": {
+    "ja": "韓国併合ニ関スル条約",
+    "zh": "日韩合并条约"
+   }
+  },
+  {
+   "year": 1911,
+   "date": "1911-10-10",
+   "title": "武昌起义，辛亥革命",
+   "place": "武昌（今湖北武汉）",
+   "lon": 114.3,
+   "lat": 30.55,
+   "cat": "conflict",
+   "text": "新军起义并占领武昌，各省纷纷响应独立。次年清帝退位，两千多年的帝制结束。",
+   "wiki": "Wuchang_uprising",
+   "wikiLang": {
+    "ja": "武昌起義",
+    "zh": "武昌起义"
+   }
+  },
+  {
+   "year": 1912,
+   "date": "1912-01-01",
+   "title": "中华民国成立",
+   "place": "南京",
+   "lon": 118.78,
+   "lat": 32.04,
+   "cat": "politics",
+   "text": "孙中山在南京就任临时大总统，建立亚洲第一个共和国。",
+   "wiki": "Republic_of_China_(1912–1949)",
+   "wikiLang": {
+    "ja": "中華民国_(1912年-1949年)",
+    "zh": "中華民國大陸時期"
+   }
+  },
+  {
+   "year": 1919,
+   "date": "1919-03-01",
+   "title": "三一运动",
+   "place": "京城（今首尔）",
+   "lon": 126.99,
+   "lat": 37.57,
+   "cat": "politics",
+   "text": "朝鲜民众发表独立宣言，举行大规模和平示威，遭日本殖民当局镇压。",
+   "wiki": "March_1st_Movement",
+   "wikiLang": {
+    "ja": "三・一運動",
+    "zh": "三一運動"
+   }
+  },
+  {
+   "year": 1919,
+   "date": "1919-05-04",
+   "title": "五四运动",
+   "place": "北京",
+   "lon": 116.4,
+   "lat": 39.91,
+   "cat": "culture",
+   "text": "学生抗议巴黎和会将德国在山东的权益转交日本。运动推动了新文化运动和白话文的普及。",
+   "wiki": "May_Fourth_Movement",
+   "wikiLang": {
+    "ja": "五四運動",
+    "zh": "五四运动"
+   }
+  },
+  {
+   "year": 1921,
+   "date": "1921-07-11",
+   "title": "蒙古人民革命",
+   "place": "库伦（今乌兰巴托）",
+   "lon": 106.92,
+   "lat": 47.92,
+   "cat": "politics",
+   "text": "蒙古人民党在苏俄红军支持下建立政权，1924年成立蒙古人民共和国。",
+   "wiki": "Mongolian_Revolution_of_1921",
+   "wikiLang": {
+    "zh": "1921年蒙古革命"
+   }
+  },
+  {
+   "year": 1921,
+   "date": "1921-07-23",
+   "title": "中国共产党成立",
+   "place": "上海",
+   "lon": 121.47,
+   "lat": 31.22,
+   "cat": "politics",
+   "text": "中国共产党第一次全国代表大会在上海召开，后转至嘉兴南湖的游船上闭幕。",
+   "wiki": "1st_National_Congress_of_the_Chinese_Communist_Party",
+   "wikiLang": {
+    "ja": "中国共産党第一次全国代表大会",
+    "zh": "中国共产党第一次全国代表大会"
+   }
+  },
+  {
+   "year": 1923,
+   "date": "1923-09-01",
+   "title": "关东大地震",
+   "place": "东京、横滨",
+   "lon": 139.4,
+   "lat": 35.3,
+   "cat": "society",
+   "text": "里氏7.9级地震及其引发的大火造成约十万人死亡，震后还发生了屠杀朝鲜人的事件。",
+   "wiki": "1923_Great_Kantō_earthquake",
+   "wikiLang": {
+    "ja": "関東地震",
+    "zh": "關東大地震"
+   }
+  },
+  {
+   "year": 1926,
+   "date": "1926-07-09",
+   "title": "北伐",
+   "place": "广州",
+   "lon": 113.27,
+   "lat": 23.15,
+   "cat": "conflict",
+   "text": "国民革命军从广州誓师北伐，打败北洋军阀，1928年名义上统一全国，定都南京。",
+   "wiki": "Northern_Expedition",
+   "wikiLang": {
+    "ja": "北伐_(国民政府)",
+    "zh": "國民革命軍北伐"
+   }
+  },
+  {
+   "year": 1931,
+   "title": "1931年江淮大水",
+   "place": "长江、淮河流域",
+   "lon": 114.25,
+   "lat": 30.6,
+   "cat": "society",
+   "text": "长江、淮河、运河同时泛滥，武汉被淹数月，是二十世纪伤亡最惨重的自然灾害之一。",
+   "wiki": "1931_China_floods",
+   "wikiLang": {
+    "ja": "1931年中国大洪水",
+    "zh": "1931年江淮水災"
+   }
+  },
+  {
+   "year": 1931,
+   "date": "1931-09-18",
+   "title": "九一八事变",
+   "place": "沈阳",
+   "lon": 123.43,
+   "lat": 41.8,
+   "cat": "conflict",
+   "text": "日本关东军炸毁南满铁路柳条湖段并嫁祸中国军队，随即占领东北，次年扶植伪满洲国。",
+   "wiki": "Mukden_Incident",
+   "war": "antiJapanese",
+   "wikiLang": {
+    "ja": "柳条湖事件",
+    "zh": "九一八事變"
+   }
+  },
+  {
+   "year": 1932,
+   "date": "1932-01-28",
+   "title": "一·二八事变",
+   "place": "上海",
+   "lon": 121.48,
+   "lat": 31.26,
+   "cat": "conflict",
+   "text": "日军进攻上海闸北，第十九路军奋起抵抗。5月签订《淞沪停战协定》。",
+   "wiki": "January_28_incident",
+   "war": "antiJapanese",
+   "wikiLang": {
+    "ja": "第一次上海事変",
+    "zh": "一·二八事變"
+   }
+  },
+  {
+   "year": 1932,
+   "date": "1932-03-01",
+   "title": "伪满洲国成立",
+   "place": "新京（今吉林长春）",
+   "lon": 125.32,
+   "lat": 43.88,
+   "cat": "politics",
+   "text": "日本扶植清朝末代皇帝溥仪建立傀儡政权“满洲国”，国际联盟拒绝承认。",
+   "wiki": "Manchukuo",
+   "war": "antiJapanese",
+   "wikiLang": {
+    "ja": "満洲国",
+    "zh": "满洲国"
+   }
+  },
+  {
+   "year": 1933,
+   "date": "1933-03-04",
+   "title": "长城抗战",
+   "place": "长城各口（喜峰口、古北口）",
+   "lon": 118.3,
+   "lat": 40.4,
+   "cat": "conflict",
+   "text": "日军攻占热河省会承德，中国军队在长城各关口抗击日军两月余。",
+   "wiki": "Defense_of_the_Great_Wall",
+   "war": "antiJapanese",
+   "wikiLang": {
+    "ja": "熱河作戦",
+    "zh": "長城戰役"
+   }
+  },
+  {
+   "year": 1933,
+   "date": "1933-05-31",
+   "title": "《塘沽协定》",
+   "place": "塘沽（今天津）",
+   "lon": 117.65,
+   "lat": 39.02,
+   "cat": "politics",
+   "text": "中日停战协定划冀东为非武装区，事实上承认了日本对东北和热河的占领。",
+   "wiki": "Tanggu_Truce",
+   "war": "antiJapanese",
+   "wikiLang": {
+    "ja": "塘沽協定",
+    "zh": "塘沽协定"
+   }
+  },
+  {
+   "year": 1934,
+   "date": "1934-10-16",
+   "title": "长征",
+   "place": "瑞金（江西）",
+   "lon": 116.03,
+   "lat": 25.89,
+   "cat": "conflict",
+   "text": "中央红军撤离中央苏区，转战两万五千里，1935年10月到达陕北。",
+   "wiki": "Long_March",
+   "wikiLang": {
+    "ja": "長征",
+    "zh": "长征"
+   }
+  },
+  {
+   "year": 1935,
+   "date": "1935-12-09",
+   "title": "一二·九运动",
+   "place": "北平",
+   "lon": 116.3,
+   "lat": 39.99,
+   "cat": "society",
+   "text": "北平学生示威反对“华北自治”，呼吁停止内战、一致抗日。",
+   "wiki": "December_9th_Movement",
+   "war": "antiJapanese",
+   "wikiLang": {
+    "ja": "一二・九運動",
+    "zh": "一二·九运动"
+   }
+  },
+  {
+   "year": 1936,
+   "date": "1936-12-12",
+   "title": "西安事变",
+   "place": "西安（华清池）",
+   "lon": 109.2,
+   "lat": 34.36,
+   "cat": "politics",
+   "text": "张学良、杨虎城扣押蒋介石，要求停止内战、联共抗日。事变和平解决，促成第二次国共合作。",
+   "wiki": "Xi'an_Incident",
+   "war": "antiJapanese",
+   "wikiLang": {
+    "ja": "西安事件",
+    "zh": "西安事变"
+   }
+  },
+  {
+   "year": 1937,
+   "date": "1937-07-07",
+   "title": "七七事变",
+   "place": "卢沟桥（北京）",
+   "lon": 116.21,
+   "lat": 39.85,
+   "cat": "conflict",
+   "text": "日军在卢沟桥挑起事变，中国开始全面抗战。",
+   "wiki": "Marco_Polo_Bridge_incident",
+   "war": "antiJapanese",
+   "wikiLang": {
+    "ja": "盧溝橋事件",
+    "zh": "七七事变"
+   }
+  },
+  {
+   "year": 1937,
+   "date": "1937-08-13",
+   "title": "淞沪会战",
+   "place": "上海",
+   "lon": 121.47,
+   "lat": 31.25,
+   "cat": "conflict",
+   "text": "中日双方投入近百万兵力激战三个月，打破了日本“三个月灭亡中国”的狂言，11月上海失守。",
+   "wiki": "Battle_of_Shanghai",
+   "war": "antiJapanese",
+   "wikiLang": {
+    "ja": "第二次上海事変",
+    "zh": "淞沪会战"
+   }
+  },
+  {
+   "year": 1937,
+   "date": "1937-09-25",
+   "title": "平型关战役",
+   "place": "平型关（今山西繁峙）",
+   "lon": 113.9,
+   "lat": 39.3,
+   "cat": "conflict",
+   "text": "八路军第115师伏击日军辎重部队，取得全面抗战以来的首次胜利。",
+   "wiki": "Battle_of_Pingxingguan",
+   "war": "antiJapanese",
+   "wikiLang": {
+    "zh": "平型关战役"
+   }
+  },
+  {
+   "year": 1937,
+   "date": "1937-12-13",
+   "title": "南京大屠杀",
+   "place": "南京",
+   "lon": 118.8,
+   "lat": 32.05,
+   "cat": "conflict",
+   "text": "日军攻占南京后，在六周内大规模屠杀平民和战俘，并犯下大量强奸、抢劫和纵火罪行。",
+   "wiki": "Nanjing_Massacre",
+   "war": "antiJapanese",
+   "wikiLang": {
+    "ja": "南京事件",
+    "zh": "南京大屠殺"
+   }
+  },
+  {
+   "year": 1938,
+   "date": "1938-03-24",
+   "title": "台儿庄战役",
+   "place": "台儿庄（今山东枣庄）",
+   "lon": 117.73,
+   "lat": 34.56,
+   "cat": "conflict",
+   "text": "李宗仁指挥中国军队重创日军，这是全面抗战以来正面战场的第一次重大胜利。",
+   "wiki": "Battle_of_Taierzhuang",
+   "war": "antiJapanese",
+   "wikiLang": {
+    "ja": "台児荘の戦い",
+    "zh": "台兒莊戰役"
+   }
+  },
+  {
+   "year": 1938,
+   "date": "1938-06-09",
+   "title": "花园口决堤",
+   "place": "花园口（今河南郑州）",
+   "lon": 113.67,
+   "lat": 34.9,
+   "cat": "society",
+   "text": "国民政府扒开黄河大堤以阻滞日军西进，豫皖苏三省被淹，数十万人死亡，数百万人流离失所。",
+   "wiki": "1938_Yellow_River_flood",
+   "war": "antiJapanese",
+   "wikiLang": {
+    "ja": "黄河決壊事件",
+    "zh": "花园口决堤"
+   }
+  },
+  {
+   "year": 1938,
+   "date": "1938-10-25",
+   "title": "武汉会战",
+   "place": "武汉",
+   "lon": 114.3,
+   "lat": 30.6,
+   "cat": "conflict",
+   "text": "抗战初期规模最大的会战，历时四个半月。武汉失守后，战争进入相持阶段。",
+   "wiki": "Battle_of_Wuhan",
+   "war": "antiJapanese",
+   "wikiLang": {
+    "ja": "武漢作戦",
+    "zh": "武汉会战"
+   }
+  },
+  {
+   "year": 1939,
+   "date": "1939-05-03",
+   "title": "重庆大轰炸",
+   "place": "重庆",
+   "lon": 106.55,
+   "lat": 29.56,
+   "cat": "society",
+   "text": "日军对战时首都重庆进行长达五年多的无差别轰炸，造成大量平民伤亡。",
+   "wiki": "Bombing_of_Chongqing",
+   "war": "antiJapanese",
+   "wikiLang": {
+    "ja": "重慶爆撃",
+    "zh": "重庆大轰炸"
+   }
+  },
+  {
+   "year": 1940,
+   "date": "1940-08-20",
+   "title": "百团大战",
+   "place": "正太铁路沿线（山西、河北）",
+   "lon": 113.2,
+   "lat": 37.9,
+   "cat": "conflict",
+   "text": "八路军在华北发动大规模破袭战，重创日军交通线。",
+   "wiki": "Hundred_Regiments_Offensive",
+   "war": "antiJapanese",
+   "wikiLang": {
+    "ja": "百団大戦",
+    "zh": "百团大战"
+   }
+  },
+  {
+   "year": 1941,
+   "date": "1941-01-07",
+   "title": "皖南事变",
+   "place": "皖南泾县",
+   "lon": 118.4,
+   "lat": 30.7,
+   "cat": "conflict",
+   "text": "国民党军围歼北移的新四军军部，国共关系急剧恶化。",
+   "wiki": "New_Fourth_Army_incident",
+   "war": "antiJapanese",
+   "wikiLang": {
+    "ja": "皖南事変",
+    "zh": "皖南事变"
+   }
+  },
+  {
+   "year": 1941,
+   "date": "1941-12-08",
+   "title": "香港保卫战",
+   "place": "香港",
+   "lon": 114.17,
+   "lat": 22.3,
+   "cat": "conflict",
+   "text": "日军在偷袭珍珠港数小时后进攻香港，英军于12月25日投降。中国随即对日正式宣战。",
+   "wiki": "Battle_of_Hong_Kong",
+   "war": "antiJapanese",
+   "wikiLang": {
+    "ja": "香港の戦い",
+    "zh": "香港保衛戰"
+   }
+  },
+  {
+   "year": 1944,
+   "date": "1944-04-17",
+   "title": "豫湘桂战役（一号作战）",
+   "place": "河南、湖南、广西",
+   "lon": 113.65,
+   "lat": 34.76,
+   "cat": "conflict",
+   "text": "日军发动打通大陆交通线的战役，中国军队溃退，河南、湖南、广西大片国土沦陷。",
+   "wiki": "Operation_Ichi-Go",
+   "war": "antiJapanese",
+   "wikiLang": {
+    "ja": "大陸打通作戦",
+    "zh": "豫湘桂会战"
+   }
+  },
+  {
+   "year": 1944,
+   "date": "1944-06-22",
+   "title": "衡阳保卫战",
+   "place": "衡阳",
+   "lon": 112.6,
+   "lat": 26.9,
+   "cat": "conflict",
+   "text": "中国守军孤城血战四十七天，是抗战中时间最长的城市保卫战。",
+   "wiki": "Defense_of_Hengyang",
+   "war": "antiJapanese",
+   "wikiLang": {
+    "ja": "衡陽の戦い",
+    "zh": "衡阳保卫战"
+   }
+  },
+  {
+   "year": 1945,
+   "date": "1945-08-06",
+   "title": "广岛与长崎原子弹爆炸",
+   "place": "广岛、长崎",
+   "lon": 132.46,
+   "lat": 34.39,
+   "cat": "conflict",
+   "text": "美国在广岛和长崎投下原子弹，两城有十余万人在当年死亡。",
+   "wiki": "Atomic_bombings_of_Hiroshima_and_Nagasaki",
+   "war": "antiJapanese",
+   "wikiLang": {
+    "ja": "日本への原子爆弾投下",
+    "zh": "廣島與長崎原子彈爆炸"
+   }
+  },
+  {
+   "year": 1945,
+   "date": "1945-08-09",
+   "title": "苏联出兵东北",
+   "place": "中国东北",
+   "lon": 126.6,
+   "lat": 45.75,
+   "cat": "conflict",
+   "text": "苏联对日宣战，百万苏军攻入东北，关东军迅速崩溃。",
+   "wiki": "Soviet_invasion_of_Manchuria",
+   "war": "antiJapanese",
+   "wikiLang": {
+    "ja": "ソビエト連邦による満洲侵攻",
+    "zh": "八月風暴行動"
+   }
+  },
+  {
+   "year": 1945,
+   "date": "1945-08-15",
+   "title": "日本投降",
+   "place": "东京",
+   "lon": 139.75,
+   "lat": 35.68,
+   "cat": "politics",
+   "text": "裕仁天皇广播接受《波茨坦公告》。9月2日日本签署投降书，第二次世界大战结束，台湾与朝鲜脱离日本统治。",
+   "wiki": "Surrender_of_Japan",
+   "war": "antiJapanese",
+   "wikiLang": {
+    "ja": "日本の降伏",
+    "zh": "日本投降"
+   }
+  },
+  {
+   "year": 1945,
+   "date": "1945-08-28",
+   "title": "重庆谈判",
+   "place": "重庆",
+   "lon": 106.55,
+   "lat": 29.56,
+   "cat": "politics",
+   "text": "毛泽东赴重庆与蒋介石谈判，10月10日签订《双十协定》，但和平未能维持。",
+   "wiki": "Chongqing_Negotiations",
+   "war": "civilWar",
+   "wikiLang": {
+    "zh": "重慶談判"
+   }
+  },
+  {
+   "year": 1946,
+   "date": "1946-06-26",
+   "title": "全面内战爆发",
+   "place": "中原解放区（今湖北、河南交界）",
+   "lon": 114.4,
+   "lat": 31.7,
+   "cat": "conflict",
+   "text": "国民党军围攻中原解放区，第二次国共内战全面爆发。",
+   "wiki": "Chinese_Civil_War",
+   "war": "civilWar",
+   "wikiLang": {
+    "ja": "国共内戦",
+    "zh": "国共内战"
+   }
+  },
+  {
+   "year": 1947,
+   "date": "1947-03-19",
+   "title": "胡宗南攻占延安",
+   "place": "延安",
+   "lon": 109.49,
+   "lat": 36.6,
+   "cat": "conflict",
+   "text": "中共中央主动撤离延安，转战陕北；一年后解放军收复延安。",
+   "wiki": "Battle_of_Yan'an",
+   "war": "civilWar",
+   "wikiLang": {}
+  },
+  {
+   "year": 1947,
+   "date": "1947-05-16",
+   "title": "孟良崮战役",
+   "place": "孟良崮（今山东蒙阴）",
+   "lon": 118.1,
+   "lat": 35.5,
+   "cat": "conflict",
+   "text": "华东野战军全歼国民党整编第74师，粉碎了对山东的重点进攻。",
+   "wiki": "Battle_of_Menglianggu",
+   "war": "civilWar",
+   "wikiLang": {
+    "zh": "孟良崮戰役"
+   }
+  },
+  {
+   "year": 1948,
+   "date": "1948-09-12",
+   "title": "辽沈战役",
+   "place": "锦州、沈阳",
+   "lon": 121.13,
+   "lat": 41.1,
+   "cat": "conflict",
+   "text": "东北野战军攻克锦州、围困长春，至11月2日占领沈阳，东北全境易手。",
+   "wiki": "Liaoshen_campaign",
+   "war": "civilWar",
+   "wikiLang": {
+    "ja": "遼瀋戦役",
+    "zh": "辽沈战役"
+   }
+  },
+  {
+   "year": 1948,
+   "date": "1948-11-06",
+   "title": "淮海战役",
+   "place": "徐州",
+   "lon": 117.18,
+   "lat": 34.26,
+   "cat": "conflict",
+   "text": "国共内战中规模最大的战役之一。解放军歼灭国民党军主力五十余万，长江以北大局已定。",
+   "wiki": "Huaihai_campaign",
+   "war": "civilWar",
+   "wikiLang": {
+    "ja": "淮海戦役",
+    "zh": "淮海战役"
+   }
+  },
+  {
+   "year": 1948,
+   "date": "1948-11-29",
+   "title": "平津战役",
+   "place": "北平、天津",
+   "lon": 117.2,
+   "lat": 39.13,
+   "cat": "conflict",
+   "text": "解放军攻克天津，北平守将傅作义接受和平改编，1949年1月31日解放军进入北平。",
+   "wiki": "Pingjin_campaign",
+   "war": "civilWar",
+   "wikiLang": {
+    "ja": "平津戦役",
+    "zh": "平津战役"
+   }
+  },
+  {
+   "year": 1949,
+   "date": "1949-04-21",
+   "title": "渡江战役",
+   "place": "长江中下游",
+   "lon": 118.5,
+   "lat": 31.7,
+   "cat": "conflict",
+   "text": "解放军百万大军横渡长江，4月23日占领国民政府首都南京。",
+   "wiki": "Yangtze_River_Crossing_Campaign",
+   "war": "civilWar",
+   "wikiLang": {
+    "ja": "渡江戦役",
+    "zh": "渡江战役"
+   }
+  },
+  {
+   "year": 1949,
+   "date": "1949-10-01",
+   "title": "中华人民共和国成立",
+   "place": "北京天安门",
+   "lon": 116.39,
+   "lat": 39.905,
+   "cat": "politics",
+   "text": "毛泽东在天安门城楼宣告中华人民共和国中央人民政府成立。",
+   "wiki": "Proclamation_of_the_People's_Republic_of_China",
+   "war": "civilWar",
+   "wikiLang": {
+    "ja": "中華人民共和国開国大典",
+    "zh": "中華人民共和國中央人民政府成立典禮"
+   }
+  },
+  {
+   "year": 1949,
+   "date": "1949-10-25",
+   "title": "古宁头战役",
+   "place": "金门",
+   "lon": 118.32,
+   "lat": 24.48,
+   "cat": "conflict",
+   "text": "解放军登陆金门失利，国民政府守住金门，台湾海峡两岸对峙的格局逐渐形成。",
+   "wiki": "Battle_of_Guningtou",
+   "war": "civilWar",
+   "wikiLang": {
+    "ja": "古寧頭戦役",
+    "zh": "古寧頭戰役"
+   }
+  },
+  {
+   "year": 1949,
+   "date": "1949-12-07",
+   "title": "国民政府迁台",
+   "place": "台北",
+   "lon": 121.52,
+   "lat": 25.04,
+   "cat": "politics",
+   "text": "国共内战失利后，中华民国政府迁往台北，两岸分治的格局由此形成。",
+   "wiki": "Retreat_of_the_government_of_the_Republic_of_China_to_Taiwan",
+   "war": "civilWar",
+   "wikiLang": {
+    "ja": "中華民国政府の台湾への移転",
+    "zh": "中華民國政府播遷臺灣"
+   }
+  },
+  {
+   "year": 1950,
+   "date": "1950-04-16",
+   "title": "海南岛战役",
+   "place": "海南岛",
+   "lon": 110.3,
+   "lat": 20.0,
+   "cat": "conflict",
+   "text": "解放军以木帆船渡过琼州海峡，5月1日占领海南岛全境。",
+   "wiki": "Landing_Operation_on_Hainan_Island",
+   "war": "civilWar",
+   "wikiLang": {
+    "ja": "海南島戦役",
+    "zh": "海南島戰役"
+   }
+  },
+  {
+   "year": 1950,
+   "date": "1950-06-25",
+   "title": "朝鲜战争",
+   "place": "三八线",
+   "lon": 127.0,
+   "lat": 38.0,
+   "cat": "conflict",
+   "text": "朝鲜军队越过三八线南下。以美国为首的联合国军和中国人民志愿军先后参战，1953年签订停战协定。",
+   "wiki": "Korean_War",
+   "wikiLang": {
+    "ja": "朝鮮戦争",
+    "zh": "朝鲜战争"
+   }
+  },
+  {
+   "year": 1953,
+   "date": "1953-07-27",
+   "title": "《朝鲜停战协定》",
+   "place": "板门店",
+   "lon": 126.68,
+   "lat": 37.96,
+   "cat": "politics",
+   "text": "交战各方在板门店签署停战协定，划定军事分界线和非军事区，至今未签和约。",
+   "wiki": "Korean_Armistice_Agreement",
+   "wikiLang": {
+    "ja": "朝鮮戦争休戦協定",
+    "zh": "朝鲜停战协定"
+   }
+  },
+  {
+   "year": 1954,
+   "date": "1954-03-13",
+   "title": "奠边府战役",
+   "place": "奠边府（今越南）",
+   "lon": 103.02,
+   "lat": 21.39,
+   "cat": "conflict",
+   "text": "越盟军队围攻法军据点五十余天后获胜。随后的日内瓦会议以北纬17度线暂时分割越南。",
+   "wiki": "Battle_of_Dien_Bien_Phu",
+   "wikiLang": {
+    "ja": "ディエンビエンフーの戦い",
+    "zh": "奠邊府戰役"
+   }
+  },
+  {
+   "year": 1959,
+   "title": "三年大饥荒",
+   "place": "全国（河南信阳等地尤为严重）",
+   "lon": 114.07,
+   "lat": 32.13,
+   "cat": "society",
+   "text": "“大跃进”中的浮夸和高征购加上自然灾害，造成1959—1961年的大饥荒，死亡人数估计达数千万。",
+   "wiki": "Great_Chinese_Famine",
+   "wikiLang": {
+    "ja": "中華人民共和国大飢饉",
+    "zh": "三年困难时期"
+   }
+  },
+  {
+   "year": 1964,
+   "date": "1964-10-01",
+   "title": "东海道新干线通车",
+   "place": "东京至大阪",
+   "lon": 139.77,
+   "lat": 35.68,
+   "cat": "society",
+   "text": "世界上第一条高速铁路在东京奥运会前通车，标志着日本战后经济的高速增长。",
+   "wiki": "Shinkansen",
+   "wikiLang": {
+    "ja": "新幹線",
+    "zh": "新幹線"
+   }
+  },
+  {
+   "year": 1964,
+   "date": "1964-10-16",
+   "title": "中国第一颗原子弹爆炸",
+   "place": "罗布泊（新疆）",
+   "lon": 88.35,
+   "lat": 41.5,
+   "cat": "society",
+   "text": "中国在罗布泊成功进行首次核试验，成为第五个拥有核武器的国家。",
+   "wiki": "596_(nuclear_test)",
+   "wikiLang": {
+    "ja": "596_(核実験)",
+    "zh": "596工程"
+   }
+  },
+  {
+   "year": 1966,
+   "date": "1966-05-16",
+   "title": "文化大革命",
+   "place": "北京",
+   "lon": 116.4,
+   "lat": 39.92,
+   "cat": "politics",
+   "text": "毛泽东发动的政治运动持续十年，造成大规模政治迫害、社会动荡和文化破坏，1976年结束。",
+   "wiki": "Cultural_Revolution",
+   "wikiLang": {
+    "ja": "文化大革命",
+    "zh": "文化大革命"
+   }
+  },
+  {
+   "year": 1972,
+   "date": "1972-02-21",
+   "title": "尼克松访华",
+   "place": "北京",
+   "lon": 116.45,
+   "lat": 39.9,
+   "cat": "politics",
+   "text": "美国总统尼克松访问中国并发表《上海公报》，中美关系开始正常化。",
+   "wiki": "1972_visit_by_Richard_Nixon_to_China",
+   "wikiLang": {
+    "ja": "ニクソン大統領の中国訪問",
+    "zh": "1972年尼克松访华"
+   }
+  },
+  {
+   "year": 1976,
+   "date": "1976-07-28",
+   "title": "唐山大地震",
+   "place": "唐山（河北）",
+   "lon": 118.18,
+   "lat": 39.63,
+   "cat": "society",
+   "text": "里氏7.8级地震几乎摧毁整座城市，官方统计死亡逾二十四万人。",
+   "wiki": "1976_Tangshan_earthquake",
+   "wikiLang": {
+    "ja": "唐山地震",
+    "zh": "唐山大地震"
+   }
+  },
+  {
+   "year": 1978,
+   "date": "1978-12-18",
+   "title": "改革开放",
+   "place": "北京",
+   "lon": 116.35,
+   "lat": 39.9,
+   "cat": "society",
+   "text": "中共十一届三中全会决定把工作重点转向经济建设，此后推行家庭联产承包责任制和对外开放。",
+   "wiki": "Chinese_economic_reform",
+   "wikiLang": {
+    "ja": "改革開放",
+    "zh": "改革开放"
+   }
+  },
+  {
+   "year": 1979,
+   "date": "1979-02-17",
+   "title": "中越战争",
+   "place": "中越边境（谅山）",
+   "lon": 106.7,
+   "lat": 21.95,
+   "cat": "conflict",
+   "text": "中国军队进攻越南北部边境地区，一个月后撤军，边境冲突延续至1980年代末。",
+   "wiki": "Sino-Vietnamese_War",
+   "wikiLang": {
+    "ja": "中越戦争",
+    "zh": "中越战争"
+   }
+  },
+  {
+   "year": 1980,
+   "date": "1980-08-26",
+   "title": "设立深圳经济特区",
+   "place": "深圳",
+   "lon": 114.06,
+   "lat": 22.54,
+   "cat": "society",
+   "text": "深圳从边境小镇起步，成为中国改革开放的“试验田”，数十年后发展为千万人口的大都市。",
+   "wiki": "Shenzhen",
+   "wikiLang": {
+    "ja": "深圳市",
+    "zh": "深圳市"
+   }
+  },
+  {
+   "year": 1987,
+   "date": "1987-06-10",
+   "title": "韩国六月民主运动",
+   "place": "首尔",
+   "lon": 126.98,
+   "lat": 37.56,
+   "cat": "politics",
+   "text": "全国性的抗议迫使军政府接受总统直选，韩国开始民主化。",
+   "wiki": "June_Democratic_Struggle",
+   "wikiLang": {
+    "ja": "6月民主抗争",
+    "zh": "六月民主运动"
+   }
+  },
+  {
+   "year": 1989,
+   "date": "1989-06-04",
+   "title": "六四事件",
+   "place": "北京天安门广场",
+   "lon": 116.39,
+   "lat": 39.9,
+   "cat": "politics",
+   "text": "以学生为主的民众在天安门广场集会，要求政治改革。6月3日夜至4日，军队清场，造成大量平民死伤。",
+   "wiki": "1989_Tiananmen_Square_protests_and_massacre",
+   "wikiLang": {
+    "ja": "六四天安門事件",
+    "zh": "六四事件"
+   }
+  },
+  {
+   "year": 1990,
+   "date": "1990-03-09",
+   "title": "蒙古民主革命",
+   "place": "乌兰巴托",
+   "lon": 106.92,
+   "lat": 47.92,
+   "cat": "politics",
+   "text": "和平示威促使蒙古人民革命党放弃一党执政，蒙古举行多党选举并转向市场经济。",
+   "wiki": "1990_Mongolian_democratic_revolution",
+   "wikiLang": {
+    "ja": "モンゴル民主化運動",
+    "zh": "1990年蒙古革命"
+   }
+  },
+  {
+   "year": 1996,
+   "date": "1996-03-23",
+   "title": "台湾首次总统直选",
+   "place": "台北",
+   "lon": 121.56,
+   "lat": 25.04,
+   "cat": "politics",
+   "text": "台湾举行首次领导人直接选举。选举前夕台湾海峡局势紧张。",
+   "wiki": "1996_Taiwanese_presidential_election",
+   "wikiLang": {
+    "ja": "1996年中華民国総統選挙",
+    "zh": "1996年中華民國總統選舉"
+   }
+  },
+  {
+   "year": 1997,
+   "date": "1997-07-01",
+   "title": "香港回归",
+   "place": "香港",
+   "lon": 114.17,
+   "lat": 22.3,
+   "cat": "politics",
+   "text": "英国将香港主权移交中华人民共和国，按“一国两制”设立香港特别行政区。",
+   "wiki": "Transfer_of_sovereignty_over_Hong_Kong",
+   "wikiLang": {
+    "ja": "香港返還",
+    "zh": "香港回歸"
+   }
+  },
+  {
+   "year": 1999,
+   "date": "1999-12-20",
+   "title": "澳门回归",
+   "place": "澳门",
+   "lon": 113.54,
+   "lat": 22.19,
+   "cat": "politics",
+   "text": "葡萄牙将澳门主权移交中国，结束了四百余年的葡萄牙管治。",
+   "wiki": "Transfer_of_sovereignty_over_Macau",
+   "wikiLang": {
+    "ja": "マカオ返還",
+    "zh": "澳門回歸"
+   }
+  },
+  {
+   "year": 2003,
+   "date": "2003-06-01",
+   "title": "三峡大坝蓄水",
+   "place": "宜昌三斗坪（湖北）",
+   "lon": 111.0,
+   "lat": 30.82,
+   "cat": "society",
+   "text": "世界最大的水电站开始蓄水，百余万居民为此迁移。",
+   "wiki": "Three_Gorges_Dam",
+   "wikiLang": {
+    "ja": "三峡ダム",
+    "zh": "长江三峡水利枢纽工程"
+   }
+  },
+  {
+   "year": 2008,
+   "date": "2008-05-12",
+   "title": "汶川地震",
+   "place": "汶川（四川）",
+   "lon": 103.37,
+   "lat": 31.0,
+   "cat": "society",
+   "text": "里氏8.0级地震造成近七万人遇难，约一万八千人失踪。",
+   "wiki": "2008_Sichuan_earthquake",
+   "wikiLang": {
+    "ja": "四川大地震",
+    "zh": "汶川大地震"
+   }
+  },
+  {
+   "year": 2008,
+   "date": "2008-08-08",
+   "title": "北京奥运会",
+   "place": "北京",
+   "lon": 116.39,
+   "lat": 39.99,
+   "cat": "culture",
+   "text": "第29届夏季奥运会在北京开幕，这是中国首次举办奥运会。",
+   "wiki": "2008_Summer_Olympics",
+   "wikiLang": {
+    "ja": "2008年北京オリンピック",
+    "zh": "2008年夏季奥林匹克运动会"
+   }
+  }
+ ]
+}

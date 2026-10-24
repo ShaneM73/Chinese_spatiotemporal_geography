@@ -1,0 +1,1743 @@
+{
+ "lang": "en",
+ "name": "English",
+ "dir": "ltr",
+ "ui": {
+  "eyebrow": "Space-time atlas · 2000 BCE – 2010 CE",
+  "title": "Chinese Spatiotemporal Geography",
+  "language": "Language",
+  "view": "View",
+  "viewCube": "Cube",
+  "viewMap": "Map",
+  "viewProfile": "Side",
+  "timeAxis": "Time axis",
+  "proportional": "Proportional",
+  "even": "Even",
+  "relief": "Relief",
+  "timeStack": "Time stack",
+  "labels": "Labels",
+  "places": "Places",
+  "events": "Events",
+  "theme": "Theme",
+  "light": "Light",
+  "dark": "Dark",
+  "hint": "Drag to rotate · scroll to zoom · click a polity to trace its territory through time · click ◆ for events · ← → to step · Space to play",
+  "footer": "Borders: {basemaps} (A. Ourednik, GPL-3.0). Terrain: {terrain} (SRTM, GMTED, ETOPO1, etc.). Event summaries link to Wikipedia. Historical borders are approximate.",
+  "polityNote": "Polity names are shown as in the source data (English).",
+  "loading": "Loading atlas…",
+  "errorFile": "Please open this page through a web server (e.g. GitHub Pages or `python -m http.server`).",
+  "errorLoad": "Could not load the atlas: {msg}",
+  "snapshotUntil": "{n} polities · shown up to {year}",
+  "snapshotLatest": "{n} polities · latest",
+  "presentIn": "Present in",
+  "under": "Under {name}",
+  "partOf": "Part of {name}",
+  "inView": "{area} (in view)",
+  "notPresent": "Not present in {year}",
+  "bordersPrecision": "Borders: {precision}",
+  "precision1": "approximate",
+  "precision2": "fairly accurate",
+  "precision3": "accurate",
+  "bordersOf": "Borders in {year}",
+  "wikipedia": "Wikipedia ↗",
+  "yearCE": "{y} CE",
+  "yearBCE": "{y} BCE",
+  "shortCE": "{y}",
+  "shortBCE": "{y} BC",
+  "km2": "{n} km²",
+  "play": "Play",
+  "pause": "Pause",
+  "prevEvent": "Previous event",
+  "nextEvent": "Next event",
+  "close": "Close",
+  "clearSelection": "Clear selection",
+  "toggleControls": "Show/hide controls",
+  "snapshotYear": "Snapshot year",
+  "focus": "Focus",
+  "threeKingdoms": "Three Kingdoms",
+  "wuhu": "Sixteen Kingdoms",
+  "antiJapanese": "Anti-Japanese War",
+  "civilWar": "Civil War",
+  "threeKingdomsName": "Three Kingdoms era (184–280)",
+  "wuhuName": "Upheaval of the Five Barbarians and the Sixteen Kingdoms (300–439)",
+  "antiJapaneseName": "War of Resistance against Japan (1931–1945)",
+  "civilWarName": "Chinese Civil War (1945–1950)",
+  "sideCaoWei": "Cao Cao / Cao Wei",
+  "sideShuHan": "Liu Bei / Shu Han",
+  "sideSunWu": "Sun Quan / Eastern Wu",
+  "sideYuanShao": "Yuan Shao",
+  "sideJinDynasty": "Western Jin",
+  "sideJinSouth": "Jin and Southern Dynasties (Eastern Jin, Liu Song)",
+  "sideZhao": "Han Zhao, Later Zhao",
+  "sideYan": "Murong Xianbei and the Yan states",
+  "sideQin": "Former Qin, Later Qin",
+  "sideLiang": "Liang states of the Hexi Corridor",
+  "sideChengHan": "Cheng Han",
+  "sideNorthernWei": "Northern Wei",
+  "sideJapan": "Japanese-occupied areas and puppet regimes",
+  "sideCcp": "Areas controlled by the Chinese Communist Party",
+  "sideKmt": "Areas controlled by the Nationalist Government",
+  "sidesHint": "Click a color to show or hide it",
+  "phasesNote": "Territories in each phase are approximate."
+ },
+ "periods": {
+  "xia": "Xia (early states)",
+  "shang": "Shang",
+  "westernZhou": "Western Zhou",
+  "springAutumn": "Spring and Autumn",
+  "warringStates": "Warring States",
+  "qin": "Qin",
+  "han": "Han",
+  "threeKingdoms": "Three Kingdoms",
+  "jinNorthSouth": "Jin and Northern and Southern dynasties",
+  "sui": "Sui",
+  "tang": "Tang",
+  "fiveDynasties": "Five Dynasties and Ten Kingdoms",
+  "song": "Song, Liao, Jin and Western Xia",
+  "yuan": "Yuan",
+  "ming": "Ming",
+  "qing": "Qing",
+  "republic": "Republic of China",
+  "contemporary": "Contemporary"
+ },
+ "categories": {
+  "conflict": "Wars and battles",
+  "politics": "States and treaties",
+  "culture": "Religion and culture",
+  "society": "Society, economy and disasters"
+ },
+ "events": {
+  "Xia_dynasty": {
+   "title": "Xia dynasty",
+   "place": "Mount Song area (Dengfeng, Henan)",
+   "text": "The first dynasty in traditional histories, said to have been founded by Qi, son of Yu, around 2070 BCE; its existence is still debated by scholars."
+  },
+  "Erlitou_culture": {
+   "title": "Erlitou culture",
+   "place": "Erlitou, Yanshi (Luoyang, Henan)",
+   "text": "Palace foundations, bronze ritual vessels and a large city appeared on the middle Yellow River; many scholars see it as an early state and as the Xia culture."
+  },
+  "Shang_dynasty": {
+   "title": "Tang overthrows the Xia; the Shang dynasty is founded",
+   "place": "Bo (around Zhengzhou, Henan)",
+   "text": "Tang, leader of the Shang people, defeated Jie of Xia at Mingtiao and founded the Shang dynasty. The Zhengzhou Shang City is a large city site of this period."
+  },
+  "Yinxu": {
+   "title": "Pan Geng moves the capital to Yin",
+   "place": "Yin (Anyang, Henan)",
+   "text": "The Shang king Pan Geng moved the capital to Yin, where it stayed for over two centuries; the Yinxu ruins have yielded palaces, royal tombs and many bronzes."
+  },
+  "Oracle_bone_script": {
+   "title": "Oracle bone script",
+   "place": "Yinxu (Anyang, Henan)",
+   "text": "Shang kings inscribed divination records on turtle shells and animal bones, the earliest known systematic Chinese writing and a primary source for Shang history."
+  },
+  "Sanxingdui": {
+   "title": "Sanxingdui civilization",
+   "place": "Sanxingdui, Guanghan (Sichuan)",
+   "text": "The ancient Shu kingdom left bronze masks with protruding eyes, bronze trees and a gold staff, in a style very different from the Central Plains, showing the multiple origins of Chinese civilization."
+  },
+  "Battle_of_Muye": {
+   "title": "Battle of Muye",
+   "place": "Muye (Xinxiang, Henan)",
+   "text": "King Wu of Zhou led an allied army that defeated the forces of King Zhou of Shang; the Shang fell and the Zhou dynasty was founded, with its capital at Haojing."
+  },
+  "Gonghe_Regency": {
+   "title": "Revolt of the capital's people and the Gonghe Regency",
+   "place": "Haojing (Xi'an, Shaanxi)",
+   "text": "King Li of Zhou was driven out by the people of the capital and ministers ruled jointly. The year 841 BCE marks the beginning of precisely dated Chinese history."
+  },
+  "Spring_and_Autumn_period": {
+   "title": "King Ping moves east; the Spring and Autumn period begins",
+   "place": "Luoyi (Luoyang, Henan)",
+   "text": "After the Quanrong sacked Haojing, King Ping of Zhou moved the capital to Luoyi. Royal power waned as the feudal lords vied for hegemony, opening the Spring and Autumn period."
+  },
+  "Confucius": {
+   "title": "Birth of Confucius",
+   "place": "Zouyi, state of Lu (Qufu, Shandong)",
+   "text": "Confucius founded the Confucian school, taught benevolence and ritual, and ran private schools. Developed by later generations, his ideas dominated East Asian thought for two thousand years."
+  },
+  "Partition_of_Jin": {
+   "title": "Partition of Jin",
+   "place": "State of Jin (around Houma, Shanxi)",
+   "text": "The Han, Zhao and Wei families divided the state of Jin and were recognized as feudal lords by the Zhou king, often seen as the start of the Warring States period."
+  },
+  "Shang_Yang": {
+   "title": "Reforms of Shang Yang",
+   "place": "Yueyang, state of Qin (Lintong, Xi'an, Shaanxi)",
+   "text": "Shang Yang rewarded farming and warfare, abolished hereditary privilege and set up counties in Qin, making it the strongest of the Warring States."
+  },
+  "Yayoi_period": {
+   "title": "Yayoi period",
+   "place": "Northern Kyushu (Yoshinogari)",
+   "text": "Wet-rice farming and metal tools reached Japan from the continent via the Korean Peninsula, bringing settlements and social stratification and replacing the Jōmon culture."
+  },
+  "Battle_of_Changping": {
+   "title": "Battle of Changping",
+   "place": "Changping (Gaoping, Shanxi)",
+   "text": "The Qin general Bai Qi crushed the Zhao army and reportedly buried hundreds of thousands of surrendered soldiers alive; no single state could resist Qin thereafter."
+  },
+  "Qin's_wars_of_unification": {
+   "title": "Qin unifies China",
+   "place": "Xianyang",
+   "text": "King Ying Zheng of Qin conquered Qi, completing unification. Calling himself the First Emperor, he imposed commanderies and counties and standardized script, weights and measures, and axle widths."
+  },
+  "Great_Wall_of_China": {
+   "title": "Building the Great Wall",
+   "place": "Ordos Loop and the northern frontier",
+   "text": "After Meng Tian drove back the Xiongnu, Qin linked and extended the walls of the Warring States, forming the prototype of the Great Wall."
+  },
+  "Terracotta_Army": {
+   "title": "Terracotta Army of the First Emperor",
+   "place": "Mount Li (Lintong, Xi'an, Shaanxi)",
+   "text": "The First Emperor died and was buried at Mount Li. More than 8,000 life-size clay soldiers guarded his tomb; they were discovered only in 1974."
+  },
+  "Dazexiang_uprising": {
+   "title": "Dazexiang uprising",
+   "place": "Dazexiang (Suzhou, Anhui)",
+   "text": "The conscripts Chen Sheng and Wu Guang rebelled, asking \"Are kings, lords and generals born to their rank?\"; revolts spread and the Qin dynasty soon collapsed."
+  },
+  "Modu_Chanyu": {
+   "title": "Modu Chanyu unites the Xiongnu",
+   "place": "Mongolian Plateau",
+   "text": "Modu killed his father and became chanyu, crushed the Donghu in the east and drove off the Yuezhi in the west, founding the first great nomadic empire of the steppe."
+  },
+  "Battle_of_Gaixia": {
+   "title": "Battle of Gaixia; the Han dynasty is founded",
+   "place": "Gaixia (Lingbi, Anhui)",
+   "text": "Liu Bang defeated Xiang Yu, ending the Chu–Han contention and founding the Western Han with its capital at Chang'an. The idiom \"surrounded by Chu songs\" comes from this battle."
+  },
+  "Battle_of_Baideng": {
+   "title": "Siege of Baideng",
+   "place": "Mount Baideng (Datong, Shanxi)",
+   "text": "Emperor Gaozu of Han was besieged by Modu Chanyu for seven days; after escaping, Han turned to marriage alliances and annual tribute to placate the Xiongnu."
+  },
+  "Zhang_Qian": {
+   "title": "Zhang Qian's mission to the Western Regions",
+   "place": "Chang'an",
+   "text": "Emperor Wu sent Zhang Qian to ally with the Greater Yuezhi against the Xiongnu. His intelligence on the Western Regions opened the way for the Silk Road."
+  },
+  "Battle_of_Mobei": {
+   "title": "Battle of Mobei",
+   "place": "North of the Gobi (Mongolia)",
+   "text": "Wei Qing and Huo Qubing struck deep north of the Gobi and shattered the main Xiongnu forces; Huo performed the sacrifice at Mount Langjuxu and the Xiongnu fled far away."
+  },
+  "Han_conquest_of_Nanyue": {
+   "title": "Han conquest of Nanyue",
+   "place": "Panyu (Guangzhou, Guangdong)",
+   "text": "Han armies destroyed the Nanyue kingdom founded by Zhao Tuo, bringing Lingnan and northern Vietnam under Han commanderies."
+  },
+  "Han_conquest_of_Gojoseon": {
+   "title": "Han conquest of Wiman Joseon",
+   "place": "Wanggeom-seong (Pyongyang, North Korea)",
+   "text": "Emperor Wu of Han conquered Wiman Joseon and set up four commanderies, including Lelang, in the northern Korean Peninsula."
+  },
+  "Records_of_the_Grand_Historian": {
+   "title": "Records of the Grand Historian completed",
+   "place": "Chang'an",
+   "text": "Sima Qian completed the Shiji, a biographical-style general history covering some 3,000 years from the Yellow Emperor to Emperor Wu, the model for later official histories."
+  },
+  "Xin_dynasty": {
+   "title": "Wang Mang usurps the Han",
+   "place": "Chang'an",
+   "text": "The consort kinsman Wang Mang replaced the Han and founded the Xin dynasty with archaizing reforms. Their failure sparked the Lülin and Red Eyebrows rebellions."
+  },
+  "Emperor_Guangwu_of_Han": {
+   "title": "Restoration under Emperor Guangwu; the Eastern Han",
+   "place": "Luoyang",
+   "text": "Liu Xiu re-established the Han dynasty with its capital at Luoyang, known as the Eastern Han."
+  },
+  "King_of_Na_gold_seal": {
+   "title": "King of Na gold seal",
+   "place": "Na (Fukuoka, Japan)",
+   "text": "Emperor Guangwu granted a gold seal to an envoy from the Na state of Wa. Found on Shikanoshima, Fukuoka, in 1784, it is early physical evidence of China–Japan contacts."
+  },
+  "White_Horse_Temple": {
+   "title": "Founding of the White Horse Temple",
+   "place": "Luoyang",
+   "text": "Emperor Ming of Han is said to have sent envoys who brought back monks and sutras, and the White Horse Temple in Luoyang is regarded as China's first Buddhist temple."
+  },
+  "Cai_Lun": {
+   "title": "Cai Lun improves papermaking",
+   "place": "Luoyang",
+   "text": "The eunuch Cai Lun made light, cheap paper from bark, hemp, rags and the like; paper gradually replaced bamboo slips and silk."
+  },
+  "Yellow_Turban_Rebellion": {
+   "title": "Yellow Turban Rebellion",
+   "place": "Julu, Ji Province (Hebei)",
+   "text": "Zhang Jue organized hundreds of thousands of peasants through the Way of Great Peace. The revolt was crushed, but local magnates and warlords grew powerful."
+  },
+  "Battle_of_Red_Cliffs": {
+   "title": "Battle of Red Cliffs",
+   "place": "Chibi (Hubei)",
+   "text": "The allied forces of Sun Quan and Liu Bei routed Cao Cao's southward advance with fire, setting up the tripartite division of the Three Kingdoms."
+  },
+  "Three_Kingdoms": {
+   "title": "Cao Pi replaces the Han; the Three Kingdoms",
+   "place": "Luoyang",
+   "text": "Cao Pi forced Emperor Xian of Han to abdicate and founded Wei. Liu Bei then proclaimed himself emperor in Chengdu and Sun Quan in Jianye."
+  },
+  "Conquest_of_Wu_by_Jin": {
+   "title": "Western Jin conquers Wu and reunifies China",
+   "place": "Jianye (Nanjing, Jiangsu)",
+   "text": "Jin forces sailed down the Yangtze and the Wu ruler Sun Hao surrendered, ending the Three Kingdoms period."
+  },
+  "Disaster_of_Yongjia": {
+   "title": "Disaster of Yongjia",
+   "place": "Luoyang",
+   "text": "The Xiongnu-founded Han Zhao took Luoyang and captured Emperor Huai of Jin. The north fell into the wars of the Sixteen Kingdoms and masses of people fled south."
+  },
+  "Mogao_Caves": {
+   "title": "Mogao Caves begun",
+   "place": "Dunhuang",
+   "text": "The monk Yuezun carved the first cave at Mingsha Mountain. Over the next thousand years more than 700 caves were cut, preserving a wealth of murals and manuscripts."
+  },
+  "Battle_of_Fei_River": {
+   "title": "Battle of Fei River",
+   "place": "Fei River (Shou County, Anhui)",
+   "text": "The outnumbered Eastern Jin defeated the vast Former Qin army, which fled at \"the whistle of the wind and the cry of cranes\". Former Qin soon collapsed and the north–south division continued."
+  },
+  "Gwanggaeto_Stele": {
+   "title": "Gwanggaeto Stele",
+   "place": "Gungnae City (Ji'an, Jilin)",
+   "text": "King Jangsu of Goguryeo erected a stele recording the deeds of his father King Gwanggaeto, a key source for Goguryeo and early Northeast Asian history."
+  },
+  "Emperor_Xiaowen_of_Northern_Wei": {
+   "title": "Emperor Xiaowen moves the Northern Wei capital to Luoyang",
+   "place": "Luoyang",
+   "text": "Emperor Xiaowen moved the capital from Pingcheng to Luoyang, pursued sinicization reforms that replaced Xianbei surnames with Chinese ones, and began the Longmen Grottoes."
+  },
+  "Buddhism_in_Japan": {
+   "title": "Buddhism reaches Japan",
+   "place": "Asuka (Nara, Japan)",
+   "text": "King Seong of Baekje sent Buddhist images and scriptures to Wa. The Soga and Mononobe clans clashed over them, and the pro-Buddhist faction prevailed."
+  },
+  "Sui_conquest_of_Chen": {
+   "title": "Sui conquers Chen and reunifies north and south",
+   "place": "Jiankang (Nanjing, Jiangsu)",
+   "text": "Sui troops crossed the Yangtze and took Jiankang, ending nearly three centuries of division since the late Western Jin."
+  },
+  "Grand_Canal_(China)": {
+   "title": "Building the Grand Canal",
+   "place": "Tongji Canal (Luoyang to the Huai River)",
+   "text": "Emperor Yang of Sui mobilized a million laborers to dig canals linking the Yellow, Huai and Yangtze rivers, which became the lifeline carrying southern grain north."
+  },
+  "Imperial_examination": {
+   "title": "Imperial examinations established",
+   "place": "Chang'an",
+   "text": "The Sui created the jinshi degree to select officials by examination. The system lasted until 1905 and was copied in Korea and Vietnam."
+  },
+  "Battle_of_Salsu": {
+   "title": "Battle of Salsu",
+   "place": "Salsu River (Chongchon River, North Korea)",
+   "text": "During Emperor Yang's invasion of Goguryeo, Eulji Mundeok routed the Sui army at the Salsu River. Repeated campaigns exhausted Sui, which soon fell."
+  },
+  "Tang_dynasty": {
+   "title": "Founding of the Tang dynasty",
+   "place": "Chang'an",
+   "text": "Li Yuan proclaimed himself emperor in Chang'an and founded the Tang. Tang Chang'an was one of the largest cities in the world at the time."
+  },
+  "Princess_Wencheng": {
+   "title": "Princess Wencheng goes to Tibet",
+   "place": "Rasa (Lhasa, Tibet)",
+   "text": "Emperor Taizong of Tang married Princess Wencheng to the Tibetan emperor Songtsen Gampo; the artisans and Buddhist images that accompanied her fostered Han–Tibetan exchange."
+  },
+  "Taika_Reform": {
+   "title": "Taika Reform",
+   "place": "Asuka (Nara, Japan)",
+   "text": "Prince Naka no Ōe and Nakatomi no Kamatari destroyed the Soga clan and introduced Tang-style reforms of public land and the ritsuryō legal system."
+  },
+  "Xuanzang": {
+   "title": "Xuanzang returns from India",
+   "place": "Chang'an",
+   "text": "After a 17-year pilgrimage to India, Xuanzang brought back more than 600 texts and dictated the Great Tang Records on the Western Regions."
+  },
+  "Battle_of_Baekgang": {
+   "title": "Battle of Baekgang",
+   "place": "Mouth of the Baek River (Geum River, South Korea)",
+   "text": "A Tang–Silla fleet crushed the navies of Wa and the Baekje restoration forces; Baekje was finished and Wa withdrew from the Korean Peninsula."
+  },
+  "Unified_Silla": {
+   "title": "Silla unifies the Korean Peninsula",
+   "place": "Geumseong (Gyeongju, South Korea)",
+   "text": "Having destroyed Baekje and Goguryeo in alliance with Tang, Silla then drove the Tang army north of the Taedong River and unified most of the peninsula."
+  },
+  "Balhae": {
+   "title": "Founding of Balhae",
+   "place": "Mount Dongmou (Dunhua, Jilin)",
+   "text": "Dae Joyeong founded a state with the Sumo Mohe and Goguryeo refugees; later invested by the Tang, it was called the \"flourishing land east of the sea\"."
+  },
+  "Heijō-kyō": {
+   "title": "Capital moved to Heijō-kyō",
+   "place": "Heijō-kyō (Nara, Japan)",
+   "text": "Japan built Heijō-kyō on the model of Tang Chang'an, beginning the Nara period."
+  },
+  "An_Lushan_Rebellion": {
+   "title": "An Lushan Rebellion",
+   "place": "Fanyang (Beijing)",
+   "text": "The military governor An Lushan rebelled and took Luoyang and Chang'an. After eight years of war the Tang went into decline, with regional warlords entrenched."
+  },
+  "Heian-kyō": {
+   "title": "Capital moved to Heian-kyō",
+   "place": "Heian-kyō (Kyoto, Japan)",
+   "text": "Emperor Kanmu moved the capital to Heian-kyō; Kyoto remained Japan's imperial capital for over a thousand years, and the Heian period began."
+  },
+  "Khmer_Empire": {
+   "title": "Founding of the Angkorian Khmer Empire",
+   "place": "Angkor (Cambodia)",
+   "text": "Jayavarman II declared independence and proclaimed himself universal monarch; the Khmer Empire dominated mainland Southeast Asia for centuries."
+  },
+  "Uyghur_Khaganate": {
+   "title": "Fall of the Uyghur Khaganate",
+   "place": "Ordu-Baliq (Mongolia)",
+   "text": "The Kyrgyz sacked the Uyghur capital; the Uyghurs moved west to Gaochang and the Hexi Corridor and became among the ancestors of today's Uyghurs."
+  },
+  "Diamond_Sutra": {
+   "title": "Printed Diamond Sutra",
+   "place": "Library Cave, Dunhuang",
+   "text": "The Diamond Sutra printed in 868 is the earliest surviving dated woodblock-printed book; it was found in the Mogao Caves in 1900."
+  },
+  "Huang_Chao": {
+   "title": "Huang Chao Rebellion",
+   "place": "Shandong and Henan",
+   "text": "The salt smuggler Huang Chao rebelled, fought across China and took Chang'an, proclaiming himself emperor. The Tang suppressed the revolt but survived in name only."
+  },
+  "Five_Dynasties_and_Ten_Kingdoms_period": {
+   "title": "Fall of the Tang; Five Dynasties and Ten Kingdoms",
+   "place": "Bianzhou (Kaifeng, Henan)",
+   "text": "Zhu Wen usurped the Tang and founded the Later Liang. For half a century five dynasties succeeded one another in the north while over ten kingdoms coexisted in the south."
+  },
+  "Goryeo": {
+   "title": "Founding of Goryeo",
+   "place": "Gaegyeong (Kaesong, North Korea)",
+   "text": "Wang Geon founded Goryeo and later unified the Later Three Kingdoms. The English name \"Korea\" derives from Goryeo."
+  },
+  "Battle_of_Bạch_Đằng_(938)": {
+   "title": "Battle of Bạch Đằng (938)",
+   "place": "Bạch Đằng River (Haiphong, Vietnam)",
+   "text": "Ngô Quyền routed the Southern Han fleet with a field of stakes, ending about a thousand years of Chinese rule over northern Vietnam and opening the way to independence."
+  },
+  "Song_dynasty": {
+   "title": "Chenqiao mutiny; the Northern Song is founded",
+   "place": "Kaifeng",
+   "text": "Zhao Kuangyin was draped in the imperial yellow robe and founded the Song, which favored civil rule and stripped generals of their commands \"over a cup of wine\"."
+  },
+  "Chanyuan_Treaty": {
+   "title": "Treaty of Chanyuan",
+   "place": "Chanzhou (Puyang, Henan)",
+   "text": "Song and Liao made peace, with Song paying Liao annual tribute. The two states then kept the peace for over a century."
+  },
+  "Lý_dynasty": {
+   "title": "Lý dynasty moves the capital to Thăng Long",
+   "place": "Thăng Long (Hanoi, Vietnam)",
+   "text": "Lý Thái Tổ (Lý Công Uẩn) moved the capital to Đại La and renamed it Thăng Long; Hanoi has been Vietnam's political center ever since."
+  },
+  "Western_Xia": {
+   "title": "Founding of the Western Xia",
+   "place": "Xingqing (Yinchuan, Ningxia)",
+   "text": "The Tangut leader Li Yuanhao proclaimed himself emperor of Great Xia and created the Tangut script."
+  },
+  "Movable_type": {
+   "title": "Bi Sheng invents movable type",
+   "place": "Yingshan, Qizhou (Hubei)",
+   "text": "According to Shen Kuo's Dream Pool Essays, the commoner Bi Sheng printed with movable type made of baked clay, some 400 years before Europe."
+  },
+  "Pagan_Kingdom": {
+   "title": "Pagan unifies Burma",
+   "place": "Bagan (Myanmar)",
+   "text": "King Anawrahta unified the Irrawaddy valley, promoted Theravada Buddhism and built thousands of pagodas."
+  },
+  "Wang_Anshi": {
+   "title": "Reforms of Wang Anshi",
+   "place": "Kaifeng",
+   "text": "Emperor Shenzong appointed Wang Anshi to enact the Green Sprouts, hired-service and other New Policies to enrich the state, fueling bitter factional strife."
+  },
+  "Zizhi_Tongjian": {
+   "title": "Zizhi Tongjian completed",
+   "place": "Luoyang",
+   "text": "Over 19 years Sima Guang compiled a chronological general history covering 1,362 years from the Warring States to the Five Dynasties."
+  },
+  "Jin_dynasty_(1115–1234)": {
+   "title": "Founding of the Jin dynasty",
+   "place": "Huining (Acheng, Heilongjiang)",
+   "text": "The Jurchen leader Wanyan Aguda proclaimed the Jin. Ten years later Jin destroyed the Liao, and in 1127 it overthrew the Northern Song."
+  },
+  "Jingkang_incident": {
+   "title": "Jingkang incident",
+   "place": "Kaifeng",
+   "text": "Jin troops took Kaifeng and carried off emperors Huizong and Qinzong with the imperial clan, ending the Northern Song. Emperor Gaozong re-established the Song in the south as the Southern Song."
+  },
+  "Yue_Fei": {
+   "title": "Execution of Yue Fei; Treaty of Shaoxing",
+   "place": "Lin'an (Hangzhou, Zhejiang)",
+   "text": "The anti-Jin general Yue Fei was put to death on a charge of \"perhaps\" (mo xu you). Song and Jin made peace, with the Huai River and Dasan Pass as the border."
+  },
+  "Battle_of_Dan-no-ura": {
+   "title": "Battle of Dan-no-ura",
+   "place": "Dan-no-ura (Shimonoseki, Japan)",
+   "text": "The Minamoto destroyed the Taira in a naval battle; Minamoto no Yoritomo then set up a shogunate at Kamakura, beginning the era of warrior rule in Japan."
+  },
+  "Genghis_Khan": {
+   "title": "Genghis Khan unites the Mongols",
+   "place": "Source of the Onon River (Khentii, Mongolia)",
+   "text": "Temüjin was proclaimed Genghis Khan at a kurultai and founded the Great Mongol State, which went on to conquer most of Eurasia."
+  },
+  "Battle_of_Zhongdu": {
+   "title": "Mongols take the Jin capital Zhongdu",
+   "place": "Zhongdu (Beijing)",
+   "text": "Genghis Khan besieged and captured the Jin capital Zhongdu, and Emperor Xuanzong of Jin moved south to Kaifeng."
+  },
+  "Siege_of_Caizhou": {
+   "title": "Siege of Caizhou; fall of the Jin",
+   "place": "Caizhou (Runan, Henan)",
+   "text": "Allied Mongol and Southern Song forces stormed Caizhou; Emperor Aizong of Jin killed himself and the Jin dynasty ended. War between Song and the Mongols soon followed."
+  },
+  "Sukhothai_Kingdom": {
+   "title": "Founding of the Sukhothai Kingdom",
+   "place": "Sukhothai (Thailand)",
+   "text": "The Tai threw off Khmer rule and founded Sukhothai; the Thai script was created under King Ram Khamhaeng."
+  },
+  "Yuan_dynasty": {
+   "title": "Kublai Khan founds the Yuan dynasty",
+   "place": "Dadu (Beijing)",
+   "text": "Kublai took the dynastic name Yuan from the Book of Changes phrase \"great is the primal Qian\", and the next year made Dadu his capital."
+  },
+  "Mongol_invasions_of_Japan": {
+   "title": "Mongol invasions of Japan",
+   "place": "Hakata Bay (Fukuoka, Japan)",
+   "text": "Yuan and Goryeo forces twice crossed the sea to attack Japan (1274, 1281), failing both times because of storms and Japanese defenses. The Japanese called the storms \"kamikaze\"."
+  },
+  "Marco_Polo": {
+   "title": "Marco Polo reaches Shangdu",
+   "place": "Shangdu (Zhenglan Banner, Inner Mongolia)",
+   "text": "The Venetian merchant Marco Polo met Kublai Khan. His travel account fired European imaginations about China."
+  },
+  "Battle_of_Yamen": {
+   "title": "Battle of Yamen; fall of the Southern Song",
+   "place": "Yamen (Jiangmen, Guangdong)",
+   "text": "The Yuan navy destroyed the last Southern Song fleet; Lu Xiufu leapt into the sea carrying the boy emperor Zhao Bing, and the Southern Song ended."
+  },
+  "Battle_of_Bạch_Đằng_(1288)": {
+   "title": "Battle of Bạch Đằng (1288)",
+   "place": "Bạch Đằng River (Haiphong, Vietnam)",
+   "text": "Trần Hưng Đạo used Ngô Quyền's stake tactic to repel the third Yuan invasion, preserving Đại Việt's independence."
+  },
+  "Red_Turban_Rebellions": {
+   "title": "Red Turban Rebellions",
+   "place": "Yingzhou (Fuyang, Anhui)",
+   "text": "Liu Futong and others organized an uprising through the White Lotus sect; wearing red head cloths, the anti-Yuan revolts quickly spread across the country."
+  },
+  "Ayutthaya_Kingdom": {
+   "title": "Founding of the Ayutthaya Kingdom",
+   "place": "Ayutthaya (Thailand)",
+   "text": "King U Thong founded Ayutthaya, which later absorbed Sukhothai and remained the leading power of Siam for over four centuries."
+  },
+  "Battle_of_Lake_Poyang": {
+   "title": "Battle of Lake Poyang",
+   "place": "Poyang Lake",
+   "text": "Zhu Yuanzhang used fire attacks to defeat Chen Youliang's fleet of giant ships, one of the largest naval battles of the medieval world."
+  },
+  "Ming_dynasty": {
+   "title": "Founding of the Ming dynasty",
+   "place": "Yingtian (Nanjing, Jiangsu)",
+   "text": "Zhu Yuanzhang proclaimed himself emperor of the Great Ming. That year Ming troops entered Dadu and the last Yuan emperor fled north of the Gobi."
+  },
+  "Joseon": {
+   "title": "Founding of Joseon",
+   "place": "Gaegyeong; capital moved to Hanyang (Seoul) in 1394",
+   "text": "Yi Seong-gye overthrew Goryeo and founded the Joseon dynasty, which championed Confucianism and lasted over 500 years until 1910."
+  },
+  "Ming_treasure_voyages": {
+   "title": "Zheng He's treasure voyages",
+   "place": "Liujiagang (Taicang, Jiangsu)",
+   "text": "Zheng He led fleets of more than 200 ships on seven voyages, reaching as far as the East African coast. The voyages ceased after the Xuande reign."
+  },
+  "Forbidden_City": {
+   "title": "Yongle Emperor moves the capital to Beijing",
+   "place": "Beijing",
+   "text": "With the Forbidden City completed, the Ming formally moved its capital to Beijing, which remained the capital of the Ming and Qing for nearly 500 years."
+  },
+  "Later_Lê_dynasty": {
+   "title": "Lê Lợi founds the Later Lê dynasty",
+   "place": "Đông Kinh (Hanoi, Vietnam)",
+   "text": "Lê Lợi led the Lam Sơn uprising that expelled the Ming army and founded the Later Lê dynasty, restoring Vietnamese independence."
+  },
+  "Ryukyu_Kingdom": {
+   "title": "Unification of the Ryukyu Kingdom",
+   "place": "Shuri (Okinawa, Japan)",
+   "text": "Shō Hashi unified Hokuzan, Chūzan and Nanzan; through tributary trade with the Ming, Ryukyu became an entrepôt of East Asian seas."
+  },
+  "Hunminjeongeum": {
+   "title": "Promulgation of Hunminjeongeum",
+   "place": "Hanyang (Seoul)",
+   "text": "King Sejong the Great of Joseon promulgated the phonetic script Hunminjeongeum, today's Korean alphabet (Hangul)."
+  },
+  "Tumu_Crisis": {
+   "title": "Tumu Crisis",
+   "place": "Tumu Fortress (Huailai, Hebei)",
+   "text": "The Zhengtong Emperor was defeated and captured while personally campaigning against the Oirats; Yu Qian enthroned the Jingtai Emperor and organized the defense of Beijing."
+  },
+  "Ōnin_War": {
+   "title": "Ōnin War",
+   "place": "Kyoto",
+   "text": "A shogunal succession dispute became an eleven-year civil war that left Kyoto in ashes and ushered Japan into the Sengoku period."
+  },
+  "Portuguese_Macau": {
+   "title": "Portuguese settle in Macau",
+   "place": "Macau",
+   "text": "The Portuguese were permitted to live and trade in Macau, which became a key base for European trade and missions in East Asia."
+  },
+  "Matteo_Ricci": {
+   "title": "Matteo Ricci arrives in China",
+   "place": "Zhaoqing",
+   "text": "The Jesuit Matteo Ricci settled in Zhaoqing and later reached Beijing. He and Xu Guangqi translated Euclid's Elements, furthering Sino-Western learning."
+  },
+  "Japanese_invasions_of_Korea_(1592–1598)": {
+   "title": "Imjin War (Japanese invasions of Korea)",
+   "place": "Busan",
+   "text": "Toyotomi Hideyoshi invaded Korea; the Ming sent troops to aid Joseon, and Yi Sun-sin's navy repeatedly defeated the Japanese. Japan withdrew in 1598."
+  },
+  "Battle_of_Sekigahara": {
+   "title": "Battle of Sekigahara",
+   "place": "Sekigahara (Gifu, Japan)",
+   "text": "Tokugawa Ieyasu defeated the Western Army and three years later opened a shogunate in Edo, beginning more than two centuries of the Edo period."
+  },
+  "Later_Jin_(1616–1636)": {
+   "title": "Nurhaci founds the Later Jin",
+   "place": "Hetu Ala (Xinbin, Liaoning)",
+   "text": "Nurhaci united the Jurchen tribes and founded the Later Jin; in 1636 Hong Taiji renamed the state Qing."
+  },
+  "Battle_of_Sarhū": {
+   "title": "Battle of Sarhū",
+   "place": "Sarhū (Fushun, Liaoning)",
+   "text": "The Later Jin concentrated its forces to defeat the four Ming columns one by one, reversing the balance between Ming and Qing in Liaodong."
+  },
+  "Dutch_Formosa": {
+   "title": "The Dutch occupy Taiwan",
+   "place": "Tayouan (Tainan, Taiwan)",
+   "text": "The Dutch East India Company built Fort Zeelandia in southern Taiwan and established colonial rule."
+  },
+  "Battle_of_Shanhai_Pass": {
+   "title": "Battle of Shanhai Pass; the Qing enter China proper",
+   "place": "Shanhai Pass",
+   "text": "Li Zicheng took Beijing and the Chongzhen Emperor hanged himself. Wu Sangui let the Qing through the pass; they defeated Li and made Beijing their capital."
+  },
+  "Potala_Palace": {
+   "title": "Rebuilding of the Potala Palace",
+   "place": "Lhasa",
+   "text": "After establishing the Ganden Phodrang government, the 5th Dalai Lama rebuilt the Potala Palace on the Red Hill as the religious and political center."
+  },
+  "Siege_of_Fort_Zeelandia": {
+   "title": "Koxinga takes Taiwan",
+   "place": "Fort Zeelandia (Tainan, Taiwan)",
+   "text": "Koxinga (Zheng Chenggong) besieged Fort Zeelandia for nine months until the Dutch surrendered and left Taiwan."
+  },
+  "Battle_of_Penghu": {
+   "title": "Battle of Penghu; Qing annexes Taiwan",
+   "place": "Penghu",
+   "text": "Shi Lang's Qing fleet defeated the Zheng navy and Zheng Keshuang surrendered; the next year the Qing set up a prefecture in Taiwan."
+  },
+  "Treaty_of_Nerchinsk": {
+   "title": "Treaty of Nerchinsk",
+   "place": "Nerchinsk (Russia)",
+   "text": "After the siege of Albazin, Qing and Russia set the border along the Argun River and the Stanovoy Range, China's first boundary treaty with a European state."
+  },
+  "Treaty_of_Kyakhta_(1727)": {
+   "title": "Treaty of Kyakhta",
+   "place": "Kyakhta",
+   "text": "Qing and Russia delimited the border along Khalkha Mongolia and made Kyakhta the trading post between the two empires."
+  },
+  "Dzungar–Qing_Wars": {
+   "title": "Qing destroys the Dzungars",
+   "place": "Ili",
+   "text": "Qing armies crushed Amursana's revolt; war and smallpox nearly wiped out the Dzungars, and the lands north and south of the Tian Shan came under Qing rule."
+  },
+  "Canton_System": {
+   "title": "Canton System",
+   "place": "Guangzhou",
+   "text": "The Qianlong Emperor restricted Western ships to trading at Guangzhou, where the Thirteen Hongs monopolized foreign trade until the Opium War."
+  },
+  "Siku_Quanshu": {
+   "title": "Compilation of the Siku Quanshu",
+   "place": "Beijing",
+   "text": "The Qianlong Emperor ordered China's largest collectanea, with over 3,000 titles; at the same time many books were banned and destroyed."
+  },
+  "Macartney_Embassy": {
+   "title": "Macartney Embassy",
+   "place": "Chengde Mountain Resort (Chengde, Hebei)",
+   "text": "The British embassy's request to expand trade was rejected by the Qianlong Emperor, and the two sides also clashed over court ritual."
+  },
+  "Nguyễn_dynasty": {
+   "title": "Founding of the Nguyễn dynasty",
+   "place": "Phú Xuân (Huế, Vietnam)",
+   "text": "Nguyễn Phúc Ánh unified Vietnam, made Huế his capital and founded Vietnam's last dynasty."
+  },
+  "First_Opium_War": {
+   "title": "First Opium War",
+   "place": "Humen (Dongguan, Guangdong)",
+   "text": "After Lin Zexu destroyed opium at Humen, Britain sent an expeditionary force. The Qing defeat marks the start of China's modern history."
+  },
+  "Treaty_of_Nanking": {
+   "title": "Treaty of Nanking",
+   "place": "Nanjing",
+   "text": "The Qing ceded Hong Kong Island, opened Guangzhou, Xiamen, Fuzhou, Ningbo and Shanghai to trade, and paid an indemnity of 21 million silver dollars."
+  },
+  "Taiping_Rebellion": {
+   "title": "Taiping Rebellion",
+   "place": "Jintian village (Guiping, Guangxi)",
+   "text": "Hong Xiuquan launched a rebellion and later made Tianjing (Nanjing) his capital. More than a decade of civil war killed tens of millions."
+  },
+  "Perry_Expedition": {
+   "title": "Arrival of the Black Ships",
+   "place": "Uraga (Yokosuka, Japan)",
+   "text": "US Commodore Matthew Perry arrived with a squadron demanding entry; the next year Japan signed a treaty ending over two centuries of seclusion."
+  },
+  "Treaty_of_Aigun": {
+   "title": "Treaty of Aigun",
+   "place": "Aigun (Heihe, Heilongjiang)",
+   "text": "Russia forced the Qing to cede more than 600,000 km² of land north of the Amur River."
+  },
+  "Convention_of_Peking": {
+   "title": "Burning of the Old Summer Palace and the Convention of Peking",
+   "place": "Beijing",
+   "text": "Anglo-French forces entered Beijing and burned the Old Summer Palace. The Qing ceded Kowloon, and in a following treaty with Russia ceded the lands east of the Ussuri River."
+  },
+  "Self-Strengthening_Movement": {
+   "title": "Self-Strengthening Movement",
+   "place": "Anqing",
+   "text": "Zeng Guofan founded the Anqing Arsenal; Li Hongzhang and others went on to build the Jiangnan Arsenal, the Fuzhou Navy Yard and the Beiyang Fleet."
+  },
+  "Meiji_Restoration": {
+   "title": "Meiji Restoration",
+   "place": "Edo (renamed Tokyo)",
+   "text": "Imperial rule was restored and the shogunate ended. Japan pursued sweeping Westernizing reforms and quickly turned to industrialization and overseas expansion."
+  },
+  "Japan–Korea_Treaty_of_1876": {
+   "title": "Treaty of Ganghwa",
+   "place": "Ganghwa Island",
+   "text": "Through gunboat diplomacy Japan forced Joseon to open its ports and rejected Qing suzerainty over Korea."
+  },
+  "Ryukyu_Disposition": {
+   "title": "Ryukyu Disposition",
+   "place": "Shuri (Okinawa, Japan)",
+   "text": "Japan abolished the Ryukyu Kingdom and created Okinawa Prefecture. The Qing protested but could not change the outcome."
+  },
+  "Sino-French_War": {
+   "title": "Sino-French War",
+   "place": "Lạng Sơn (Vietnam)",
+   "text": "China and France went to war over Vietnam. Qing forces won at Zhennan Pass, but the Qing ultimately recognized the French protectorate over Vietnam."
+  },
+  "First_Sino-Japanese_War": {
+   "title": "First Sino-Japanese War",
+   "place": "Yellow Sea",
+   "text": "Japan and the Qing fought over Korea, and the Beiyang Fleet was destroyed at the Battle of the Yalu River and the Battle of Weihaiwei."
+  },
+  "Treaty_of_Shimonoseki": {
+   "title": "Treaty of Shimonoseki",
+   "place": "Shimonoseki (Japan)",
+   "text": "The Qing recognized Korea's \"independence\", ceded Taiwan and Penghu, and paid an indemnity of 200 million taels of silver."
+  },
+  "Hundred_Days'_Reform": {
+   "title": "Hundred Days' Reform",
+   "place": "Beijing",
+   "text": "The Guangxu Emperor enlisted Kang Youwei and Liang Qichao to carry out reforms, overturned after only 103 days by a coup led by Empress Dowager Cixi."
+  },
+  "Boxer_Rebellion": {
+   "title": "Boxer Rebellion and the Eight-Nation Alliance",
+   "place": "Tianjin and Beijing",
+   "text": "The Boxers besieged the Legation Quarter and the Eight-Nation Alliance captured Beijing. The next year the Qing signed the Boxer Protocol, paying an indemnity of 450 million taels."
+  },
+  "Russo-Japanese_War": {
+   "title": "Russo-Japanese War",
+   "place": "Port Arthur (Lüshunkou)",
+   "text": "Japan and Russia fought in Northeast China. Victorious Japan took over Russia's interests in southern Manchuria, the first Asian nation to defeat a European power."
+  },
+  "Japan–Korea_Treaty_of_1910": {
+   "title": "Japan annexes Korea",
+   "place": "Hanseong (Seoul)",
+   "text": "With the Japan–Korea Annexation Treaty the Korean Empire ended, and the peninsula became a Japanese colony until 1945."
+  },
+  "Wuchang_uprising": {
+   "title": "Wuchang Uprising; the 1911 Revolution",
+   "place": "Wuchang (Wuhan, Hubei)",
+   "text": "New Army troops rose up and seized Wuchang, and province after province declared independence. The emperor abdicated the next year, ending over two thousand years of imperial rule."
+  },
+  "Republic_of_China_(1912–1949)": {
+   "title": "Founding of the Republic of China",
+   "place": "Nanjing",
+   "text": "Sun Yat-sen took office as provisional president in Nanjing, establishing Asia's first republic."
+  },
+  "March_1st_Movement": {
+   "title": "March 1st Movement",
+   "place": "Keijō (Seoul)",
+   "text": "Koreans proclaimed a declaration of independence and held mass peaceful demonstrations, which the Japanese colonial authorities suppressed."
+  },
+  "May_Fourth_Movement": {
+   "title": "May Fourth Movement",
+   "place": "Beijing",
+   "text": "Students protested the Paris Peace Conference's transfer of German rights in Shandong to Japan. The movement spurred the New Culture Movement and the spread of vernacular Chinese."
+  },
+  "Mongolian_Revolution_of_1921": {
+   "title": "Mongolian Revolution of 1921",
+   "place": "Urga (Ulaanbaatar)",
+   "text": "The Mongolian People's Party took power with the backing of the Soviet Red Army, and the Mongolian People's Republic was proclaimed in 1924."
+  },
+  "1st_National_Congress_of_the_Chinese_Communist_Party": {
+   "title": "Founding of the Chinese Communist Party",
+   "place": "Shanghai",
+   "text": "The First National Congress of the CCP opened in Shanghai and closed on a boat on South Lake in Jiaxing."
+  },
+  "1923_Great_Kantō_earthquake": {
+   "title": "Great Kantō earthquake",
+   "place": "Tokyo and Yokohama",
+   "text": "A magnitude 7.9 earthquake and the fires it caused killed about 100,000 people, and was followed by a massacre of Koreans."
+  },
+  "Northern_Expedition": {
+   "title": "Northern Expedition",
+   "place": "Guangzhou",
+   "text": "The National Revolutionary Army set out from Guangzhou, defeated the Beiyang warlords and in 1928 nominally unified the country with its capital at Nanjing."
+  },
+  "1931_China_floods": {
+   "title": "1931 China floods",
+   "place": "Yangtze and Huai river basins",
+   "text": "The Yangtze, the Huai and the Grand Canal flooded at once, leaving Wuhan underwater for months; it was one of the deadliest natural disasters of the 20th century."
+  },
+  "Mukden_Incident": {
+   "title": "Mukden Incident",
+   "place": "Shenyang",
+   "text": "Japan's Kwantung Army blew up a section of the South Manchuria Railway at Liutiaohu, blamed Chinese troops, then occupied the Northeast and set up Manchukuo the next year."
+  },
+  "Long_March": {
+   "title": "Long March",
+   "place": "Ruijin (Jiangxi)",
+   "text": "The Central Red Army abandoned the Central Soviet Area and marched some 25,000 li, reaching northern Shaanxi in October 1935."
+  },
+  "Marco_Polo_Bridge_incident": {
+   "title": "Marco Polo Bridge Incident",
+   "place": "Lugou Bridge (Beijing)",
+   "text": "Japanese troops provoked a clash at the Marco Polo Bridge, and China began full-scale resistance against Japan."
+  },
+  "Nanjing_Massacre": {
+   "title": "Nanjing Massacre",
+   "place": "Nanjing",
+   "text": "After capturing Nanjing, Japanese troops massacred civilians and prisoners of war on a vast scale over six weeks and committed widespread rape, looting and arson."
+  },
+  "Battle_of_Taierzhuang": {
+   "title": "Battle of Taierzhuang",
+   "place": "Taierzhuang (Zaozhuang, Shandong)",
+   "text": "Chinese forces under Li Zongren inflicted heavy losses on the Japanese, the first major victory on the main front since full-scale war began."
+  },
+  "Atomic_bombings_of_Hiroshima_and_Nagasaki": {
+   "title": "Atomic bombings of Hiroshima and Nagasaki",
+   "place": "Hiroshima and Nagasaki",
+   "text": "The United States dropped atomic bombs on Hiroshima and Nagasaki; well over 100,000 people in the two cities died that year."
+  },
+  "Surrender_of_Japan": {
+   "title": "Surrender of Japan",
+   "place": "Tokyo",
+   "text": "Emperor Hirohito announced by radio the acceptance of the Potsdam Declaration. Japan signed the instrument of surrender on 2 September, ending World War II and Japanese rule over Taiwan and Korea."
+  },
+  "Huaihai_campaign": {
+   "title": "Huaihai Campaign",
+   "place": "Xuzhou",
+   "text": "One of the largest campaigns of the Chinese Civil War. The PLA destroyed more than 500,000 Nationalist troops, settling control north of the Yangtze."
+  },
+  "Proclamation_of_the_People's_Republic_of_China": {
+   "title": "Founding of the People's Republic of China",
+   "place": "Tiananmen, Beijing",
+   "text": "From the Tiananmen rostrum, Mao Zedong proclaimed the founding of the Central People's Government of the People's Republic of China."
+  },
+  "Retreat_of_the_government_of_the_Republic_of_China_to_Taiwan": {
+   "title": "ROC government retreats to Taiwan",
+   "place": "Taipei",
+   "text": "After losing the Civil War, the government of the Republic of China moved to Taipei, beginning the separate rule of the two sides of the Taiwan Strait."
+  },
+  "Korean_War": {
+   "title": "Korean War",
+   "place": "38th parallel",
+   "text": "North Korean troops crossed the 38th parallel. The US-led UN forces and the Chinese People's Volunteers entered the war in turn; an armistice was signed in 1953."
+  },
+  "Korean_Armistice_Agreement": {
+   "title": "Korean Armistice Agreement",
+   "place": "Panmunjom",
+   "text": "The belligerents signed an armistice at Panmunjom, setting a military demarcation line and demilitarized zone; no peace treaty has been signed to this day."
+  },
+  "Battle_of_Dien_Bien_Phu": {
+   "title": "Battle of Điện Biên Phủ",
+   "place": "Điện Biên Phủ (Vietnam)",
+   "text": "Viet Minh forces besieged the French stronghold for over fifty days and won. The Geneva Conference then temporarily divided Vietnam at the 17th parallel."
+  },
+  "Great_Chinese_Famine": {
+   "title": "Great Chinese Famine",
+   "place": "Nationwide (worst in Xinyang, Henan and elsewhere)",
+   "text": "Inflated claims and excessive grain procurement during the Great Leap Forward, compounded by natural disasters, caused the 1959–1961 famine, with deaths estimated in the tens of millions."
+  },
+  "Shinkansen": {
+   "title": "Tōkaidō Shinkansen opens",
+   "place": "Tokyo to Osaka",
+   "text": "The world's first high-speed railway opened just before the Tokyo Olympics, a symbol of Japan's rapid postwar economic growth."
+  },
+  "596_(nuclear_test)": {
+   "title": "China's first atomic bomb test",
+   "place": "Lop Nur (Xinjiang)",
+   "text": "China conducted its first successful nuclear test at Lop Nur, becoming the fifth nuclear-armed state."
+  },
+  "Cultural_Revolution": {
+   "title": "Cultural Revolution",
+   "place": "Beijing",
+   "text": "Launched by Mao Zedong, the decade-long political movement brought mass persecution, social upheaval and cultural destruction, ending in 1976."
+  },
+  "1972_visit_by_Richard_Nixon_to_China": {
+   "title": "Nixon's visit to China",
+   "place": "Beijing",
+   "text": "US President Richard Nixon visited China and issued the Shanghai Communiqué, beginning the normalization of China–US relations."
+  },
+  "1976_Tangshan_earthquake": {
+   "title": "Tangshan earthquake",
+   "place": "Tangshan (Hebei)",
+   "text": "A magnitude 7.8 earthquake almost entirely destroyed the city; the official death toll exceeded 240,000."
+  },
+  "Chinese_economic_reform": {
+   "title": "Reform and opening up",
+   "place": "Beijing",
+   "text": "The Third Plenum of the 11th CCP Central Committee shifted the focus to economic development, followed by the household responsibility system and opening to the outside world."
+  },
+  "Sino-Vietnamese_War": {
+   "title": "Sino-Vietnamese War",
+   "place": "China–Vietnam border (Lạng Sơn)",
+   "text": "Chinese troops attacked Vietnam's northern border areas and withdrew a month later; border clashes continued until the late 1980s."
+  },
+  "Shenzhen": {
+   "title": "Shenzhen Special Economic Zone established",
+   "place": "Shenzhen",
+   "text": "Starting as a small border town, Shenzhen became the testing ground of China's reforms and within decades a metropolis of over ten million."
+  },
+  "June_Democratic_Struggle": {
+   "title": "June Democratic Struggle",
+   "place": "Seoul",
+   "text": "Nationwide protests forced the military government to accept direct presidential elections, starting South Korea's democratization."
+  },
+  "1989_Tiananmen_Square_protests_and_massacre": {
+   "title": "Tiananmen Square protests and massacre",
+   "place": "Tiananmen Square, Beijing",
+   "text": "Crowds led by students gathered in Tiananmen Square calling for political reform. On the night of 3–4 June the army cleared the square, killing and wounding many civilians."
+  },
+  "1990_Mongolian_democratic_revolution": {
+   "title": "Mongolian Democratic Revolution",
+   "place": "Ulaanbaatar",
+   "text": "Peaceful demonstrations led the Mongolian People's Revolutionary Party to give up one-party rule; Mongolia held multiparty elections and moved to a market economy."
+  },
+  "1996_Taiwanese_presidential_election": {
+   "title": "Taiwan's first direct presidential election",
+   "place": "Taipei",
+   "text": "Taiwan held its first direct election of its leader, amid heightened tension in the Taiwan Strait in the run-up to the vote."
+  },
+  "Transfer_of_sovereignty_over_Hong_Kong": {
+   "title": "Handover of Hong Kong",
+   "place": "Hong Kong",
+   "text": "Britain transferred sovereignty over Hong Kong to the People's Republic of China, which set up the Hong Kong SAR under \"one country, two systems\"."
+  },
+  "Transfer_of_sovereignty_over_Macau": {
+   "title": "Handover of Macau",
+   "place": "Macau",
+   "text": "Portugal transferred sovereignty over Macau to China, ending more than four centuries of Portuguese administration."
+  },
+  "Three_Gorges_Dam": {
+   "title": "Three Gorges Dam begins filling",
+   "place": "Sandouping, Yichang (Hubei)",
+   "text": "The world's largest hydropower station began filling its reservoir; more than a million residents were relocated."
+  },
+  "2008_Sichuan_earthquake": {
+   "title": "Wenchuan earthquake",
+   "place": "Wenchuan (Sichuan)",
+   "text": "A magnitude 8.0 earthquake killed nearly 70,000 people and left about 18,000 missing."
+  },
+  "2008_Summer_Olympics": {
+   "title": "Beijing Olympics",
+   "place": "Beijing",
+   "text": "The 29th Summer Olympic Games opened in Beijing, the first Olympics hosted by China."
+  },
+  "Dong_Zhuo": {
+   "title": "Dong Zhuo enters Luoyang",
+   "place": "Luoyang",
+   "text": "After the eunuchs and the consort clan destroyed each other, the Liang warlord Dong Zhuo led his troops into Luoyang, deposed the Young Emperor, enthroned Emperor Xian and seized control of the court; the great turmoil began here."
+  },
+  "Campaign_against_Dong_Zhuo": {
+   "title": "Guandong coalition against Dong Zhuo",
+   "place": "Suanzao (Yanjin, Henan)",
+   "text": "Yuan Shao, Cao Cao and other lords east of the passes rose against Dong Zhuo. Dong burned Luoyang and moved Emperor Xian west to Chang'an; the coalition then broke up and warlords carved up the land."
+  },
+  "Battle_of_Guandu": {
+   "title": "Battle of Guandu",
+   "place": "Guandu (Zhongmou, Henan)",
+   "text": "Cao Cao raided Wuchao and burned Yuan Shao's grain, defeating a larger army; he then gradually unified the north."
+  },
+  "Longzhong_Plan": {
+   "title": "Longzhong Plan",
+   "place": "Longzhong (Xiangyang, Hubei)",
+   "text": "After Liu Bei visited his cottage three times, Zhuge Liang proposed allying with Wu against Cao and holding both Jing and Yi; this roughly became the threefold division of the realm."
+  },
+  "Battle_of_Mount_Dingjun": {
+   "title": "Battle of Mount Dingjun",
+   "place": "Mount Dingjun (Mianxian, Shaanxi)",
+   "text": "Huang Zhong killed Cao's general Xiahou Yuan; Liu Bei took Hanzhong and styled himself King of Hanzhong."
+  },
+  "Battle_of_Fancheng": {
+   "title": "Battle of Fancheng and Lü Meng's seizure of Jing",
+   "place": "Fancheng (Xiangyang, Hubei)",
+   "text": "Guan Yu attacked Fancheng and drowned seven armies in a flood, shaking the realm; Sun Quan sent Lü Meng to take Jing Province by surprise, and Guan Yu was defeated and killed."
+  },
+  "Shu_Han": {
+   "title": "Liu Bei becomes emperor; Shu Han founded",
+   "place": "Chengdu",
+   "text": "The year after Cao Pi ended the Han, Liu Bei, a member of the Han imperial clan, became emperor at Chengdu with the dynastic name Han, known to history as Shu Han."
+  },
+  "Battle_of_Xiaoting": {
+   "title": "Battle of Yiling",
+   "place": "Yiling (Yichang, Hubei)",
+   "text": "Liu Bei attacked Wu to regain Jing Province but was crushed when Lu Xun burned his line of camps; he died the next year at Baidicheng."
+  },
+  "Zhuge_Liang's_Southern_Campaign": {
+   "title": "Zhuge Liang's southern campaign",
+   "place": "Nanzhong (Yunnan and Guizhou)",
+   "text": "Zhuge Liang put down a revolt of local strongmen in Nanzhong; tradition says he captured Meng Huo seven times, winning hearts rather than battles and securing Shu Han's rear."
+  },
+  "Zhuge_Liang's_Northern_Expeditions": {
+   "title": "Zhuge Liang's northern expedition; Jieting lost",
+   "place": "Jieting (Qin'an, Gansu)",
+   "text": "On Zhuge Liang's first northern expedition, Ma Su disobeyed orders and was beaten at Jieting by the Wei general Zhang He; the campaign failed and Zhuge Liang tearfully had Ma Su executed."
+  },
+  "Eastern_Wu": {
+   "title": "Sun Quan becomes emperor",
+   "place": "Wuchang (Ezhou, Hubei)",
+   "text": "Sun Quan became emperor at Wuchang with the dynastic name Wu and moved his capital to Jianye the same year; all three kingdoms now had emperors."
+  },
+  "Battle_of_Wuzhang_Plains": {
+   "title": "Battle of Wuzhang Plains",
+   "place": "Wuzhang Plains (Qishan, Shaanxi)",
+   "text": "On his fifth northern expedition Zhuge Liang faced Sima Yi for more than a hundred days and died in camp; the Shu army withdrew."
+  },
+  "Incident_at_the_Gaoping_Tombs": {
+   "title": "Incident at the Gaoping Tombs",
+   "place": "Luoyang",
+   "text": "While Cao Shuang escorted the Wei emperor out of the city to the imperial tombs, Sima Yi staged a coup and destroyed him; power in Cao Wei passed to the Sima clan."
+  },
+  "Conquest_of_Shu_by_Wei": {
+   "title": "Wei conquers Shu Han",
+   "place": "Chengdu",
+   "text": "Deng Ai slipped through Yinping and reached Chengdu; the Later Ruler Liu Shan surrendered and Shu Han fell."
+  },
+  "Jin_dynasty_(266–420)": {
+   "title": "Sima Yan founds the Jin dynasty",
+   "place": "Luoyang",
+   "text": "Sima Yan forced the last Wei emperor to abdicate and founded the Jin dynasty, known as the Western Jin."
+  },
+  "War_of_the_Eight_Princes": {
+   "title": "War of the Eight Princes",
+   "place": "Luoyang",
+   "text": "Sima Lun, Prince of Zhao, deposed and killed Empress Jia, and the princes rose one after another to fight for the court. The civil war lasted until 306, crippling the Western Jin and letting leaders of various peoples rise."
+  },
+  "Cheng_Han": {
+   "title": "Li Xiong founds Cheng Han",
+   "place": "Chengdu",
+   "text": "Li Xiong, leader of the Cong people, declared himself king at Chengdu and emperor two years later; the state was named Cheng, later Han, and is known as Cheng Han."
+  },
+  "Han_Zhao": {
+   "title": "Liu Yuan founds Han Zhao",
+   "place": "Zuoguo (Lishi, Shanxi)",
+   "text": "The Xiongnu noble Liu Yuan proclaimed himself King of Han and rose claiming the Han dynasty's legacy, opening the era of the Sixteen Kingdoms."
+  },
+  "Emperor_Min_of_Jin": {
+   "title": "Fall of Chang'an; end of the Western Jin",
+   "place": "Chang'an",
+   "text": "The Han Zhao general Liu Yao took Chang'an; Emperor Min of Jin surrendered and the Western Jin came to an end."
+  },
+  "Emperor_Yuan_of_Jin": {
+   "title": "Sima Rui becomes emperor; Eastern Jin founded",
+   "place": "Jiankang (Nanjing, Jiangsu)",
+   "text": "Backed by northern and southern gentry such as Wang Dao, Sima Rui, Prince of Langya, became emperor (\"the Wang and the Sima share the realm\"); the Eastern Jin held the south for over a century."
+  },
+  "Later_Zhao": {
+   "title": "Shi Le founds Later Zhao",
+   "place": "Xiangguo (Xingtai, Hebei)",
+   "text": "The Jie leader Shi Le broke away from Han Zhao, destroyed Former Zhao in 329 and united most of the north."
+  },
+  "Former_Yan": {
+   "title": "Murong Huang founds Former Yan",
+   "place": "Longcheng (Chaoyang, Liaoning)",
+   "text": "Murong Huang, chief of the Murong Xianbei, styled himself King of Yan; Former Yan later moved south into the Central Plains and stood alongside Eastern Jin and Former Qin."
+  },
+  "Huan_Wen": {
+   "title": "Huan Wen destroys Cheng Han",
+   "place": "Chengdu",
+   "text": "The Eastern Jin general Huan Wen marched up the Yangtze and took Chengdu; Cheng Han fell and Ba-Shu returned to the Eastern Jin."
+  },
+  "Former_Qin": {
+   "title": "Fu Jian founds Former Qin",
+   "place": "Chang'an",
+   "text": "Fu Jian of the Di people entered Guanzhong and became king, then emperor the next year. Under Fu Jian (his nephew) and Wang Meng, Former Qin became the strongest state in the north."
+  },
+  "Wang_Meng_(Former_Qin)": {
+   "title": "Wang Meng destroys Former Yan",
+   "place": "Ye (Linzhang, Hebei)",
+   "text": "The Former Qin chancellor Wang Meng took Ye; Former Yan fell and all the land east of the passes passed to Former Qin."
+  },
+  "Former_Liang": {
+   "title": "Former Qin destroys Former Liang",
+   "place": "Guzang (Wuwei, Gansu)",
+   "text": "Former Qin conquered Former Liang in the Hexi Corridor and destroyed the state of Dai in the same year, unifying the north."
+  },
+  "Northern_Wei": {
+   "title": "Tuoba Gui founds Northern Wei",
+   "place": "Shengle (Horinger, Inner Mongolia)",
+   "text": "After Former Qin collapsed, the Xianbei Tuoba Gui restored his state as King of Dai and soon renamed it Wei, known as Northern Wei."
+  },
+  "Battle_of_Canhe_Slope": {
+   "title": "Battle of Canhe Slope",
+   "place": "Canhe Slope (Liangcheng, Inner Mongolia)",
+   "text": "Northern Wei crushed the Later Yan army and buried the surrendered soldiers alive; dominance in the north began to shift to Northern Wei."
+  },
+  "Later_Qin": {
+   "title": "Liu Yu's northern campaign destroys Later Qin",
+   "place": "Chang'an",
+   "text": "The Eastern Jin strongman Liu Yu marched north and took Chang'an, ending Later Qin; but Guanzhong was soon taken by Helian Bobo."
+  },
+  "Liu_Song_dynasty": {
+   "title": "Liu Yu replaces Jin and founds Song",
+   "place": "Jiankang (Nanjing, Jiangsu)",
+   "text": "Liu Yu deposed Emperor Gong of Jin and took the throne with the dynastic name Song, known as Liu Song; the Southern Dynasties began."
+  },
+  "Northern_Liang": {
+   "title": "Northern Wei destroys Northern Liang and unifies the north",
+   "place": "Guzang (Wuwei, Gansu)",
+   "text": "Emperor Taiwu of Northern Wei conquered Northern Liang, ending the Sixteen Kingdoms era of more than 130 years; the standoff with Liu Song in the south began the Northern and Southern Dynasties."
+  },
+  "January_28_incident": {
+   "title": "January 28 Incident",
+   "place": "Shanghai",
+   "text": "Japanese troops attacked Zhabei in Shanghai and the 19th Route Army fought back. The Shanghai Ceasefire Agreement was signed in May."
+  },
+  "Manchukuo": {
+   "title": "Manchukuo (puppet state) founded",
+   "place": "Xinjing (Changchun, Jilin)",
+   "text": "Japan set up the puppet regime \"Manchukuo\" under Puyi, the last Qing emperor; the League of Nations refused to recognize it."
+  },
+  "Defense_of_the_Great_Wall": {
+   "title": "Defense of the Great Wall",
+   "place": "Great Wall passes (Xifengkou, Gubeikou)",
+   "text": "Japanese troops took Chengde, capital of Rehe Province, and Chinese troops resisted them at the Great Wall passes for more than two months."
+  },
+  "Tanggu_Truce": {
+   "title": "Tanggu Truce",
+   "place": "Tanggu (Tianjin)",
+   "text": "The Sino-Japanese ceasefire made eastern Hebei a demilitarized zone, in effect accepting Japan's occupation of Manchuria and Rehe."
+  },
+  "December_9th_Movement": {
+   "title": "December 9th Movement",
+   "place": "Beiping",
+   "text": "Students in Beiping demonstrated against \"North China autonomy\", calling for an end to civil war and united resistance to Japan."
+  },
+  "Xi'an_Incident": {
+   "title": "Xi'an Incident",
+   "place": "Xi'an (Huaqing Pool)",
+   "text": "Zhang Xueliang and Yang Hucheng detained Chiang Kai-shek, demanding an end to the civil war and alliance with the Communists against Japan. Its peaceful resolution led to the Second United Front."
+  },
+  "Battle_of_Shanghai": {
+   "title": "Battle of Shanghai",
+   "place": "Shanghai",
+   "text": "Nearly a million troops on both sides fought for three months, shattering Japan's boast that it would conquer China in three months; Shanghai fell in November."
+  },
+  "Battle_of_Pingxingguan": {
+   "title": "Battle of Pingxingguan",
+   "place": "Pingxingguan (Fanshi, Shanxi)",
+   "text": "The Eighth Route Army's 115th Division ambushed a Japanese supply column, China's first victory since full-scale war began."
+  },
+  "1938_Yellow_River_flood": {
+   "title": "Huayuankou dike breach",
+   "place": "Huayuankou (Zhengzhou, Henan)",
+   "text": "The Nationalist Government broke the Yellow River dikes to slow the Japanese advance west; parts of Henan, Anhui and Jiangsu were flooded, hundreds of thousands died and millions were displaced."
+  },
+  "Battle_of_Wuhan": {
+   "title": "Battle of Wuhan",
+   "place": "Wuhan",
+   "text": "The largest battle of the early war, lasting four and a half months. After Wuhan fell, the war entered a stalemate."
+  },
+  "Bombing_of_Chongqing": {
+   "title": "Bombing of Chongqing",
+   "place": "Chongqing",
+   "text": "Japan bombed the wartime capital Chongqing indiscriminately for more than five years, causing heavy civilian casualties."
+  },
+  "Hundred_Regiments_Offensive": {
+   "title": "Hundred Regiments Offensive",
+   "place": "Along the Zhengding–Taiyuan Railway (Shanxi, Hebei)",
+   "text": "The Eighth Route Army launched a large sabotage offensive in North China, badly damaging Japanese lines of communication."
+  },
+  "New_Fourth_Army_incident": {
+   "title": "New Fourth Army Incident",
+   "place": "Jingxian, southern Anhui",
+   "text": "Nationalist troops surrounded and destroyed the New Fourth Army headquarters as it moved north; Nationalist–Communist relations sharply worsened."
+  },
+  "Battle_of_Hong_Kong": {
+   "title": "Battle of Hong Kong",
+   "place": "Hong Kong",
+   "text": "Hours after the attack on Pearl Harbor, Japan attacked Hong Kong; the British surrendered on 25 December. China then formally declared war on Japan."
+  },
+  "Operation_Ichi-Go": {
+   "title": "Operation Ichi-Go",
+   "place": "Henan, Hunan, Guangxi",
+   "text": "Japan launched a campaign to open a continental supply corridor; Chinese armies collapsed and large parts of Henan, Hunan and Guangxi were lost."
+  },
+  "Defense_of_Hengyang": {
+   "title": "Defense of Hengyang",
+   "place": "Hengyang",
+   "text": "Chinese defenders held the isolated city for 47 days, the longest city defense of the war."
+  },
+  "Soviet_invasion_of_Manchuria": {
+   "title": "Soviet invasion of Manchuria",
+   "place": "Northeast China",
+   "text": "The Soviet Union declared war on Japan; a million Soviet troops entered Manchuria and the Kwantung Army quickly collapsed."
+  },
+  "Chongqing_Negotiations": {
+   "title": "Chongqing Negotiations",
+   "place": "Chongqing",
+   "text": "Mao Zedong went to Chongqing to negotiate with Chiang Kai-shek and signed the Double Tenth Agreement on 10 October, but the peace did not hold."
+  },
+  "Chinese_Civil_War": {
+   "title": "Full-scale civil war breaks out",
+   "place": "Central Plains Liberated Area (Hubei–Henan border)",
+   "text": "Nationalist troops besieged the Central Plains Liberated Area, and the second Nationalist–Communist civil war broke out in full."
+  },
+  "Battle_of_Yan'an": {
+   "title": "Hu Zongnan takes Yan'an",
+   "place": "Yan'an",
+   "text": "The CCP Central Committee deliberately left Yan'an and moved around northern Shaanxi; a year later the PLA retook Yan'an."
+  },
+  "Battle_of_Menglianggu": {
+   "title": "Menglianggu Campaign",
+   "place": "Menglianggu (Mengyin, Shandong)",
+   "text": "The East China Field Army wiped out the Nationalist Reorganized 74th Division, defeating the focused offensive against Shandong."
+  },
+  "Liaoshen_campaign": {
+   "title": "Liaoshen Campaign",
+   "place": "Jinzhou, Shenyang",
+   "text": "The Northeast Field Army took Jinzhou and besieged Changchun, and by 2 November held Shenyang; all of Manchuria changed hands."
+  },
+  "Pingjin_campaign": {
+   "title": "Pingjin Campaign",
+   "place": "Beiping, Tianjin",
+   "text": "The PLA took Tianjin; Fu Zuoyi, commander at Beiping, accepted peaceful reorganization, and the PLA entered Beiping on 31 January 1949."
+  },
+  "Yangtze_River_Crossing_Campaign": {
+   "title": "Yangtze River Crossing Campaign",
+   "place": "Middle and lower Yangtze",
+   "text": "A million PLA troops crossed the Yangtze and took Nanjing, the Nationalist capital, on 23 April."
+  },
+  "Battle_of_Guningtou": {
+   "title": "Battle of Guningtou",
+   "place": "Kinmen",
+   "text": "The PLA landing on Kinmen failed and the Nationalist Government held the island; the standoff across the Taiwan Strait gradually took shape."
+  },
+  "Landing_Operation_on_Hainan_Island": {
+   "title": "Hainan Island Campaign",
+   "place": "Hainan Island",
+   "text": "The PLA crossed the Qiongzhou Strait in wooden sailing junks and held all of Hainan Island by 1 May."
+  }
+ },
+ "places": {
+  "pacific": "Pacific Ocean",
+  "south_china_sea": "South China Sea",
+  "east_china_sea": "East China Sea",
+  "yellow_sea": "Yellow Sea",
+  "sea_of_japan": "Sea of Japan",
+  "bohai": "Bohai Sea",
+  "sea_of_okhotsk": "Sea of Okhotsk",
+  "bay_of_bengal": "Bay of Bengal",
+  "gulf_of_tonkin": "Gulf of Tonkin",
+  "taiwan_strait": "Taiwan Strait",
+  "lake_baikal": "Lake Baikal",
+  "qinghai_lake": "Qinghai Lake",
+  "dongting_lake": "Dongting Lake",
+  "poyang_lake": "Poyang Lake",
+  "taihu": "Lake Tai",
+  "lop_nur": "Lop Nur",
+  "yellow_river": "Yellow River",
+  "yangtze": "Yangtze River",
+  "pearl_river": "Pearl River",
+  "huai_river": "Huai River",
+  "wei_river": "Wei River",
+  "amur": "Amur River",
+  "liao_river": "Liao River",
+  "yalu": "Yalu River",
+  "mekong": "Mekong River",
+  "red_river": "Red River",
+  "yarlung_tsangpo": "Yarlung Tsangpo",
+  "tarim_river": "Tarim River",
+  "irrawaddy": "Irrawaddy River",
+  "grand_canal": "Grand Canal",
+  "himalayas": "Himalayas",
+  "tibetan_plateau": "Tibetan Plateau",
+  "kunlun": "Kunlun Mountains",
+  "tian_shan": "Tian Shan",
+  "altai": "Altai Mountains",
+  "qinling": "Qinling Mountains",
+  "taihang": "Taihang Mountains",
+  "greater_khingan": "Greater Khingan",
+  "changbai": "Changbai Mountains",
+  "nanling": "Nanling Mountains",
+  "hengduan": "Hengduan Mountains",
+  "pamirs": "Pamirs",
+  "mount_fuji": "Mount Fuji",
+  "loess_plateau": "Loess Plateau",
+  "mongolian_plateau": "Mongolian Plateau",
+  "north_china_plain": "North China Plain",
+  "sichuan_basin": "Sichuan Basin",
+  "hexi_corridor": "Hexi Corridor",
+  "taklamakan": "Taklamakan Desert",
+  "gobi": "Gobi Desert",
+  "korean_peninsula": "Korean Peninsula",
+  "xian": "Xi'an",
+  "haojing": "Haojing",
+  "changan": "Chang'an",
+  "luoyang": "Luoyang",
+  "luoyi": "Luoyi",
+  "anyang": "Anyang",
+  "yinxu": "Yin",
+  "erlitou": "Erlitou",
+  "zhengzhou": "Zhengzhou",
+  "linzi": "Linzi",
+  "xianyang": "Xianyang",
+  "beijing": "Beijing",
+  "ji": "Ji",
+  "youzhou": "Youzhou",
+  "yanjing": "Yanjing",
+  "zhongdu": "Zhongdu",
+  "dadu": "Dadu (Khanbaliq)",
+  "beiping": "Beiping",
+  "nanjing": "Nanjing",
+  "jinling": "Jinling",
+  "jianye": "Jianye",
+  "jiankang": "Jiankang",
+  "yingtian": "Yingtian",
+  "kaifeng": "Kaifeng",
+  "daliang": "Daliang",
+  "dongjing": "Dongjing (Bianjing)",
+  "hangzhou": "Hangzhou",
+  "qiantang": "Qiantang",
+  "linan": "Lin'an",
+  "guangzhou": "Guangzhou",
+  "panyu": "Panyu",
+  "chengdu": "Chengdu",
+  "wuhan": "Wuhan",
+  "wuchang": "Wuchang",
+  "yangzhou": "Yangzhou",
+  "suzhou": "Suzhou",
+  "wu_city": "Wu",
+  "shanghai": "Shanghai",
+  "quanzhou": "Quanzhou",
+  "shenyang": "Shenyang",
+  "shengjing": "Shengjing (Mukden)",
+  "fengtian": "Fengtian",
+  "harbin": "Harbin",
+  "chongqing": "Chongqing",
+  "yuzhou": "Yuzhou",
+  "kunming": "Kunming",
+  "dali": "Dali",
+  "dunhuang": "Dunhuang",
+  "lanzhou": "Lanzhou",
+  "kashgar": "Kashgar",
+  "shule": "Shule",
+  "turpan": "Turpan",
+  "gaochang": "Gaochang",
+  "urumqi": "Ürümqi",
+  "dihua": "Dihua",
+  "lhasa": "Lhasa",
+  "karakorum": "Karakorum",
+  "shangdu": "Shangdu (Xanadu)",
+  "ulaanbaatar": "Ulaanbaatar",
+  "urga": "Urga",
+  "hohhot": "Hohhot",
+  "pyongyang": "Pyongyang",
+  "geumseong": "Geumseong (Gyeongju)",
+  "seoul": "Seoul",
+  "hanseong": "Hanseong",
+  "keijo": "Keijō",
+  "kaesong": "Kaesong",
+  "gaegyeong": "Gaegyeong",
+  "busan": "Busan",
+  "nara": "Nara",
+  "heijokyo": "Heijō-kyō",
+  "kyoto": "Kyoto",
+  "heiankyo": "Heian-kyō",
+  "kamakura": "Kamakura",
+  "osaka": "Osaka",
+  "tokyo": "Tokyo",
+  "edo": "Edo",
+  "nagasaki": "Nagasaki",
+  "naha": "Naha",
+  "shuri": "Shuri",
+  "taipei": "Taipei",
+  "tainan": "Tainan",
+  "zeelandia": "Tayouan",
+  "hong_kong": "Hong Kong",
+  "macau": "Macau",
+  "hanoi": "Hanoi",
+  "thang_long": "Thăng Long",
+  "hue": "Huế",
+  "vladivostok": "Vladivostok (Haishenwai)",
+  "irkutsk": "Irkutsk",
+  "mandalay": "Mandalay",
+  "bagan": "Bagan",
+  "kathmandu": "Kathmandu"
+ },
+ "polities": {
+  "3": "3",
+  "Abbasid Caliphate": "Abbasid Caliphate",
+  "Achaemenid Empire": "Achaemenid Empire",
+  "Afanasevo": "Afanasievo culture",
+  "Afghanistan": "Afghanistan",
+  "Ahmadnagar": "Ahmadnagar Sultanate",
+  "Ainu": "Ainu",
+  "Ainus": "Ainu",
+  "Andronovo": "Andronovo culture",
+  "Annam": "Annam",
+  "Arakan": "Arakan",
+  "Arakan (Indian princely state)": "Arakan",
+  "Assam": "Assam",
+  "Austro-Asiatic rice cultures": "Austroasiatic rice-farming cultures",
+  "Austronesians": "Austronesians",
+  "Ava": "Ava Kingdom",
+  "Avanti": "Avanti",
+  "Ayutthaya": "Ayutthaya Kingdom",
+  "Bactria": "Bactria",
+  "Bagan": "Pagan Kingdom",
+  "Balhae": "Balhae",
+  "Banas": "Bana dynasty",
+  "Bangladesh": "Bangladesh",
+  "Bashkirs": "Bashkirs",
+  "Bengal": "Bengal",
+  "Berar": "Berar Sultanate",
+  "Bhutan": "Bhutan",
+  "British East India Company": "British East India Company",
+  "British Empire": "British Empire",
+  "British Raj": "British Raj",
+  "Bukara Khanate": "Khanate of Bukhara",
+  "Bundelkhand": "Bundelkhand",
+  "Burma": "Burma",
+  "Burmese": "Burmese (Bamar)",
+  "Burmese kingdoms": "Burmese kingdoms",
+  "Buyid dynasty": "Buyid dynasty",
+  "Cambodia": "Cambodia",
+  "Carnatic": "Carnatic",
+  "Ceylon": "Ceylon",
+  "Ceylon (Dutch)": "Dutch Ceylon",
+  "Chagatai Khanate": "Chagatai Khanate",
+  "Chalukya Empire": "Chalukya dynasty",
+  "Chalukyas": "Chalukya dynasty",
+  "Champa": "Champa",
+  "Champa City States": "Champa city-states",
+  "Chandellas": "Chandela dynasty",
+  "Chauhans": "Chahamana (Chauhan) dynasty",
+  "Chen-La": "Chenla",
+  "China": "China",
+  "Chinese Warlords": "Republic of China (Warlord Era)",
+  "Chinese warlords": "Republic of China (Warlord Era)",
+  "Chola": "Chola dynasty",
+  "Chola Empire": "Chola dynasty",
+  "Chola state": "Chola dynasty",
+  "Cholas": "Chola dynasty",
+  "Chūzan": "Chūzan",
+  "Circars": "Northern Circars",
+  "Cuman Khanates": "Cuman khanates",
+  "Cuman-Kipchak confederation": "Cuman–Kipchak confederation",
+  "Dakapeng culture": "Dabenkeng culture",
+  "Deccan Sultanates": "Deccan sultanates",
+  "Donghu tribes": "Donghu tribes",
+  "Dravidians": "Dravidians",
+  "Dutch Formosa": "Dutch Formosa",
+  "Dvaravati": "Dvaravati",
+  "Empire of Alexander": "Empire of Alexander the Great",
+  "Empire of Japan": "Empire of Japan",
+  "Far Eastern SSR": "Far Eastern Republic",
+  "France": "France",
+  "French Indo-China": "French Indochina",
+  "French Indochina": "French Indochina",
+  "Funan": "Funan",
+  "Gandhara grave culture": "Gandhara grave culture",
+  "Gandhāra": "Gandhāra",
+  "Gaya": "Gaya",
+  "Gojoseon": "Gojoseon",
+  "Golconda": "Golconda Sultanate",
+  "Golkonda": "Golconda Sultanate",
+  "Gondwana": "Gondwana",
+  "Goryeo": "Goryeo",
+  "Great Khanate": "Yuan dynasty (Great Khanate)",
+  "Gupta Empire": "Gupta Empire",
+  "Gurjara Pratihara": "Gurjara-Pratihara dynasty",
+  "Göktürks": "Göktürk Khaganate",
+  "Hainan": "Hainan",
+  "Han": "Han dynasty",
+  "Han Empire": "Han dynasty",
+  "Han Zhao": "Han Zhao",
+  "Harapunchai": "Hariphunchai",
+  "Haripunjaya": "Hariphunchai",
+  "Hindu Kingdoms": "Hindu kingdoms",
+  "Hindu Shahis": "Hindu Shahis",
+  "Hindu kingdoms": "Hindu kingdoms",
+  "Hindu kingdoms and republics": "Hindu kingdoms and republics",
+  "Hindu states": "Hindu states",
+  "Hokuzan": "Hokuzan",
+  "Hong Kong": "Hong Kong",
+  "Hövsgöl Nuur": "Khövsgöl",
+  "Imperial Japan": "Empire of Japan",
+  "Imperial Japan (Fujiwara)": "Japan (Fujiwara regency)",
+  "India": "India",
+  "Indian princely states": "Indian princely states",
+  "Indus valley civilization": "Indus Valley Civilisation",
+  "Iranian pastoralists": "Iranian-speaking pastoralists",
+  "Iron Age chieftainships": "Iron Age chiefdoms",
+  "Iron Age megalith cultures": "Iron Age megalithic cultures",
+  "Islamic and Hindu states": "Islamic and Hindu states",
+  "Islamic states": "Islamic states",
+  "Japan": "Japan",
+  "Japan (USA)": "Japan (US occupation)",
+  "Japan (Warring States)": "Japan (Sengoku period)",
+  "Jin": "Jin dynasty (266–420)",
+  "Jin (Jurchen)": "Jin dynasty (Jurchen)",
+  "Jōmon": "Jōmon culture",
+  "Kalinga": "Kalinga",
+  "Kamarupa": "Kamarupa",
+  "Kanauj": "Kingdom of Kannauj",
+  "Kara Khitai Khaganate": "Qara Khitai (Western Liao)",
+  "Karasuk culture": "Karasuk culture",
+  "Karkhanids": "Kara-Khanid Khanate",
+  "Karluks": "Karluks",
+  "Kashmir and Ladakh": "Kashmir and Ladakh",
+  "Kasi": "Kashi",
+  "Kazakhstan": "Kazakhstan",
+  "Kazan Khanate": "Khanate of Kazan",
+  "Khanate of Sibir": "Khanate of Sibir",
+  "Khanate of the Golden Horde": "Golden Horde",
+  "Khitans": "Khitans",
+  "Khiva Khanate": "Khanate of Khiva",
+  "Khmer Empire": "Khmer Empire",
+  "Kimek-Kipchak khaganate": "Kimek–Kipchak khaganate",
+  "Kingdom of Kapisa": "Kingdom of Kapisa",
+  "Kingdom of Kashmir": "Kingdom of Kashmir",
+  "Kingdom of Pagan": "Pagan Kingdom",
+  "Kingdom of Sukhotai": "Sukhothai Kingdom",
+  "Klachuris": "Kalachuri dynasty",
+  "Koguryo": "Goguryeo",
+  "Korea": "Korea",
+  "Korea (USA)": "Southern Korea (US occupation)",
+  "Korea (USSR)": "Northern Korea (Soviet occupation)",
+  "Korea, Democratic People's Republic of": "Democratic People's Republic of Korea",
+  "Korea, Republic of": "Republic of Korea",
+  "Koreans": "Early Korean peoples",
+  "Kosala": "Kosala",
+  "Kuru": "Kuru",
+  "Kurykans": "Kurykans",
+  "Kushan Empire": "Kushan Empire",
+  "Kushan Principalities": "Kushan principalities",
+  "Kyrgyzstan": "Kyrgyzstan",
+  "Lahore": "Lahore",
+  "Lambakannas": "Lambakanna dynasty",
+  "Lan Na": "Lan Na",
+  "Laos": "Laos",
+  "Laotian states": "Lao kingdoms",
+  "Late Jomon culture": "Late Jōmon culture",
+  "Lavo": "Lavo Kingdom",
+  "Liao": "Liao dynasty",
+  "Lopburi Kingdom": "Lavo Kingdom",
+  "Luva": "Luva",
+  "Madras": "Madras",
+  "Magadha": "Magadha",
+  "Mahratta states": "Maratha states",
+  "Maitraka Kingdom": "Maitraka dynasty",
+  "Malay": "Malay",
+  "Malays": "Malays",
+  "Malla": "Malla",
+  "Manchuria": "Manchuria",
+  "Maratha Confederacy": "Maratha Confederacy",
+  "Mauryan Empire": "Maurya Empire",
+  "Middag Kingdom": "Middle Kingdom",
+  "Min-Yue": "Minyue",
+  "Ming Chinese Empire": "Ming dynasty",
+  "Ming Empire": "Ming dynasty",
+  "Mon States": "Mon states",
+  "Mon state": "Mon state",
+  "Mon-Khmer": "Mon–Khmer peoples",
+  "Mongol Empire": "Mongol Empire",
+  "Mongolia": "Mongolia",
+  "Mongols": "Mongol tribes",
+  "Mughal Empire": "Mughal Empire",
+  "Nan-Yue": "Nanyue",
+  "Nan-Zhao": "Nanzhao",
+  "Nanzan": "Nanzan",
+  "Nepal": "Nepal",
+  "Netherlands": "Netherlands",
+  "Nizam's Dominions": "Hyderabad State",
+  "Northern Liang": "Northern Liang",
+  "Northern Yuan": "Northern Yuan",
+  "Oghuz Turks": "Oghuz Turks",
+  "Oirat Confederation": "Oirat Confederation",
+  "Orissa": "Orissa",
+  "Oudh": "Oudh",
+  "Oxus": "Oxus civilization",
+  "Paekche": "Baekje",
+  "Pagan": "Pagan Kingdom",
+  "Pakistan": "Pakistan",
+  "Palas": "Pala Empire",
+  "Paleo-Koreans": "Proto-Korean peoples",
+  "Paleo-Siberian hunter-gatherers": "Paleo-Siberian hunter-gatherers",
+  "Pallava": "Pallava dynasty",
+  "Pallava state": "Pallava dynasty",
+  "Pallavas": "Pallava dynasty",
+  "Pancala": "Panchala",
+  "Paramas": "Paramara dynasty",
+  "Parhae": "Balhae",
+  "Pegu": "Pegu (Hanthawaddy) Kingdom",
+  "Philippines": "Philippines",
+  "Post-Ming Warlords": "Southern Ming and anti-Qing holdouts",
+  "Pratiharas": "Pratihara dynasty",
+  "Prot-Altaic Proto-Altaic pastoralists": "Proto-Altaic pastoralists",
+  "Proto-Altaic pastoralists": "Proto-Altaic pastoralists",
+  "Proto-Thai cultures": "Proto-Tai cultures",
+  "Proto-Tibetan cultures": "Proto-Tibetan cultures",
+  "Punjab": "Punjab",
+  "Pyu state": "Pyu city-states",
+  "Qin": "Qin",
+  "Qing Empire": "Qing dynasty",
+  "Quazaq Khanate": "Kazakh Khanate",
+  "Rajastan": "Rajasthan",
+  "Rajput Clans and Small States": "Rajput clans and small states",
+  "Rajput kingdoms": "Rajput kingdoms",
+  "Rajputana": "Rajputana",
+  "Rajputs": "Rajputs",
+  "Rashtrakuta": "Rashtrakuta dynasty",
+  "Rashtrakuta state": "Rashtrakuta dynasty",
+  "Rattanakosin Kingdom": "Rattanakosin Kingdom (Siam)",
+  "Republic of China": "Republic of China",
+  "Ruanruan": "Rouran Khaganate",
+  "Russia": "Russia",
+  "Russian Empire": "Russian Empire",
+  "S. Xiongnu": "Southern Xiongnu",
+  "Saces": "Saka",
+  "Saka Kingdom": "Saka kingdom",
+  "Sakhalin (RU)": "Sakhalin (Russian)",
+  "Samanid Empire": "Samanid Empire",
+  "Sasanian Empire": "Sasanian Empire",
+  "Satavahanihara": "Satavahana dynasty",
+  "Saylan": "Ceylon",
+  "Scythians": "Scythians",
+  "Seleucid Kingdom": "Seleucid Empire",
+  "Senas": "Sena dynasty",
+  "Shan states": "Shan states",
+  "Shang": "Shang dynasty",
+  "Shaskanka": "Gauda Kingdom (Shashanka)",
+  "Shogun Japan (Kamakura)": "Japan (shogunate era)",
+  "Siam": "Siam",
+  "Siberians": "Siberian peoples",
+  "Sikhs": "Sikh Empire",
+  "Sikkim (Indian princely state)": "Sikkim",
+  "Silla": "Silla",
+  "Simhala": "Sinhala",
+  "Sinhalese kingdom": "Sinhalese kingdom",
+  "Sinhalese kingdoms": "Sinhalese kingdoms",
+  "Sinic": "Early Sinitic peoples",
+  "Sintashta": "Sintashta culture",
+  "Sixteen Kingdoms": "Sixteen Kingdoms",
+  "Somvamsis": "Somavamshi dynasty",
+  "Song Empire": "Song dynasty",
+  "Southern Qi": "Southern Qi",
+  "Southern Xiongnu": "Southern Xiongnu",
+  "Sri Lanka": "Sri Lanka",
+  "Sui Empire": "Sui dynasty",
+  "Sukhothai": "Sukhothai Kingdom",
+  "Sultanate of Delhi": "Delhi Sultanate",
+  "Surasena": "Shurasena",
+  "Suren Kingdom": "Suren Kingdom",
+  "Taiwan": "Taiwan",
+  "Taiwanese Tribes": "Taiwanese indigenous peoples",
+  "Tajikistan": "Tajikistan",
+  "Tang Empire": "Tang dynasty",
+  "Thai": "Proto-Tai–Kadai peoples",
+  "Thai Kingdoms": "Tai kingdoms",
+  "Thailand": "Thailand",
+  "Tibet": "Tibet",
+  "Tibetan Empire": "Tibetan Empire",
+  "Tibetans": "Early Tibetan peoples",
+  "Tibeto-Burmanese": "Early Tibeto-Burman peoples",
+  "Tiele": "Tiele",
+  "Timurid Empire": "Timurid Empire",
+  "Toba Wei": "Northern Wei",
+  "Tokugawa shogunate": "Tokugawa shogunate",
+  "Tonkin": "Tonkin (northern Vietnam)",
+  "Tsardom of Muscovy": "Tsardom of Russia",
+  "Tungus": "Tungusic peoples",
+  "Tungusic Tribes": "Tungusic peoples",
+  "Turan": "Turan",
+  "Turcik tribes": "Turkic tribes",
+  "USA": "United States",
+  "USSR": "Soviet Union",
+  "United Kingdom": "United Kingdom",
+  "United States": "United States",
+  "Uyghurs": "Uyghur Khaganate",
+  "Uzbekistan": "Uzbekistan",
+  "Vakataka": "Vakataka dynasty",
+  "Vatsa": "Vatsa",
+  "Vedic Aryans": "Vedic Aryans",
+  "Vengi": "Vengi",
+  "Vietnam": "Vietnam",
+  "Vijayanagara": "Vijayanagara Empire",
+  "Vishnu-Kundins": "Vishnukundina dynasty",
+  "Western Chalukyas": "Western Chalukya Empire",
+  "Western Gokturk Khaganate": "Western Turkic Khaganate",
+  "White Horde": "White Horde",
+  "White Russia": "White Russian forces",
+  "Wu": "Early Wu and Yue peoples",
+  "Xia": "Xia",
+  "Xinjiang": "Xinjiang",
+  "Xiongnu": "Xiongnu",
+  "Xixia": "Western Xia",
+  "Yamato": "Yamato polity",
+  "Yayoi": "Yayoi culture",
+  "Yue": "Yue peoples",
+  "Yueban": "Yueban",
+  "Yuezhi": "Yuezhi",
+  "Zhangzhung Kingdom": "Zhangzhung",
+  "Zhou": "Zhou dynasty",
+  "Zhou states": "Eastern Zhou states",
+  "central Asian khanates": "Central Asian khanates",
+  "minor Hindu & Buddhist states": "Minor Hindu and Buddhist states",
+  "minor Hindu and Buddhist states": "Minor Hindu and Buddhist states",
+  "minor Hindu kingdoms": "Minor Hindu kingdoms",
+  "Đại Việt": "Đại Việt"
+ },
+ "phases": {
+  "tk_200": "200: Battle of Guandu; Cao Cao and Yuan Shao vie for the north",
+  "tk_208": "End of 208: Red Cliffs; Cao Cao holds the north",
+  "tk_215": "215: Liu Bei holds Yi; Sun and Liu split Jing at the Xiang River",
+  "tk_222": "222: After Yiling, the three kingdoms stand",
+  "tk_263": "263: Wei conquers Shu Han",
+  "tk_266": "266: Sima Yan replaces Wei and founds the Jin",
+  "tk_280": "280: Jin conquers Wu; the Three Kingdoms end",
+  "wh_311": "311: Disaster of Yongjia; Han Zhao takes Luoyang",
+  "wh_318": "318: Western Jin falls; Eastern Jin founded at Jiankang",
+  "wh_330": "330: Later Zhao holds most of the north",
+  "wh_376": "376: Former Qin unifies the north",
+  "wh_395": "395: The north splits again after the Fei River",
+  "wh_439": "439: Northern Wei unifies the north; North and South face off",
+  "aj_1932": "March 1932: Manchukuo (puppet state) founded",
+  "aj_1933": "May 1933: Rehe lost; Tanggu Truce",
+  "aj_1937": "End of 1937: North China, Nanjing, Shanghai and Hangzhou fall",
+  "aj_1938": "October 1938: Wuhan and Guangzhou fall; stalemate begins",
+  "aj_1941": "End of 1941: Pacific War begins; Japan enters Indochina",
+  "aj_1944": "End of 1944: Japanese occupation at its peak after Ichi-Go",
+  "cw_1946": "June 1946: Full-scale civil war breaks out",
+  "cw_1947": "End of 1947: PLA goes on the strategic offensive",
+  "cw_1948": "November 1948: Liaoshen Campaign ends; all of Manchuria changes hands",
+  "cw_1949a": "January 1949: Huaihai and Pingjin campaigns end",
+  "cw_1949b": "1 October 1949: People's Republic of China founded",
+  "cw_1950": "May 1950: Hainan Island Campaign; Nationalist Government withdraws to Taiwan"
+ }
+}
