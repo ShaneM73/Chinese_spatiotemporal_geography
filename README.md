@@ -1,5 +1,9 @@
 # 中国时空地理 · Chinese Spatiotemporal Geography
 
+**▶ 在线打开 · Open the live web app: [shanem73.github.io/Chinese_spatiotemporal_geography](https://shanem73.github.io/Chinese_spatiotemporal_geography/)**
+
+**设计与主要贡献者 · Designer and main contributor:** Prof. Xin (Shane) Miao, Missouri State University ([@ShaneM73](https://github.com/ShaneM73))
+
 中国及周边地区的交互式三维**时空立方体**，范围西起帕米尔与塔里木盆地，东至日本列岛，北抵贝加尔湖与黑龙江，南达越南中部与暹罗湾。地形图展示某一时刻的政权疆域，并沿纵向时间轴在公元前2000年至2010年之间滑动，穿过48个历史快照逐层堆叠的疆界。227个历史事件按发生的地点和时间置于立方体中。
 
 An interactive 3D **space–time cube** of China and its neighbours, from the Pamirs and the Tarim Basin to Japan, and from Lake Baikal and the Amur to central Vietnam. A relief map shows political boundaries at a chosen moment and slides along a vertical time axis from 2000 BCE to 2010, through the stacked boundary layers of 48 historical snapshots. 227 historic events sit in the cube at their place and time. It is built the same way as [European_spatiotemporal_geography](https://github.com/ShaneM73/European_spatiotemporal_geography).
